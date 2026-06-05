@@ -115,14 +115,6 @@
       }
     }
   },
-  "buttons": [
-    {
-      "text": "!{Poll1_Input_SingleSelectRadioSubmit}",
-      "type": "submit",
-      "submitButton": true,
-      "message": "!{Poll1_Input_SingleSelectRadioSubmitSaved}"
-    }
-  ],
   "scope": [
     "Poll1_SINGLE_SELECT"
   ]
