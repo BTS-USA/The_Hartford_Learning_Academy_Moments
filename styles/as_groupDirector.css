@@ -8,6 +8,102 @@
   src: url("../fonts/fa-solid-900.eot");
   src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg");
 }
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Medium.eot");
+  src: url("../fonts/Trust2B-Medium.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Medium.ttf") format('truetype'), url("../fonts/Trust2B-Medium.svg#Trust2B-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Bold.eot");
+  src: url("../fonts/Trust2B-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Bold.ttf") format('truetype'), url("../fonts/Trust2B-Bold.svg#Trust2B-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Regular.eot");
+  src: url("../fonts/Trust2B-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Regular.ttf") format('truetype'), url("../fonts/Trust2B-Regular.svg#Trust2B-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Light.eot");
+  src: url("../fonts/Trust2B-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Light.ttf") format('truetype'), url("../fonts/Trust2B-Light.svg#Trust2B-Light") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B XLight';
+  src: url("../fonts/Trust2B-XLight.eot");
+  src: url("../fonts/Trust2B-XLight.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-XLight.ttf") format('truetype'), url("../fonts/Trust2B-XLight.svg#Trust2B-XLight") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Bold.eot");
+  src: url("../fonts/Trust2A-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Bold.ttf") format('truetype'), url("../fonts/Trust2A-Bold.svg#Trust2A-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Medium.eot");
+  src: url("../fonts/Trust2A-Medium.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Medium.ttf") format('truetype'), url("../fonts/Trust2A-Medium.svg#Trust2A-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Regular.eot");
+  src: url("../fonts/Trust2A-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Regular.ttf") format('truetype'), url("../fonts/Trust2A-Regular.svg#Trust2A-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Light.eot");
+  src: url("../fonts/Trust2A-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Light.ttf") format('truetype'), url("../fonts/Trust2A-Light.svg#Trust2A-Light") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Italic.eot");
+  src: url("../fonts/../fonts/TrustHartfordSans-Italic.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Italic.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Italic.svg#TrustHartfordSans-Italic") format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Regular.eot");
+  src: url("../fonts/TrustHartfordSans-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Regular.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Regular.svg#TrustHartfordSans-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Bold.eot");
+  src: url("../fonts/TrustHartfordSans-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Bold.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Bold.svg#TrustHartfordSans-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 body,
 p,
 li,
@@ -15,6 +111,7 @@ input,
 button {
   font-weight: normal;
   line-height: normal;
+  font-family: 'Trust Hartford Sans';
 }
 h1,
 h2,
@@ -22,6 +119,7 @@ h3 {
   font-weight: normal;
   line-height: normal;
   margin: 0;
+  font-family: 'Trust Hartford Sans';
 }
 ul,
 ol {
@@ -56,8 +154,8 @@ input,
   -moz-user-select: initial;
   -ms-user-select: initial;
   user-select: initial;
-  border: 1px solid #cfd1d0;
-  border-radius: 5px;
+  border: 1px solid #75013f;
+  border-radius: 0;
   box-shadow: inset 5px 5px 10px rgba(0,0,0,0.2);
 }
 .shield {
@@ -83,7 +181,7 @@ input,
 blockquote {
   padding: 1.5rem;
   background-color: #efefef;
-  border-radius: 5px;
+  border-radius: 0;
   position: relative;
   margin-top: 2.5rem;
 }
@@ -306,6 +404,7 @@ blockquote:after {
   align-items: center;
   position: relative;
   z-index: 1;
+  background-color: #eae5df;
 }
 .groupDirectorContentWrapper .groupDirectorVoteCountContainer .groupdirectorvotecountlabel,
 .groupDirectorContentWrapper .groupDirectorVoteCountContainer .groupDirectorVoteCount {
@@ -313,36 +412,35 @@ blockquote:after {
 }
 .groupDirectorContentWrapper .JumpMenuWrapper .JumpMenuContainer .jumpMenuItem {
   position: relative;
-  background-color: #fff;
-  color: #868789;
-  border-radius: 5px;
-  border: 1px solid #cfd1d0;
+  background-color: #eae5df;
+  color: #75013f;
+  border-radius: 0;
+  border: 1px solid #75013f;
 }
 .groupDirectorContentWrapper .JumpMenuWrapper .JumpMenuContainer .jumpMenuItem:hover {
-  background: #fff;
-  border-color: #b0dcd9;
+  background: #75013f;
+  border-color: #75013f;
+  color: #fff;
 }
 .groupDirectorContentWrapper .JumpMenuWrapper .JumpMenuContainer .jumpMenuItem.currentActionAction {
-  background: #28324b;
+  background: #fe3082;
   color: #fff !important;
-  border-color: #28324b;
-  border-left: 5px solid #75013F;
+  border-left: none;
 }
 .groupDirectorContentWrapper .JumpMenuWrapper .JumpMenuContainer .jumpMenuItem.currentActionAction:hover {
-  background: #75013F;
-  border-color: #b0dcd9;
+  background: #75013f;
+  border-color: #75013f;
 }
 .groupDirectorContentWrapper .JumpMenuWrapper .JumpMenuContainer .jumpMenuItem.currentActionEmbed,
 .groupDirectorContentWrapper .JumpMenuWrapper .JumpMenuContainer .jumpMenuItem.currentActionCommand {
-  background-color: #75013F;
+  background-color: #fe3082;
   color: #fff !important;
-  border-color: #28324b;
-  border-left: 5px solid #75013F;
+  border-left: none;
 }
 .groupDirectorContentWrapper .JumpMenuWrapper .JumpMenuContainer .jumpMenuItem.currentActionEmbed:hover,
 .groupDirectorContentWrapper .JumpMenuWrapper .JumpMenuContainer .jumpMenuItem.currentActionCommand:hover {
-  background-color: #75013F;
-  border-color: #b0dcd9;
+  background-color: #75013f;
+  border-color: #75013f;
 }
 .groupDirectorContentWrapper .embeddingWrapper {
   position: relative;
@@ -355,7 +453,7 @@ blockquote:after {
   right: 9px;
   width: 35px;
   height: 54px;
-  background-color: #75013F;
+  background-color: #fe3082;
   padding: 15px 10px;
 }
 .groupDirectorContentWrapper .embeddingWrapper .wizlet.wizletAggregator:after {
