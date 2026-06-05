@@ -111,6 +111,7 @@ input,
 button {
   font-weight: normal;
   line-height: normal;
+  font-family: 'Trust Hartford Sans';
 }
 h1,
 h2,
@@ -154,7 +155,7 @@ input,
   -ms-user-select: initial;
   user-select: initial;
   border: 1px solid #75013f;
-  border-radius: 5px;
+  border-radius: 0;
   box-shadow: inset 5px 5px 10px rgba(0,0,0,0.2);
 }
 .shield {
@@ -180,7 +181,7 @@ input,
 blockquote {
   padding: 1.5rem;
   background-color: #efefef;
-  border-radius: 5px;
+  border-radius: 0;
   position: relative;
   margin-top: 2.5rem;
 }
@@ -414,7 +415,6 @@ blockquote:after {
 }
 .identifier-page-content:before,
 .identifier-page-content:after {
-  content: '';
   display: block;
   height: 0;
   width: 0;
@@ -456,9 +456,15 @@ blockquote:after {
   padding: 1rem 0;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1600px) {
+  .identifier-page-content {
+    width: 47rem;
+  }
+}
 @media screen and (max-width: 1024px) {
   .identifier-blue-box-wrapper {
     margin-left: 3rem;
+    margin-top: 3rem;
   }
   .identifier-page-content {
     max-width: 22rem;

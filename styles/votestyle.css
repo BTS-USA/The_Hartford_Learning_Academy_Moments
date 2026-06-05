@@ -637,7 +637,7 @@ body {
 }
 .tc-bar {
   border-bottom: 2px solid #75013f !important;
-  background-color: #efefef !important;
+  background-color: #fff !important;
   margin: 0 !important;
   padding: 0 !important;
   display: flex;
@@ -891,10 +891,34 @@ body .ui-dialog.ui-widget.info-popup .cl-header--main {
   height: calc(100vh - 55px);
 }
 [class*=Splash] #votingSlideDiv .mainWrapper .identifier-page-meta,
-[class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-page-meta,
+[class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-page-meta {
+  padding: 0 0 25px 0;
+  font-weight: bold;
+}
+[class*=Splash] #votingSlideDiv .mainWrapper .identifier-page-meta-icon,
+[class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-page-meta-icon {
+  display: none;
+}
 [class*=Splash] #votingSlideDiv .mainWrapper .identifier-footer,
 [class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-footer {
-  display: none;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  padding: 0 0 0 6rem;
+}
+@media screen and (max-width: 1024px) {
+  [class*=Splash] #votingSlideDiv .mainWrapper .identifier-footer,
+  [class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-footer {
+    padding: 0 0 0 4rem;
+  }
+}
+[class*=Splash] #votingSlideDiv .mainWrapper .identifier-footer .cl-button--submit,
+[class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-footer .cl-button--submit {
+  background: #fe3082;
+}
+[class*=Splash] #votingSlideDiv .mainWrapper .identifier-footer .cl-button--submit:hover,
+[class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-footer .cl-button--submit:hover {
+  background: #75013f;
 }
 body[class*=Team_Name] {
   background-image: url("../images/identifier.jpg");
@@ -998,6 +1022,3 @@ body[class*=Team_Name] #votingSlideDiv .mainWrapper {
     width: 100%;
   }
 }
-/*@supports (-ms-ime-align:auto)
-    .iaElement-0
-        right 26.4rem !important*/

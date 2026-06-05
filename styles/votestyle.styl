@@ -194,7 +194,7 @@ body
     clear both !important
     &-bar
         border-bottom 2px solid $color-primary-pink !important
-        background-color $lightgrey !important
+        background-color $white !important
         margin 0 !important
         padding 0 !important
         flex() !important
@@ -399,8 +399,22 @@ body .ui-dialog.ui-widget.info-popup
             padding 0
             .identifier
                 height calc(100vh - 55px)
-                &-page-meta, &-footer
-                    display none
+                &-page-meta
+                    padding 0 0 25px 0
+                    font-weight bold
+                    &-icon
+                        display none
+                &-footer
+                    bottom 0
+                    left 0
+                    text-align left
+                    padding 0 0 0 6rem
+                    @media screen and (max-width 1024px)
+                        padding 0 0 0 4rem
+                    .cl-button--submit
+                        background $color-primary-blue
+                        &:hover
+                            background $color-primary-pink
 body[class*=Team_Name]
     background-image url('../images/identifier.jpg')
     #votingSlideDiv
@@ -493,7 +507,3 @@ body[class*=Team_Name]
             .tc-bar
                 &__tab
                     width 100%
-
-/*@supports (-ms-ime-align:auto)
-    .iaElement-0
-        right 26.4rem !important*/

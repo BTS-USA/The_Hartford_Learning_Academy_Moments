@@ -24,7 +24,7 @@
             max-width 60rem
             position relative
             &:before, &:after
-                content ''
+                // content ''
                 display block
                 height 0
                 width 0
@@ -55,10 +55,17 @@
                 color $color-primary-pink
                 padding 1rem 0
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 1600px)
+    .identifier
+        &-page
+            &-content
+                width 47rem
+
 @media screen and (max-width 1024px)
     .identifier
         &-blue-box-wrapper
             margin-left 3rem
+            margin-top 3rem
         &-page
             &-content
                 max-width 22rem
@@ -67,6 +74,7 @@
                     font-size 1.4rem
                 &__sub-title
                     font-size 2.5rem
+
 @media screen and (max-width 600px)
     .identifier
         border-bottom-width 4px

@@ -404,7 +404,8 @@ blockquote:after {
   align-items: center;
   position: relative;
   z-index: 1;
-  background-color: #eae5df;
+  background-color: #fe3082;
+  color: #fff;
 }
 .groupDirectorContentWrapper .groupDirectorVoteCountContainer .groupdirectorvotecountlabel,
 .groupDirectorContentWrapper .groupDirectorVoteCountContainer .groupDirectorVoteCount {
