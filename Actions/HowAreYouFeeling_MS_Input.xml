@@ -1,0 +1,71 @@
+<Action>
+  <Component type="MultipleSelect"><![CDATA[{
+  "version": "2.0",
+  "header": {
+    "title": "!{HowAreYouFeeling_MS_MSBCLTitle}",
+    "description": "!{HowAreYouFeeling_MS_MSBCLDescription}"
+  },
+  "instructions": "!{HowAreYouFeeling_MS_FlowMultipleSelectLabel}",
+  "maxChoices": 4,
+  "minChoices": 1,
+  "alert": "!{HowAreYouFeeling_MS_Alert}",
+  "submitLabel": "!{HowAreYouFeeling_MS_MultipleSelectSubmitLabel}",
+  "submitMessage": "!{HowAreYouFeeling_MS_MultipleSelectSubmitMessage}",
+  "clearOnDeselect": true,
+  "questions": [
+    {
+      "description": "!{HowAreYouFeeling_MS_Option1Title}",
+      "binding": "HowAreYouFeeling_MS_1_A",
+      "value": "1"
+    },
+    {
+      "description": "!{HowAreYouFeeling_MS_Option2Title}",
+      "binding": "HowAreYouFeeling_MS_2_A",
+      "value": "2"
+    },
+    {
+      "description": "!{HowAreYouFeeling_MS_Option3Title}",
+      "binding": "HowAreYouFeeling_MS_3_A",
+      "value": "3"
+    },
+    {
+      "description": "!{HowAreYouFeeling_MS_Option4Title}",
+      "binding": "HowAreYouFeeling_MS_4_A",
+      "value": "4"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:HowAreYouFeeling_MS_1_A",
+      "render": "renderer/checkBox"
+    },
+    "2": {
+      "bind": "db:HowAreYouFeeling_MS_2_A",
+      "render": "renderer/checkBox"
+    },
+    "3": {
+      "bind": "db:HowAreYouFeeling_MS_3_A",
+      "render": "renderer/checkBox"
+    },
+    "4": {
+      "bind": "db:HowAreYouFeeling_MS_4_A",
+      "render": "renderer/checkBox"
+    }
+  },
+  "buttons": [
+    {
+      "title": "!{HowAreYouFeeling_MS_ClearButton}"
+    },
+    {
+      "title": "!{HowAreYouFeeling_MS_SubmitButton}",
+      "message": "!{HowAreYouFeeling_MS_PairMultipleSelectSubmitButtonMessage}"
+    }
+  ],
+  "scope": [
+    "HowAreYouFeeling_MS_1_A",
+    "HowAreYouFeeling_MS_2_A",
+    "HowAreYouFeeling_MS_3_A",
+    "HowAreYouFeeling_MS_4_A"
+  ]
+}]]></Component>
+</Action>

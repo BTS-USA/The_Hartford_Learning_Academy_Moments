@@ -1,0 +1,19 @@
+<Action>
+  <Component type="TabComponent"><![CDATA[{
+  "type": "tab",
+  "version": "2",
+  "showTabs": false,
+  "tabOptions": [
+    {
+      "title": "!{NPS_AS_Slider_Result}",
+      "actionXML": "NPS_AS_Slider_Result",
+      "open": true
+    },
+    {
+      "title": "!{NPS_AS_Brainstorm_Result}",
+      "actionXML": "NPS_AS_Brainstorm_Result"
+    }
+  ],
+  "title": "!{NPS_TabsTitle}"
+}]]></Component>
+</Action>

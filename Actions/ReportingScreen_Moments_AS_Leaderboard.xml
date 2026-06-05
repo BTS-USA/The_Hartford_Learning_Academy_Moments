@@ -1,0 +1,66 @@
+<Action>
+  <Component type="HeatmapComponent"><![CDATA[{
+  "templateInEvent": "html/as_leaderboard.dot",
+  "css": "styles/as_leaderboard.css",
+  "header": {
+    "title": "!{ReportingScreen_Moments_HeatmapTitle}",
+    "description": "!{ReportingScreen_Moments_HeatmapDescription}"
+  },
+  "heatmapType": "QUESTION",
+  "direction": "VERTICAL",
+  "showValues": true,
+  "columnLabel": "!{ReportingScreen_Moments_HeatmapLabel2}",
+  "isDelivery": false,
+  "questions": [
+  
+    {
+      "title": "!{Team_Name_Leaderboard}",
+      "binding": "Team_Name"
+    },
+    {
+      "title": "!{Top_Gauge1}",
+      "binding": "Metric1"
+    },
+    
+    {
+      "title": "!{Top_Gauge2}",
+      "binding": "Metric2"
+    },
+    {
+      "title": "!{Total_Score_L}",
+      "binding": "Total_Score"
+    }
+  ],
+  "options": [
+    {
+      "val": "0",
+      "class": "color-0"
+    }
+  ],
+  trackQuestion: "Filter_Track",
+  rankQuestion: "",
+  "sorting": {
+    "question": "Total_Score",
+    "isNumeric": true,
+    "sortOrder": "DESC"
+  },
+  showNear: 0,
+  liveUpdate: true,
+  markUpdate: true,
+	scope:[
+    "Team_Name",
+    "Moment1_Input_SINGLE_SELECT",
+    "Moment2_Input_SINGLE_SELECT",
+    "Moment3_Input_SINGLE_SELECT",
+    "Moment4_Input_SINGLE_SELECT",
+    "Moment5_Input_SINGLE_SELECT",
+    "Moment6_Input_SINGLE_SELECT",
+    "Moment7_Input_SINGLE_SELECT",
+    "Moment8_Input_SINGLE_SELECT",
+    "Moment9_Input_SINGLE_SELECT",
+    "Moment10_Input_SINGLE_SELECT",
+    "Moment11_Input_SINGLE_SELECT",
+    "Total_Score"
+  ]
+}]]></Component>
+</Action>

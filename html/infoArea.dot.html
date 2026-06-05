@@ -1,0 +1,10 @@
+<div class="mainContentWrapper">
+    <div class="ia-content cl-content" data-info-area style="background-image: url('{{=it.content.backgroundImage}}');">
+        <!-- Content -->
+        {{~it.content.infoAreas:area:areaIndex}}
+            <div class="iaElement-{{=areaIndex}}" data-info-area-element data-navigation-target="{{=area.targetAction}}">
+                <div class="iaElement-title">{{=area.title}}</div>
+            </div>
+        {{~}}
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "css": "Styles/as_info.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Moment5_Scenario_InfoTitle}",
+    "description": "!{Moment5_Scenario_InfoDescription}"
+  },
+  "images": [
+    "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/m5.jpg"
+  ],
+  "content": {
+    "headline": "!{Moment5_Scenario_InfoContentHeadline}",
+    "text": "!{Moment5_Scenario_InfoContentText}",
+    "list": "!{Moment5_Scenario_InfoContentList}"
+  }
+}]]></Component>
+</Action>

@@ -1,0 +1,94 @@
+<Action>
+  <Component type="SingleSelectList" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_slider.dot",
+  "css": "styles/as_slider.css",
+  "header": {
+    "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{NPS_SingleSelectListTitle}",
+    "description": "!{NPS_SlidersSingleSelectListDescription}"
+  },
+  "instructions": "!{NPS_SlidersSingleSelectListInstructions}",
+  "axisTextLow": 0,
+  "axisTextHigh": 10,
+  "steps": true,
+  "stepsNumbers": true,
+  "min": 0,
+  "max": 10,
+  "questions": [
+    {
+      "title": "!{NPS_SingleSelectListQ1Title}",
+      "description": "!{NPS_SingleSelectListQ1Description}",
+      "binding": "NPS_ANSWER_1",
+      "value": "1"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:NPS_ANSWER_1",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "!{NPS_SingleSelectListSubmit}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{NPS_SingleSelectListSubmitSaved}"
+    }
+  ],
+  "scope": [
+    "NPS_ANSWER_1"
+  ]
+}]]></Component>
+ <Component type="Input"><![CDATA[{
+  "templateInEvent": "html/as_brainstormInput.dot",
+  "css": "styles/as_brainstormInput.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{NPS_BrainStormTitle}",
+    "description": "!{NPS_BrainStormDescription}"
+  },
+  "instructions": "!{NPS_InputInstructions}",
+  "questions": [
+    {
+      "binding": "1"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:NPS_INPUT_1",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{NPS_PlaceholderText}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 200,
+          "class": "inputComponentMessageLength",
+          "text": " !{NPS_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{NPS_InputClear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{NPS_InputSubmit}",
+          "clearText": true,
+          "message": "!{NPS_SavedText}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "NPS_INPUT_1"
+  ]
+}]]></Component>
+</Action>

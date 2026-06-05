@@ -1,0 +1,102 @@
+<Action>
+  <Component type="MultipleSelect" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_multipleSelect.dot",
+  "css": "styles/as_multipleSelect.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{HowAreYouFeeling_MS_MSBCLTitle}",
+    "description": "!{HowAreYouFeeling_MS_MSBCLDescription}"
+  },
+  "instructions": "!{HowAreYouFeeling_MS_FlowMultipleSelectLabel}",
+  "maxChoices": 4,
+  "minChoices": 1,
+  "alert": "!{}",
+  "submitLabel": "!{}",
+  "submitMessage": "!{}",
+  "clearOnDeselect": true,
+  "questions": [
+    {
+      "title": "!{HowAreYouFeeling_MultipleSelectOption1Label}",
+      "description": "!{HowAreYouFeeling_MS_Option1Title}",
+      "binding": "HowAreYouFeeling_MS_1_A",
+      "value": "1"
+    },
+    {
+      "title": "!{HowAreYouFeeling_MultipleSelectOption2Label}",
+      "description": "!{HowAreYouFeeling_MS_Option2Title}",
+      "binding": "HowAreYouFeeling_MS_2_A",
+      "value": "2"
+    },
+    {
+      "title": "!{HowAreYouFeeling_MultipleSelectOption3Label}",
+      "description": "!{HowAreYouFeeling_MS_Option3Title}",
+      "binding": "HowAreYouFeeling_MS_3_A",
+      "value": "3"
+    },
+    {
+      "title": "!{HowAreYouFeeling_MultipleSelectOption4Label}",
+      "description": "!{HowAreYouFeeling_MS_Option4Title}",
+      "binding": "HowAreYouFeeling_MS_4_A",
+      "value": "4"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:HowAreYouFeeling_MS_1_A",
+      "render": "renderer/checkBox",
+      "renderOptions": {
+        "outputFormat": {
+          "value": "number"
+        }
+      }
+    },
+    "2": {
+      "bind": "db:HowAreYouFeeling_MS_2_A",
+      "render": "renderer/checkBox",
+      "renderOptions": {
+        "outputFormat": {
+          "value": "number"
+        }
+      }
+    },
+    "3": {
+      "bind": "db:HowAreYouFeeling_MS_3_A",
+      "render": "renderer/checkBox",
+      "renderOptions": {
+        "outputFormat": {
+          "value": "number"
+        }
+      }
+    },
+    "4": {
+      "bind": "db:HowAreYouFeeling_MS_4_A",
+      "render": "renderer/checkBox",
+      "renderOptions": {
+        "outputFormat": {
+          "value": "number"
+        }
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "!{HowAreYouFeeling_MultipleSelectSubmitButton}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{HowAreYouFeeling_MultipleSelectSubmitButtonMessage}"
+    },
+    {
+      show:false,
+      "text": "!{HowAreYouFeeling_MultipleSelectClearButton}",
+      "type": "clear",
+      "clearButton": false
+    }
+  ],
+  "scope": [
+    "HowAreYouFeeling_MS_1_A",
+    "HowAreYouFeeling_MS_2_A",
+    "HowAreYouFeeling_MS_3_A",
+    "HowAreYouFeeling_MS_4_A"
+  ]
+}]]></Component>
+</Action>

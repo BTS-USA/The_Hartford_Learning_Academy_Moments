@@ -1,0 +1,62 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.fbc
+    &-content
+        overflow hidden
+    &-feedback
+        padding 0
+        line-height 25px
+    &-article
+        .youSelected
+            &_title
+                display none
+            &_option
+                color $color-secondary-blue
+                margin-bottom 1rem
+        .feedback
+            &_title
+                font-weight 600
+    &-metrics
+        padding .5rem
+        .metric
+            &-container
+                border 1px solid $color-primary-pink
+                border-radius $radius
+                overflow hidden
+                text-align center
+                .scoreHeader
+                    padding .5rem
+                    font-weight 600
+                    background-color $color-primary-pink
+                    color $white
+            &-box
+                overflow hidden
+                padding .5rem 0
+                flex()
+                align-items center
+                &:nth-child(even)
+                    background-color $lightgrey
+            &score
+                font-size 2rem
+                &.positiveVal
+                    color $green
+                    &:before
+                        content '+'
+                &.negativeVal
+                    color $red
+                    &:before
+                        content '-'
+                &.zero
+                    color $mediumgrey
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 600px)
+    .fbc
+        &-metrics
+            padding .5rem 0
+            .metric
+                &-box
+                    padding 0
+                &score
+                    font-size 1.5rem
+        &-article
+            font-size .8rem

@@ -1,0 +1,37 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "css": "Styles/as_info.css",
+  "header": {
+    "title": "!{BusinessUpdate_SlideCC_InfoTitle}",
+    "description": "!{BusinessUpdate_SlideCC_InfoDescription}"
+  },
+  "content": {
+    "headline": "!{BusinessUpdate_SlideCC_InfoContentHeadline}",
+    "text": "!{BusinessUpdate_SlideCC_InfoContentText}",
+    "list": "!{BusinessUpdate_SlideCC_InfoContentList}"
+  }
+}]]></Component>
+<Component type="NavigationComponent"><![CDATA[{
+       menuOptions: [
+       {
+          navigation: {
+            title: "!{previous}",
+            targetSection: "Brainstorm_VUCA_Input_Tabs",
+            customClass: "previous"
+            }
+      },
+	          {
+          navigation: {
+            title: "!{Next}",
+                targetSection: "Moment2_Input_Tabs",
+            customClass: "next"
+        }
+      }
+    ],
+   "templateInEvent": "html/navigationComponent.dot",
+    "scope":[
+    ]
+    }]]>
+      
+    </Component>
+</Action>

@@ -1,0 +1,52 @@
+<Action>
+  <Component type="BarChartList"><![CDATA[{
+"templateInEvent":"html/as_barChartList.dot",
+  "version": "2.0",
+  "css": "styles/as_barchartList.css",
+  "header": {
+    "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+     "title": "!{HowAreYouFeeling_MS_MSBCLTitleResult}",
+    "description": "!{HowAreYouFeeling_MS_MSBCLDescriptionResult}"
+  },
+  "type": "SumChart",
+  "sections": [
+    {
+      "questions": [
+      {
+          "label": "!{HowAreYouFeeling_MS_Option1Title}",
+          "description": "!{HowAreYouFeeling_MS_Q1Description}",
+          "name": "HowAreYouFeeling_MS_1_A"
+        },
+        {
+          "option_title": "!{HowAreYouFeeling_MultipleselectOption_title2}",
+          "label": "!{HowAreYouFeeling_MS_Option2Title}",
+          "description": "!{HowAreYouFeeling_MS_Q2Description}",
+          "name": "HowAreYouFeeling_MS_2_A"
+        },
+        {
+          "option_title": "!{HowAreYouFeeling_MultipleselectOption_title3}",
+          "label": "!{HowAreYouFeeling_MS_Option3Title}",
+          "description": "!{HowAreYouFeeling_MS_Q3Description}",
+          "name": "HowAreYouFeeling_MS_3_A"
+        },
+        {
+          "option_title": "!{HowAreYouFeeling_MultipleselectOption_title4}",
+           "label": "!{HowAreYouFeeling_MS_Option4Title}",
+          "description": "!{HowAreYouFeeling_MS_Q4Description}",
+          "name": "HowAreYouFeeling_MS_4_A"
+        }
+      ]
+    }
+  ],
+  "display": "percent",
+  "sortingEnabled": false,
+  "sortingOrder": "DESC",
+  "animation": false,
+  "scope": [
+    "HowAreYouFeeling_MS_1_A",
+    "HowAreYouFeeling_MS_2_A",
+    "HowAreYouFeeling_MS_3_A",
+    "HowAreYouFeeling_MS_4_A"
+  ]
+}]]></Component>
+</Action>

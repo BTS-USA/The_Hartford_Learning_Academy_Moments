@@ -1,0 +1,117 @@
+<Action disableDynamicVotes="false">
+  <Component type="Input"><![CDATA[{
+  "css": "styles/as_brainstormInput.css",
+  "header": {
+    "title": "!{Uncertainty_BrainStormTitle}",
+    "description": "!{Uncertainty_BrainStormDescription}"
+  },
+  "instructions": "!{Uncertainty_BrainStormDescriptionA}",
+  "questions": [
+    {
+      "binding": "1"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Uncertainty_INPUT_1",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{VUCA_PlaceholderTextA}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 300,
+          "class": "inputComponentMessageLength",
+          "text": " !{Uncertainty_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{Uncertainty_clear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{Uncertainty_submit}",
+          "clearText": false,
+          "message": "!{Uncertainty_saved}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "Uncertainty_INPUT_1"
+  ]
+}]]></Component>
+  <Component type="Input"><![CDATA[{
+  "css": "styles/as_brainstormInput.css",
+  "instructions": "!{Uncertainty_BrainStormDescriptionB}",
+  "questions": [
+    {
+      "binding": "2"
+    }
+  ],
+  "bindings": {
+    "2": {
+      "bind": "db:Uncertainty_INPUT_2",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{VUCA_PlaceholderTextB}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 300,
+          "class": "inputComponentMessageLength",
+          "text": " !{Uncertainty_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{Uncertainty_clear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{Uncertainty_submit}",
+          "clearText": false,
+          "message": "!{Uncertainty_saved}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "Uncertainty_INPUT_2"
+  ]
+}]]></Component>
+  <Component type="Input"><![CDATA[{
+  "css": "styles/as_brainstormInput.css",
+  "instructions": "!{Uncertainty_BrainStormDescriptionC}",
+  "questions": [
+    {
+      "binding": "3"
+    }
+  ],
+  "bindings": {
+    "3": {
+      "bind": "db:Uncertainty_INPUT_3",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{VUCA_PlaceholderTextC}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 300,
+          "class": "inputComponentMessageLength",
+          "text": " !{Uncertainty_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{Uncertainty_clear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{Uncertainty_submit}",
+          "clearText": false,
+          "message": "!{Uncertainty_saved}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "Uncertainty_INPUT_3"
+  ]
+}]]></Component>
+</Action>

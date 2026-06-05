@@ -1,0 +1,34 @@
+<Action>
+  <Component type="BarChartList"><![CDATA[{
+  "version": "2.0",
+  "templateInEvent": "html/as_barChartList.dot",
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_barchartList.css",
+  "header": {
+    "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{NPS_BarChartList_Result}",
+    "description": "!{NPS_BarChartListDescription}"
+  },
+  "type": "BarChart",
+  "sections": [
+    {
+      "questions": [
+        {
+          "label": "!{NPS_SingleSelectListTitle}",
+          "description": "Q1",
+          "name": "NPS_ANSWER_1",
+          "minValue": 0,
+          "maxValue": 10,
+          "option_lable": "!{NPS_SingleSelectList_opt_lbl_1}"
+        }
+      ]
+    }
+  ],
+  "display": "average",
+  "sortingEnabled": false,
+  "sortingOrder": "",
+  "animation": false,
+  "scope": [
+    "NPS_ANSWER_1"
+  ]
+}]]></Component>
+</Action>

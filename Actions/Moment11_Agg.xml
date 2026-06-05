@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Action autoNext="true">
+    <Aggregator doneText="">
+ 
+        <!--KPI 1-->
+        <Score result="Moment11_METRIC_1" type="Choice">
+            <Question name="Moment11_Input_SINGLE_SELECT">
+                <Choice value="1" Response="-3"></Choice>
+                <Choice value="2" Response="-2"></Choice>
+                <Choice value="3" Response="-2"></Choice>
+                <Choice value="4" Response="-2"></Choice>
+
+            </Question>
+        </Score>
+        <!--KPI 2-->
+        <Score result="Moment11_METRIC_2" type="Choice">
+            <Question name="Moment11_Input_SINGLE_SELECT">
+                <Choice value="1" Response="-1"></Choice>
+                <Choice value="2" Response="1"></Choice>
+                <Choice value="3" Response="0"></Choice>
+                <Choice value="4" Response="2"></Choice>
+
+            </Question>
+        </Score>
+   
+        <!--KPI 4-->
+        <Score result="Moment11_METRIC_3" type="Choice">
+            <Question name="Moment11_Input_SINGLE_SELECT">
+                <Choice value="1" Response="0" ></Choice>
+                <Choice value="2" Response="0" ></Choice>
+                <Choice value="3" Response="-1" ></Choice>
+                <Choice value="4" Response="2"></Choice>
+
+            </Question>
+        </Score>
+<Total result="Metric1" method="sum">
+            <Question validate="false">START_METRIC1</Question>
+            <Question validate="false">Moment1_METRIC_1</Question>
+            <Question validate="false">Moment2_METRIC_1</Question>
+            <Question validate="false">Moment3_METRIC_1</Question>
+            <Question validate="false">Moment4_METRIC_1</Question>
+            <Question validate="false">Moment5_METRIC_1</Question>
+	    <Question validate="false">Moment6_METRIC_1</Question>
+            <Question validate="false">Moment7_METRIC_1</Question>
+            <Question validate="false">Moment8_METRIC_1</Question>
+            <Question validate="false">Moment9_METRIC_1</Question>
+            <Question validate="false">Moment10_METRIC_1</Question>
+            <Question validate="false">Moment11_METRIC_1</Question>
+        </Total>
+        <Total result="Metric2" method="sum">
+            <Question validate="false">START_METRIC2</Question>
+            <Question validate="false">Moment1_METRIC_2</Question>
+            <Question validate="false">Moment2_METRIC_2</Question>
+            <Question validate="false">Moment3_METRIC_2</Question>
+            <Question validate="false">Moment4_METRIC_2</Question>
+            <Question validate="false">Moment5_METRIC_2</Question>
+	    <Question validate="false">Moment6_METRIC_2</Question>
+            <Question validate="false">Moment7_METRIC_2</Question>
+            <Question validate="false">Moment8_METRIC_2</Question>
+            <Question validate="false">Moment9_METRIC_2</Question>
+            <Question validate="false">Moment10_METRIC_2</Question>
+            <Question validate="false">Moment11_METRIC_2</Question>
+        </Total>
+        <Total result="Metric3" method="sum">
+            <Question validate="false">START_METRIC3</Question>
+            <Question validate="false">Moment1_METRIC_3</Question>
+            <Question validate="false">Moment2_METRIC_3</Question>
+            <Question validate="false">Moment3_METRIC_3</Question>
+            <Question validate="false">Moment4_METRIC_3</Question>
+            <Question validate="false">Moment5_METRIC_3</Question>
+	    <Question validate="false">Moment6_METRIC_3</Question>
+            <Question validate="false">Moment7_METRIC_3</Question>
+            <Question validate="false">Moment8_METRIC_3</Question>
+            <Question validate="false">Moment9_METRIC_3</Question>
+            <Question validate="false">Moment10_METRIC_3</Question>
+            <Question validate="false">Moment11_METRIC_3</Question>			
+        </Total>
+    </Aggregator>
+</Action>

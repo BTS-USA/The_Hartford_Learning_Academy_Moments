@@ -1,0 +1,94 @@
+<Action>
+  <Component type="SingleSelect" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_singleSelect.dot",
+  "css": "styles/as_singleSelect.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Poll1_SingleSelectSelectionTitle}",
+    "description": "!{Poll1_SingleSelectSelectionDescription}"
+  },
+  "instructions": "!{Poll1_SingleSelectSelectionInstructions}",
+  "type": "select",
+  "questions": [
+    {
+      "title": "abc",
+      "binding": "Poll2_SINGLE_SELECT",
+      "options": [
+        {
+          "name": "!{Poll2_SingleSelectOption1}",
+          "value": "1",
+          "description": "!{Poll2_SingleSelectSelectionLabel1}",
+          "title": "!{Poll2_SingleSelectOption1}"
+        },
+        {
+          "name": "!{Poll2_SingleSelectOption2}",
+          "description": "!{Poll2_SingleSelectSelectionLabel2}",
+          "value": "2",
+          "title": "!{Poll2_SingleSelectOption2}"
+        },
+        {
+          "name": "!{Poll2_SingleSelectOption3}",
+          "description": "!{Poll2_SingleSelectSelectionLabel3}",
+          "value": "3",
+          "title": "!{Poll2_SingleSelectOption3}"
+        },
+        {
+          "name": "!{Poll2_SingleSelectOption4}",
+          "description": "!{Poll2_SingleSelectSelectionLabel4}",
+          "value": "4",
+          "title": "!{Poll2_SingleSelectOption4}"
+        }
+      ]
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Poll2_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 1,
+        "val": "1",
+        "type": "select"
+      }
+    },
+    "2": {
+      "bind": "db:Poll2_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 2,
+        "val": "2",
+        "type": "select"
+      }
+    },
+    "3": {
+      "bind": "db:Poll2_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 3,
+        "val": "3",
+        "type": "select"
+      }
+    },
+    "4": {
+      "bind": "db:Poll2_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 4,
+        "val": "4",
+        "type": "select"
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "!{Poll2_Input_SingleSelectRadioSubmit}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{Poll2_Input_SingleSelectRadioSubmitSaved}"
+    }
+  ],
+  "scope": [
+    "Poll2_SINGLE_SELECT"
+  ]
+}]]></Component>
+</Action>

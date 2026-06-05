@@ -1,0 +1,13 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "css": "Styles/as_info.css",
+  "images": [
+    "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/ana.jpg"
+  ],
+  "content": {
+    "headline": "!{Team_Bios_InfoTab4_InfoContentHeadline}",
+    "text": "!{Team_Bios_InfoTab4_InfoContentText}",
+    "list": "!{Team_Bios_InfoTab4_InfoContentList}"
+  }
+}]]></Component>
+</Action>

@@ -1,0 +1,18 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "css": "Styles/as_info.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{BusinessUpdate_Slide17_InfoTitle}",
+    "description": "!{BusinessUpdate_Slide17_InfoDescription}"
+  },
+  "images": [
+    "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/BU17.jpg"
+  ],
+  "content": {
+    "headline": "!{BusinessUpdate_Slide17_InfoContentHeadline}",
+    "text": "!{BusinessUpdate_Slide17_InfoContentText}",
+    "list": "!{BusinessUpdate_Slide17_InfoContentList}"
+  }
+}]]></Component>
+</Action>

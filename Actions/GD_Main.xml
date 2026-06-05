@@ -1,0 +1,372 @@
+<Action>
+  <Component type="GroupDirectorComponent" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_groupDirector.dot",
+  "css": "styles/as_groupDirector.css",
+  "trackQuestion": "Group_Director",
+  "qandcVoteLimit": "1000",
+  "refreshIntervalInSeconds": "5",
+  "voteCountLabel": "!{voteCountLabel}",
+  "nextButtonLabel": "Next",
+  "showClientStatus": "true",
+
+  "menuOptions": [
+     {
+      "title": "!{Welcome_AS_SplashScreen}",
+      "section": "Welcome_AS_SplashScreen",
+      "icon": "info"
+    },
+    {
+      "title": "!{Assign_Base_Value}",
+      "section": "Assign_Base_Value_SplashScreen",
+      "icon": "info"
+    },
+     {
+      "title": "!{Enter_Team_Name}",
+      "section": "Enter_Team_Name",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment1_Input_Tabs}",
+      "section": "Moment1_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment1_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment1_Agg"
+              }
+     },
+    {
+      "title": "!{Moment1_Feedback_Tabs}",
+      "section": "Moment1_Feedback_Tabs",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment2_Input_Tabs}",
+      "section": "Moment2_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment2_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment2_Agg"
+              }
+     },
+    {
+      "title": "!{Moment2_Feedback_Tabs}",
+      "section": "Moment2_Feedback_Tabs",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment3_Input_Tabs}",
+      "section": "Moment3_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment3_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment3_Agg"
+              }
+     },
+    {
+      "title": "!{Moment3_Feedback_Tabs}",
+      "section": "Moment3_Feedback_Tabs",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment4_Input_Tabs}",
+      "section": "Moment4_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment4_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment4_Agg"
+              }
+     },
+    {
+      "title": "!{Moment4_Feedback_Tabs}",
+      "section": "Moment4_Feedback_Tabs",
+      "icon": "info"
+    },
+   {
+      "title": "!{Moment5_Input_Tabs}",
+      "section": "Moment5_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment5_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment5_Agg"
+              }
+     },
+    {
+      "title": "!{Moment5_Feedback_Tabs}",
+      "section": "Moment5_Feedback_Tabs",
+      "icon": "info"
+    },
+   {
+      "title": "!{Moment6_Input_Tabs}",
+      "section": "Moment6_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment6_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment6_Agg"
+              }
+     },
+    {
+      "title": "!{Moment6_Feedback_Tabs}",
+      "section": "Moment6_Feedback_Tabs",
+      "icon": "info"
+    },
+   {
+      "title": "!{Moment7_Input_Tabs}",
+      "section": "Moment7_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment7_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment7_Agg"
+              }
+     },
+    {
+      "title": "!{Moment7_Feedback_Tabs}",
+      "section": "Moment7_Feedback_Tabs",
+      "icon": "info"
+    },
+   {
+      "title": "!{Moment8_Input_Tabs}",
+      "section": "Moment8_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment8_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment8_Agg"
+              }
+     },
+    {
+      "title": "!{Moment8_Feedback_Tabs}",
+      "section": "Moment8_Feedback_Tabs",
+      "icon": "info"
+    },
+	   {
+      "title": "!{Moment9_Input_Tabs}",
+      "section": "Moment9_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment9_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment9_Agg"
+              }
+     },
+    {
+      "title": "!{Moment9_Feedback_Tabs}",
+      "section": "Moment9_Feedback_Tabs",
+      "icon": "info"
+    },
+		   {
+      "title": "!{Moment10_Input_Tabs}",
+      "section": "Moment10_Input_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Moment10_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Moment10_Agg"
+              }
+     },
+    {
+      "title": "!{Moment10_Feedback_Tabs}",
+      "section": "Moment10_Feedback_Tabs",
+      "icon": "info"
+    },
+    {
+       	"title": "!{Leaderboard_Agg}",
+         "embed": "Aggregator",
+      "options": {
+        	"actionXML":"Leaderboard_Agg"
+              }
+     },
+    {
+      "title": "!{ReportingScreen_Moments_AS_Leaderboard}",
+      "section": "ReportingScreen_Moments_AS_Leaderboard",
+      "icon": "info"
+    },
+	{
+      "title": "!{Moment1_Input_AS_SingleSelect_Result}",
+      "section": "Moment1_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+	{
+      "title": "!{Moment2_Input_AS_SingleSelect_Result}",
+      "section": "Moment2_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+	{
+      "title": "!{Moment3_Input_AS_SingleSelect_Result}",
+      "section": "Moment3_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+	{
+      "title": "!{Moment4_Input_AS_SingleSelect_Result}",
+      "section": "Moment4_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+	{
+      "title": "!{Moment5_Input_AS_SingleSelect_Result}",
+      "section": "Moment5_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    }, 
+	{
+      "title": "!{Moment6_Input_AS_SingleSelect_Result}",
+      "section": "Moment6_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+	{
+      "title": "!{Moment7_Input_AS_SingleSelect_Result}",
+      "section": "Moment7_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    }, 
+	{
+      "title": "!{Moment8_Input_AS_SingleSelect_Result}",
+      "section": "Moment8_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+	{
+      "title": "!{Moment9_Input_AS_SingleSelect_Result}",
+      "section": "Moment9_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+	{
+      "title": "!{Moment10_Input_AS_SingleSelect_Result}",
+      "section": "Moment10_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    }
+  ],
+  "commentsBox": "!{GD_comment_text}",
+  "resetEvent": {
+    "title": "!{GD_Reset_Event_title}",
+    "description": "!{GD_Reset_Event_desc}",
+    "button": [
+      {
+        "cancle_btn_title": "!{GD_cl_btn_title}"
+      },
+      {
+        "ok_btn_title": "!{GD_ok_btn_title}"
+      }
+    ]
+  },
+  "scope": [
+    "Group_Director"
+  ]
+}]]></Component>
+<Component type="HeatmapComponent"><![CDATA[{
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/heatmapComponent.css",
+  "heatmapType": "QUESTION",
+  "direction": "VERTICAL",
+  "showValues": true,
+  "Label": "!{Heatmap_Label}",
+  "columnLabel": "!{Heatmap_columnLabel}",
+      "templateInEvent": "html/votemap.dot",
+      css: "events/The_Hartford_Learning_Academy_Moments/styles/heatmapComponent.css",
+  "questions": [
+     {
+      "title": "!{Team_Name_Leaderboard}",
+      "binding": "Team_Name"
+    },
+    {
+      "title": "!{Moment1_HeatMap}",
+      "binding": "Moment1_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment2_HeatMap}",
+      "binding": "Moment2_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment3_HeatMap}",
+      "binding": "Moment3_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment4_HeatMap}",
+      "binding": "Moment4_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment5_HeatMap}",
+      "binding": "Moment5_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment6_HeatMap}",
+      "binding": "Moment6_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment7_HeatMap}",
+      "binding": "Moment7_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment8_HeatMap}",
+      "binding": "Moment8_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment9_HeatMap}",
+      "binding": "Moment9_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment10_HeatMap}",
+      "binding": "Moment10_Input_SINGLE_SELECT"
+    }
+  ],
+  "options": [
+    {
+      "val": "1",
+      "class": "A"
+    },
+    {
+      "val": "2",
+      "class": "B"
+    },
+    {
+      "val": "3",
+      "class": "C"
+    },
+    {
+      "val": "4",
+      "class": "D"
+    }
+  ],
+ trackQuestion: "",
+  rankQuestion: "",
+  sortByQuestion: "",
+  sortOrder: "asc",
+  showNear: 0,
+  liveUpdate: true,
+  markUpdate: true,
+  "scope": [
+    "Moment1_Input_SINGLE_SELECT",
+    "Moment2_Input_SINGLE_SELECT",
+    "Moment3_Input_SINGLE_SELECT",
+    "Moment4_Input_SINGLE_SELECT",
+    "Moment5_Input_SINGLE_SELECT",
+    "Moment6_Input_SINGLE_SELECT",
+    "Moment7_Input_SINGLE_SELECT",
+    "Moment8_Input_SINGLE_SELECT",
+    "Moment9_Input_SINGLE_SELECT",
+    "Moment10_Input_SINGLE_SELECT",
+    "Moment11_Input_SINGLE_SELECT"
+  ]
+}]]></Component>
+</Action>

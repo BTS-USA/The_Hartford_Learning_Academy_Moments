@@ -1,0 +1,65 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.groupDirectorContentWrapper
+    .groupDirector-container
+        padding 0
+        max-width none
+    .qncArticle
+        display none
+    .groupDirectorVoteCountContainer
+        width 16rem
+        margin 1rem auto -10px
+        border-radius 2rem
+        display flex
+        justify-content center
+        align-items center
+        position relative
+        z-index 1
+        .groupdirectorvotecountlabel,
+        .groupDirectorVoteCount
+            width auto
+    .JumpMenuWrapper
+        .JumpMenuContainer
+            .jumpMenuItem
+                position relative
+                background-color $white
+                color $mediumgrey
+                border-radius $radius
+                border 1px solid $color-primary-grey
+                &:hover
+                    background $white
+                    border-color $color-secondary-skyblue
+                &.currentActionAction
+                    background $color-primary-blue
+                    color $white !important
+                    border-color $color-primary-blue
+                    border-left 5px solid $color-primary-pink
+                    &:hover
+                        background $gradient-blue
+                        border-color $color-secondary-skyblue
+                &.currentActionEmbed, &.currentActionCommand
+                    background-color $color-secondary-blue
+                    color $white !important
+                    border-color $color-primary-blue
+                    border-left 5px solid $color-primary-pink
+                    &:hover
+                        background-color $color-secondary-blue
+                        border-color $color-secondary-skyblue
+    .embeddingWrapper
+        position relative
+        clear none
+        float left
+        .wizlet.wizletAggregator
+            position absolute
+            top 9px
+            right 9px
+            width 35px
+            height 54px
+            background-color $color-secondary-blue
+            padding 15px 10px
+            &:after
+                content '\f00c'
+                font-family 'fa-solid-900'
+                color $white
+            .textContent
+                display none

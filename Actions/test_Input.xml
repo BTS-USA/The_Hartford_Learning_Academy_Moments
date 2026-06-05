@@ -1,0 +1,176 @@
+<Action>
+  <Component type="SingleSelect"><![CDATA[{
+  "header": {
+    "title": "!{test_SingleSelectSelectionTitle}",
+    "description": "!{test_SingleSelectSelectionDescription}"
+  },
+  "instructions": "!{test_SingleSelectSelectionInstructions}",
+  "type": "select",
+  "questions": [
+    {
+      "title": "abc",
+      "binding": "test_SINGLE_SELECT",
+      "options": [
+        {
+          "name": "!{test_SingleSelectOption1}",
+          "value": "1",
+          "description": "!{test_SingleSelectSelectionLabel1}",
+          "title": "!{test_SingleSelectOption1}"
+        },
+        {
+          "name": "!{test_SingleSelectOption2}",
+          "description": "!{test_SingleSelectSelectionLabel2}",
+          "value": "2",
+          "title": "!{test_SingleSelectOption2}"
+        },
+        {
+          "name": "!{test_SingleSelectOption3}",
+          "description": "!{test_SingleSelectSelectionLabel3}",
+          "value": "3",
+          "title": "!{test_SingleSelectOption3}"
+        },
+        {
+          "name": "!{test_SingleSelectOption4}",
+          "description": "!{test_SingleSelectSelectionLabel4}",
+          "value": "4",
+          "title": "!{test_SingleSelectOption4}"
+        },
+        {
+          "name": "!{test_SingleSelectOption5}",
+          "description": "!{test_SingleSelectSelectionLabel5}",
+          "value": "5",
+          "title": "!{test_SingleSelectOption5}"
+        },
+        {
+          "name": "!{test_SingleSelectOption6}",
+          "description": "!{test_SingleSelectSelectionLabel6}",
+          "value": "6",
+          "title": "!{test_SingleSelectOption6}"
+        },
+        {
+          "name": "!{test_SingleSelectOption7}",
+          "description": "!{test_SingleSelectSelectionLabel7}",
+          "value": "7",
+          "title": "!{test_SingleSelectOption7}"
+        },
+        {
+          "name": "!{test_SingleSelectOption8}",
+          "description": "!{test_SingleSelectSelectionLabel8}",
+          "value": "8",
+          "title": "!{test_SingleSelectOption8}"
+        },
+        {
+          "name": "!{test_SingleSelectOption9}",
+          "description": "!{test_SingleSelectSelectionLabel9}",
+          "value": "9",
+          "title": "!{test_SingleSelectOption9}"
+        }
+      ]
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 1,
+        "val": "1",
+        "type": "select"
+      }
+    },
+    "2": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 2,
+        "val": "2",
+        "type": "select"
+      }
+    },
+    "3": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 3,
+        "val": "3",
+        "type": "select"
+      }
+    },
+    "4": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 4,
+        "val": "4",
+        "type": "select"
+      }
+    },
+    "5": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 5,
+        "val": "5",
+        "type": "select"
+      }
+    },
+    "6": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 6,
+        "val": "6",
+        "type": "select"
+      }
+    },
+    "7": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 7,
+        "val": "7",
+        "type": "select"
+      }
+    },
+    "8": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 8,
+        "val": "8",
+        "type": "select"
+      }
+    },
+    "9": {
+      "bind": "db:test_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "renderOptions": {
+        "id": 9,
+        "val": "9",
+        "type": "select"
+      }
+    }
+  },
+  "buttons": [
+    {
+      "title": "button1",
+      "navigation": {
+        "title": "!{test_SingleSelectSelectionSubmit}",
+        "history": false,
+        "message": "!{test_SSSubmitSaved}"
+      }
+    },
+    {
+      "title": "button2",
+      "navigation": {
+        "title": "!{test_SingleSelectSelectionClear}",
+        "history": false,
+        "enabled": "Q.test_SINGLE_SELECT"
+      }
+    }
+  ],
+  "scope": [
+    "test_SINGLE_SELECT"
+  ]
+}]]></Component>
+</Action>

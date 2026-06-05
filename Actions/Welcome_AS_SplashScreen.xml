@@ -1,0 +1,33 @@
+<Action layout="identifier">
+  <Component type="Vanilla"><![CDATA[{
+  "templateInEvent": "html/as_splashScreen.dot",
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_splashScreen.css",
+  "images": [
+    {
+      "src": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/identifier.jpg",
+      "alt": "backgroundImage"
+    }
+  ],
+  "session": {
+    "sessionTitle": "!{Welcome_Screen_Title}",
+    "sessionSubTitle": "!{Welcome_Screen_subTitle}"
+  },
+  "template": "identiferPage.dot"
+}]]></Component>
+<Component type="NavigationComponent"><![CDATA[{
+       menuOptions: [
+        {
+          navigation: {
+            title: "!{StartNext}",
+                targetSection: "BusinessCaseStudy_Slide3_AS_Info",
+            customClass: "next"
+        }
+      }
+    ],
+   "templateInEvent": "html/navigationComponent.dot",
+    "scope":[
+    ]
+    }]]>
+      
+    </Component>
+</Action>

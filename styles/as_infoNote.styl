@@ -1,0 +1,94 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.identifier
+    display block
+    border-bottom 8px solid $color-primary-pink
+.inc
+    &-noteBox
+        margin auto
+        position absolute
+        &-container
+            height 100%
+            padding 4rem
+            position relative
+        &-img
+            height 3rem
+            width 3rem
+            border-radius 50%
+            margin-left 2rem
+            position relative
+            z-index 1
+            bottom -1.5rem
+            background-color $color-primary-pink
+            background-repeat no-repeat
+            background-position center
+            background-size 25px
+            vendor(animation, rotate 1s ease)
+        &-text
+            width 35rem
+            max-height 25rem
+            overflow hidden
+            padding 2rem
+            border-radius 1rem 1rem 0 0
+            border-bottom 4px solid $color-primary-pink
+            background-color $white
+            color $mediumgrey
+            font-size 1.6rem
+            box-shadow $shadow
+        &.LefttBottom, &.LeftTop
+            left 10rem
+        &.RightBottom, &.RightTop
+            right 10rem
+            text-align right
+        &.LeftBottom, &.RightBottom
+            bottom 4rem
+        &.CenterBottom, &.CenterTop
+            left 50%
+            vendor(transform, translateX(-50%))
+            text-align center
+            &:after
+                content ''
+                display block
+                height 2rem
+                width 2rem
+                border-radius 50%
+                background-color $color-primary-pink
+                background-image url('../images/quote-after.svg')
+                background-repeat no-repeat
+                background-position center
+                background-size 16px
+                position absolute
+                right 1rem
+                bottom -.5rem
+                vendor(animation, rotate 1s ease)
+            .inc-noteBox-text
+                background-color rgba(0,0,0,0.8)
+                color $lightgrey
+        &.CenterBottom
+            bottom 4rem
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 1024px)
+    .inc
+        &-noteBox
+            &.LefttBottom, &.LeftTop
+                left 4rem
+            &.RightBottom, &.RightTop
+                right 4rem
+@media screen and (max-width 600px)
+    .identifier
+        border-bottom-width 4px
+    .inc
+        &-noteBox
+            &-container
+                padding 2rem 1rem
+            &-text
+                font-size 1.3rem
+                width 18rem
+            &.LefttBottom, &.LeftTop
+                left 2rem
+            &.RightBottom, &.RightTop
+                right 2rem
+            &.LeftBottom
+                bottom 2rem
+            &.RightBottom
+                bottom 2rem

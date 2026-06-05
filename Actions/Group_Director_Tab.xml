@@ -1,0 +1,22 @@
+<Action>
+  <Component type="TabComponent"><![CDATA[{
+  "type": "tab",
+  "version": "2",
+  "showTabs": true,
+  "tabOptions": [
+    {
+      "title": "!{GD_GD}",
+      "actionXML": "GD_Main",
+      "open": true
+    },
+    {
+      "title": "!{GD_Facilitator}",
+      "actionXML": "GD_Facilitator"
+    }
+  ],
+  "title": "!{GD_GD_TabsTitle}",
+  "scope": [
+    "Facilitator"
+  ]
+}]]></Component>
+</Action>

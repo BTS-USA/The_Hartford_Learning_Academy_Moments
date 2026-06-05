@@ -1,0 +1,62 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.ssl
+    &-question
+        background-color $lightgrey
+        border-radius $radius $radius 0 0
+        border 1px solid $color-primary-grey
+        border-bottom none
+        padding 1rem
+        &__title
+            display inline
+        &__description
+            display inline
+    &-answer
+        background-color $white
+        border-radius 0 0 $radius $radius
+        border 1px solid $color-primary-grey
+        border-top none
+        padding-right 2rem
+        .bubble
+            svg
+                rect, path
+                    fill $darkgrey
+                text
+                    fill $white
+        .slider-holder
+            .ui-slider
+                background none
+                background-color $lightgrey
+                height 13px
+                border-radius 1rem
+                &-range
+                    background linear-gradient(to right, $red 0%, $color-primary-pink 100%)
+                    border-radius 1rem
+                &-handle
+                    background-color $color-primary-pink
+                    transition all .5s ease
+                    padding 1rem
+                    top -10px
+                    &.ui-state-hover
+                        box-shadow 5px 5px 1rem $overlay
+    &-slider-step
+        color $darkgrey
+        font-size .8rem
+    &-index
+        float left
+        margin-right 5px
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 600px)
+    .ssl
+        &-question
+            padding .5rem
+            font-size .8rem
+        &-answer
+            font-size .8rem
+            .slider-holder
+                .ui-slider
+                    height 10px
+                    &-range
+                        border-radius 1rem
+                    &-handle
+                        padding 15px

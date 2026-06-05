@@ -1,0 +1,24 @@
+<Action>
+  <Component type="BarChartComponent"><![CDATA[{
+  "version": "2.0",
+  "header": {
+    "title": "!{test_SingleSelectSelectionTitleResult}",
+    "description": "!{test_SingleSelectSelectionDescriptionResult}"
+  },
+  "instructions": "!{test_BarChartInstruction}",
+  "type": "Barchart",
+  "questions": [
+    {
+      "title": "BarChart",
+      "binding": "test_Single_Select"
+    }
+  ],
+  "animation": false,
+  "display": "percent",
+  "sortingOrder": "DESC",
+  "sortingEnabled": false,
+  "scope": [
+    "test_Single_Select"
+  ]
+}]]></Component>
+</Action>

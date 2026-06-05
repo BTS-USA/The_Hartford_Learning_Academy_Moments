@@ -1,0 +1,68 @@
+<div class="mainContentWrapper">
+    <div class="mainContent">
+        <section class="sic cl-component">
+
+            {{? it.header}}
+            <header class="sic-header-main cl-header--main">
+                {{? it.header.breadCrumbs}}
+                    <p class="sic-breadCrumbs-main cl-header-breadCrumbs--main">{{=it.header.breadCrumbs}}</p>
+                {{?}}
+                {{? it.header.bgimage}}
+                 <div class="sic-header-image cl-header-image" style="background-image:url({{=it.header.bgimage}})"></div>
+                {{?}}
+                <div class="sic-header-wrapper cl-header-wrapper">
+                    {{? it.header.title}}
+                        <h1 class="ssc-title-main cl-header__title--main">{{=it.header.title}}</h1>
+                    {{?}}
+                    {{? it.header.description}}
+                        <p class="sic-description-main cl-header__description--main">{{=it.header.description}}</p>
+                    {{?}}
+                </div>
+            </header>
+        {{?}}
+
+            <div class="sic-container cl-container">
+                <div class="cl-xs-column-12 cl-row">
+                    {{? it.instructions}}
+                    <div class="sic-instructions cl-instructions">
+                        <p class="sic-instructions__text cl-instructions__text">{{=it.instructions}}</p>
+                    </div>
+                    {{?}}
+                    <article class="sic-content">
+                        {{? it.content}}
+                        <div class="sic-column-right cl-xs-column-12 {{?it.columnView}}columnView{{?}} {{?it.images}}cl-md-column-6 {{??}}cl-md-column-12{{?}}">
+                            {{~it.content:content:contentIndex}}
+                            <article class="sic-article">
+                                <div class="sic-indexHolder {{?content.highlight}}highlight{{?}} {{?content.images}}withImage{{?}}">
+                                    {{?content.indexText}}
+                                    <div class="sic-level_label">{{=content.indexText}}</div>
+                                    {{?}}
+                                    {{?content.indexText}}
+                                    <div class="sic-level_label-number">{{=content.indexLabel}}</div>
+                                    {{?}}
+                                    {{?content.images}}
+                                    <img class="sic-level_label-icon" src="{{=content.images}}" alt="">
+                                    {{?}}
+                                </div>
+                                <div class="sic-textHolder">
+                                    {{?content.headline}}
+                                    <header class="sic-content__header">
+                                        <h3 class="sic-h3 cl-h3">{{=content.headline}}</h3>
+                                    </header>
+                                    {{?}}
+                                    {{?content.text}}
+                                    <div class="sic-paragraph cl-paragraph">
+                                        {{=content.text}}
+                                    </div>
+                                    {{?}}
+                                </div>
+                            </article>
+                            {{~}}
+                        </div>
+                        {{?}}
+                    </article>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

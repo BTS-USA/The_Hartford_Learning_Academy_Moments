@@ -1,0 +1,27 @@
+<Action>
+  <Component type="BarChartComponent"><![CDATA[{
+  "version": "2.0",
+  "templateInEvent": "html/as_barChartComponent.dot",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Poll1_SingleSelectSelectionTitle}",
+    "description": "!{Poll1_SingleSelectSelectionDescriptionResult}"
+  },
+  "instructions": "!{Poll1_BarChartInstruction}",
+  "type": "Barchart",
+  "questions": [
+    {
+      "title": "BarChart",
+      "binding": "Poll1_Single_Select"
+    }
+  ],
+  "animation": false,
+  "display": "percent",
+  "sortingOrder": "DESC",
+  "sortingEnabled": false,
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_barChart.css",
+  "scope": [
+    "Poll1_Single_Select"
+  ]
+}]]></Component>
+</Action>

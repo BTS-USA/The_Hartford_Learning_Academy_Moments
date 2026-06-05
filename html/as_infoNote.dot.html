@@ -1,0 +1,19 @@
+<section class="identifier-background identifier--display-table" style="background-image:url('{{=it.images[0].src}}')">
+    <article class="inc-noteBox-container">
+        {{~it.textContent:content:index}}
+        {{?content.alignment}}
+        <div class="inc-noteBox {{=content.alignment}}">
+            {{? content.icon}}
+            <div class="inc-noteBox-img {{=content.alignment}}-img" style="background-image:url('{{=content.icon}}')">
+            </div>
+            {{?}}
+            {{? content.title}}
+            <div class="inc-noteBox-text {{=content.alignment}}-text">
+                <div class="MainBox_Text">{{=content.title}}</div>
+            </div>
+            {{?}}
+        </div>
+        {{?}}
+        {{~}}
+    </article>
+</section>

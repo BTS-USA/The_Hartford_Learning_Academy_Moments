@@ -1,0 +1,42 @@
+<Action layout="identifier">
+  <Component type="Vanilla"><![CDATA[{
+  "eventTitle": "!{ThankYou_Screen_EventTitle}",
+  "templateInEvent": "html/as_splashScreen.dot",
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_splashScreen.css",
+  "images": [
+    {
+      "src": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/identifier.jpg",
+      "alt": "backgroundImage"
+    },
+    {
+      "src": "",
+      "alt": "identifierImage"
+    },
+    {
+      "src": "",
+      "alt": "teamIcon"
+    }
+  ],
+  "session": {
+    "sessionTitle": "!{ThankYou_Screen_Title}",
+    "sessionSubTitle": "!{ThankYou_Screen_subTitle}"
+  },
+  "template": "identiferPage.dot"
+}]]></Component>
+<Component type="NavigationComponent"><![CDATA[{
+       menuOptions: [
+        {
+          navigation: {
+            title: "!{previous}",
+                targetSection: "Brainstorm_SHS_Input",
+            customClass: "previous"
+        }
+      }
+    ],
+   "templateInEvent": "html/navigationComponent.dot",
+    "scope":[
+    ]
+    }]]>
+      
+    </Component>
+</Action>

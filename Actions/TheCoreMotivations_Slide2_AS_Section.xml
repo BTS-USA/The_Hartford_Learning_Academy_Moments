@@ -1,0 +1,33 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "templateInEvent": "html/AS_Section.dot",
+  "css": "styles/as_Section.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{TheCoreMotivations_Slide2_Section_Title}",
+    "description": "!{TheCoreMotivations_Slide2_Section_Description}"
+  },
+  "columnView": false,
+  "instructions": "!{TheCoreMotivations_Slide2_Section_Instructions}",
+  "content": [
+    {
+      "highlight": true,
+      "headline": "!{TheCoreMotivations_Slide2_Section_indexText1}",
+      "text": "!{TheCoreMotivations_Slide2_Section_ContentText1}",
+      "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/empowerment.svg"
+    },
+    {
+      "highlight": true,
+      "headline": "!{TheCoreMotivations_Slide2_Section_ContentHeadline2}",
+      "text": "!{TheCoreMotivations_Slide2_Section_ContentText2}",
+      "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/capability.svg"
+    },
+    {
+      "highlight": true,
+      "headline": "!{TheCoreMotivations_Slide2_Section_ContentHeadline3}",
+      "text": "!{TheCoreMotivations_Slide2_Section_ContentText3}",
+      "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/connection.svg"
+    }
+  ]
+}]]></Component>
+</Action>

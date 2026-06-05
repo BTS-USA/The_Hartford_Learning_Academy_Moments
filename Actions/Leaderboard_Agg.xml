@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Action autoNext="true">
+    <Aggregator doneText="">
+
+ <!-- Leaderboard Total -->
+        <Total result="Total_Score" method="sum">
+            <Question validate="false">Metric1</Question>
+            <Question validate="false">Metric2</Question>	
+        </Total>
+    </Aggregator>
+</Action>

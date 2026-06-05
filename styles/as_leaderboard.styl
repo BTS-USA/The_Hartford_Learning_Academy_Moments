@@ -1,0 +1,22 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.hmc
+    &-data
+        padding 2rem 0
+    &-table
+        display table
+        font-size 1.2rem
+        &__thead, &__row
+            display table-row
+        &__th, &__td
+            display table-cell
+            border 1px solid $grey
+            font-size inherit
+        &__thead
+            background $gradient-blue
+            color $white
+        &__td
+            color $black
+        &__row
+            &:nth-child(even)
+                background-color $lightgrey

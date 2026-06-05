@@ -1,0 +1,18 @@
+<Action>
+<Component type="InfoArea" customJS="true"><![CDATA[{
+    "instructions": "",
+    "content": {
+        infoAreas: [
+		{
+            title: "!{CaseStudy_Tabs_Title}",
+            targetAction: "CaseStudy_Tab1",
+            area: 'i'
+        }
+    ]
+    },
+    "templateInEvent": "html/infoArea.dot",
+    
+    "disabled": "Q.Facilitator== 2",
+    "css": "events/The_Hartford_Learning_Academy_Moments/styles/infoArea.css"
+}]]></Component>
+</Action>

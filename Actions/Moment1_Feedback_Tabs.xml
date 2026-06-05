@@ -1,0 +1,15 @@
+<Action>
+  <Component type="TabComponent" customJS="true"><![CDATA[{
+  "type": "tab",
+  "version": "2",
+  "showTabs": false,
+  "tabOptions": [
+    {
+      "title": "!{Moment1_Input_AS_SingleSelect_Feedback}",
+      "actionXML": "Moment1_Input_AS_SingleSelect_Feedback",
+      "open": true
+    }
+  ],
+  "title": "!{Moment1_Feedback_TabsTitle}"
+}]]></Component>
+</Action>

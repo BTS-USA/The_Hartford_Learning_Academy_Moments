@@ -1,0 +1,50 @@
+<Action>
+  <Component type="TabComponent" customJS="true"><![CDATA[{
+  "type": "tab",
+  "version": "2",
+  "showTabs": true,
+  "trackQuestion": "Team_Track",
+  "header": {
+    "title": "!{Moment8_Scenario_InfoTitle}",
+    "description": "!{Moment8_Scenario_InfoDescription}"
+  },
+  "YourAction": "!{Moment8_Input_Your_Action}",
+  "yourChoiceText": "!{Moment8_Input_Your_Choice_Text}",
+  "templateInEvent": "html/as_tabs.dot",
+  "tabOptions": [
+    {
+      "title": "!{Moment8_Input_SingleSelect_Option1_Title}",
+      "actionXML": "Moment8_Input_AS_SINGLE_SELECT_A",
+      "conditionQuestion": "Moment8_Input_SINGLE_SELECT",
+      "conditionAnswer": "1",
+      "youraction": "!{Moment8_Input_Your_Action}"
+    },
+    {
+      "title": "!{Moment8_Input_SingleSelect_Option2_Title}",
+      "actionXML": "Moment8_Input_AS_SINGLE_SELECT_B",
+      "conditionQuestion": "Moment8_Input_SINGLE_SELECT",
+      "conditionAnswer": "2",
+      "youraction": "!{Moment8_Input_Your_Action}"
+    },
+    {
+      "title": "!{Moment8_Input_SingleSelect_Option3_Title}",
+      "actionXML": "Moment8_Input_AS_SINGLE_SELECT_C",
+      "conditionQuestion": "Moment8_Input_SINGLE_SELECT",
+      "conditionAnswer": "3",
+      "youraction": "!{Moment8_Input_Your_Action}"
+    },
+    {
+      "title": "!{Moment8_Input_SingleSelect_Option4_Title}",
+      "actionXML": "Moment8_Input_AS_SINGLE_SELECT_D",
+      "conditionQuestion": "Moment8_Input_SINGLE_SELECT",
+      "conditionAnswer": "4",
+      "youraction": "!{Moment8_Input_Your_Action}"
+    }
+  ],
+  "title": "!{Moment8_Input_TabsTitle}",
+  "scope": [
+    "Moment8_Input_SINGLE_SELECT",
+    "Team_Track"
+  ]
+}]]></Component>
+</Action>

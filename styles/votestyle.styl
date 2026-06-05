@@ -1,0 +1,449 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+html
+    height 100%
+body
+    color $darkgrey
+    font-size 1.1rem
+    height 100%
+    background-color $white
+    background-image url('../images/mainBG.jpg')
+    background-size cover
+    background-position center
+    background-repeat no-repeat
+    background-attachment fixed
+    -webkit-overflow-scrolling touch
+#wizer
+    .page
+        #main
+            background-color $black
+            position fixed
+            #offlineStatus, #menuPulseIcon, .separator, #WizerLogButton, #A4, #A3, .dBGraphics
+                display none
+            .logout-btn, #A5
+                position fixed
+                left auto
+                right 12px
+                top 17px
+                width auto
+                font-size 0
+                vendor(transition, 0.5s ease)
+                color $color-primary-grey
+                &:after
+                    content '\f2f5'
+                    font-family 'fa-solid-900'
+                    font-size 1.2rem
+                &:hover
+                    color $color-primary-pink
+            #A5
+                right 46px
+                &:after
+                    content '\f01e'
+            #menuParticipantName
+                right 5.5rem
+                left auto
+                top 0
+                line-height 55px
+                font-size 0.9rem
+                font-weight normal
+                color $color-primary-grey
+            #menuEventName
+                background url('../images/client-logo.png')
+                background-position center
+                background-repeat no-repeat
+                background-size contain
+                height 55px
+                width 66px
+                top 0
+                right auto
+                left 1rem
+                font-size 0
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+#votingSlideDiv
+    box-sizing content-box
+    -webkit-font-smoothing subpixel-antialiased
+    -webkit-font-smoothing antialiased
+    padding 4.5rem 0 4rem /*make top-padding 6rem when there are metrics*/
+    .mainWrapper
+        margin auto
+        width 90%
+        max-width 70rem
+        background-color $white
+        box-shadow $shadow
+        border-radius $radius
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.cl
+    &-component
+        background-color transparent
+    &-header
+        &--main
+            border-radius $radius $radius 0 0
+            background $gradient-header
+            min-height 8rem
+            margin-bottom 0
+            padding 1rem 0
+            flex()
+            align-items center
+        &-image
+            background-position bottom right
+            background-size contain
+        &__title--main
+            text-align left
+            padding 0 1rem 10px
+            max-width 800px
+        &__description--main
+            text-align left
+            margin 0
+            padding 0 1rem 10px
+    &-instructions
+        background-color transparent
+        padding 0
+        margin-top -1.8rem
+        &__text
+            display inline-block
+            padding 10px 20px
+            border-radius 2rem
+            background-color $lightgrey
+            color $color-primary-pink
+            text-transform none
+            font-size 1rem
+    &-bar
+        background-color $lightgrey
+        border-radius 1rem
+        height 20px
+        &__inner
+            background-color $color-primary-pink
+            border-radius 1rem
+    &-bubble
+        color $white
+        background-color $darkgrey
+        &:after
+            content ''
+            border-color $darkgrey transparent transparent transparent
+    &-footer
+        text-align right
+    &-button
+        margin 0
+        padding .5rem 1rem
+        border-radius $radius
+        line-height normal
+        font-size 1rem
+        font-weight normal
+        text-transform uppercase
+        transition background 1s ease
+        float right
+        &--submit
+            background $gradient-green
+            margin-left 5px
+            &:active, &:focus, &:hover
+                background linear-gradient(to right bottom, $green -50%, $turquoise 50%)
+        &--clear
+            display none !important
+            background $gradient-pink
+            &:active, &:focus, &:hover
+                background linear-gradient(to right bottom, $color-primary-pink -50%, $red 50%)
+        &--hidden
+            display none
+        &.disabled
+            opacity .5
+    &-row
+        padding 0
+        float none
+    &-content
+        margin-bottom 10px
+    &-article
+        margin-bottom 2px
+        &:last-child
+            margin-bottom 0
+    &-container
+        max-width none
+        padding 1rem
+        .colHeaders
+            border-radius $radius
+            text-align center
+            margin-bottom 2px
+            overflow hidden
+        .colHeader
+            background-color $lightgrey
+            padding .5rem 1rem
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.tc
+    clear both !important
+    &-bar
+        border-bottom 2px solid $color-primary-pink !important
+        background-color $lightgrey !important
+        margin 0 !important
+        padding 0 !important
+        flex() !important
+        &__tab
+            padding 1rem !important
+            margin 0 !important
+            border-radius 5px 5px 0 0 !important
+            border none !important
+            background-color white !important
+            border-right 1px solid $lightgrey
+            transition all 1s ease !important
+            &:after
+                content none !important
+            &--active
+                background-color $color-primary-pink !important
+                border-radius 5px 5px 0 0 !important
+        &__title
+            color $mediumgrey !important
+            margin 0 !important
+            padding 0 !important
+            font-size 1.2rem !important
+            &--active
+                color $white !important
+    &-page__page
+        .tc
+            &-bar, &-xs
+                border none !important
+                background-color $color-primary-grey !important
+                overflow hidden !important
+                padding .5rem !important
+                justify-content center !important
+                >div !important
+                    display inline-block !important
+                &__tab
+                    padding .5rem 1rem !important
+                    margin 2px !important
+                    border-radius 2rem !important
+                    width auto !important
+                    &--active
+                        background-color $color-secondary-blue !important
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.progressbar
+    &_tabs
+        flex()
+        text-align center
+        position relative
+        padding 1rem
+        margin-bottom 1rem
+        &:before
+            content ''
+            display block
+            width 90%
+            height 1px
+            position absolute
+            top 25px
+            left 0
+            background-color $black
+            z-index 0
+            margin 0 5% 0 5%
+    &-stop
+        flex-grow 1
+        z-index 1
+        &:before
+            content '\f111'
+            font-family 'fa-regular-400'
+            display block
+            margin auto
+            height 22px
+            width 22px
+            line-height 22px
+            border-radius 50%
+            background-color $color-primary-blue
+            color $color-primary-pink
+        &.Active
+            &:before
+                content '\f192'
+                color $color-primary
+        &.Completed
+            &:before
+                content '\f058'
+                color $green-light
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.nc
+    &-buttons-container
+        margin 0 0 1rem 0
+        padding 0
+    &-button
+        background-color $turquoise
+        border-radius $radius
+        &:hover
+            background-color $green
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.iaElement-0
+    position fixed
+    right 14rem
+    top 44px
+    padding 1rem 1rem .5rem
+    background $color-primary-pink
+    border-radius $radius
+    color $white
+    z-index 9
+    &:hover
+        background-color darken($color-primary-pink, 40%)
+        cursor pointer
+
+body .ui-dialog.ui-widget.info-popup
+    top 0px !important
+    left 0 !important
+    height 100% !important
+    width 100% !important
+    max-width none
+    padding 0
+    border none
+    border-radius 0
+    background rgba(0, 0, 0, 0.88)
+    position fixed
+    .ui-dialog-titlebar
+        background rgba(0, 0, 0, 0.8) !important
+        border none !important
+        border-radius 0 !important
+        margin auto !important
+        padding .5rem !important
+        height 45px !important
+        a.ui-dialog-titlebar-close
+            right 1rem
+            margin-top -15px
+            height 30px
+            width 30px
+            padding 0
+            background none
+            border none
+            right 14rem
+            span.ui-icon
+                background-image url("../images/close.svg")
+                background-repeat no-repeat
+                background-position center
+                background-size cover
+                height 100%
+                width 100%
+                margin 0
+    .ui-dialog-content
+        max-width 62.5rem
+        border-radius $radius
+        margin 0 auto
+        padding 0
+        overflow auto
+        overflow-x hidden
+        max-height calc(100% - 80px) !important
+        .ProgressBar, .NavigationComponent
+            display none
+        .basicInfo
+            max-width 62.5rem
+        .basicInfo
+            &:before
+                display none
+            &.Customer
+                margin-top 5rem
+    .cl-header--main
+        background-color $grey
+        margin 0
+.ui-widget-overlay
+    display none
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+[class*=Splash], [class*=InfoNote]
+    #votingSlideDiv
+        padding 55px 0 0
+        .mainWrapper
+            width auto
+            max-width none
+            border-radius 0
+            padding 0
+            .identifier
+                height calc(100vh - 55px)
+                &-page-meta, &-footer
+                    display none
+body[class*=Team_Name]
+    background-image url('../images/identifier.jpg')
+    #votingSlideDiv
+        .mainWrapper
+            background transparent
+            box-shadow none
+            padding 0
+.bodySlide23_AS_SplashScreen,
+.bodySlide24_AS_SplashScreen,
+.bodySlide25_AS_SplashScreen
+    .identifier-background
+        background-size contain
+.bodySlide25_AS_SplashScreen,
+.bodySlide26_AS_SplashScreen,
+.bodySlide27_AS_SplashScreen,
+.bodySlide28_AS_SplashScreen,
+.bodySlide23_AS_SplashScreen,
+.bodySlide24_AS_SplashScreen
+    .identifier-content
+        display none
+.bodySlide25_AS_SplashScreen
+    .identifier-background
+        background-size 60%
+.bodyYourRole_Slide9_AS_InfoNote
+    .identifier-background
+        background-position top center
+.bodyGiveLadersControl_Slide6_AS_ImageOnly,
+.bodyWhatIsNeeded_Slide15_AS_ImageOnly
+.bodyBreakThroughThinkingCycle_Slide29_AS_ImageOnly
+    .iwc
+        &-figure__image
+            max-width 70%
+.bodyGiveLadersControl_Slide6_AS_ImageOnly
+    .iwc-slider .slidesjs-container
+        height 520px !important
+.bodyGoodNewsBadNews_Slide8_AS_Info
+    .ic
+        &-column-left
+            float right
+            width 60%
+        &-column-right
+            width 40%
+            float left
+.bodyCultureIsShaped_Slide14_AS_Section,
+.bodyETCProcess_Slide19_AS_Section
+    .sic-level_label
+        font-size 2rem
+        font-weight bold
+.bodyNPS_Tabs,
+.bodyReporting_Screen,
+.bodyNPS_AS_Slider_Result
+    .bclc
+        &-question
+            border-radius $radius $radius 0 0
+            border 1px solid $color-primary-grey
+            border-bottom none
+        &-answer
+            border-radius 0 0 $radius $radius
+            border 1px solid $color-primary-grey
+            border-top none
+.bodyReporting_Screen
+    #votingSlideDiv .mainWrapper .cl-header--main
+        display none
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 600px)
+    #wizer .page #main
+        #menuParticipantName
+            display none
+    #votingSlideDiv
+        .mainWrapper
+            width 92%
+            .cl
+                &-header
+                    &--main
+                        padding-bottom 1.5rem
+                    &__title--main
+                        font-size 1.3rem
+                    &-image
+                        background-size cover
+                        opacity 0.7
+                    &-footer
+                        margin-bottom 1.5rem
+                &-instructions
+                    margin-top -2rem
+                    &__text
+                        font-size .8rem
+                        padding 10px
+                &-bar
+                    height 10px
+                &-container
+                    padding .6rem
+                    .colHeaders
+                        display none
+            .tc-bar
+                &__tab
+                    width 100%
+
+/*@supports (-ms-ime-align:auto)
+    .iaElement-0
+        right 26.4rem !important*/

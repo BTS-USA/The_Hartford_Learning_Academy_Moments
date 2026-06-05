@@ -1,0 +1,45 @@
+<div class="mainContentWrapper">
+    <div class="mainContent">
+        <section class="riskRating-component cl-component">
+            {{? it.header.title || it.header.description}}
+            <header class="riskRating--main cl-header--main">
+                {{? it.header.title}}
+                <h1 class="riskRating__title--main cl-header__title--main">{{=it.header.title}}</h1>
+                {{?}}
+                {{? it.header.description}}
+                <p class="riskRating__description--main cl-header__description--main">{{=it.header.description}}</p>
+                {{?}}
+            </header>
+            {{?}}
+        </section>
+        <article class="riskRating__mainSlider" data-slider>
+            <div class="riskRating__mainCont" data-slider-container>
+                {{~it.ideasArray: ideas:index }}
+                <div class="riskRating__mainWrapper" data-slider-main data-ideaid="{{=ideas.Id}}">
+                    <div class="riskRating__ideaText">
+                        {{=ideas.ResponseText}}
+                    </div>
+                    <div class="riskRating__sliderCont">
+                        {{~it.sliders: slides:i }}
+                        <div class="riskRating__sliderContainer">
+                            <div class="riskRating__sliderWrapper">
+                                <div class="riskRating__propertyText">{{=slides.sliderText}}</div>
+                                <input type="hidden" class="single-slider"
+                                    data-slider-rate="{{=slides.name}}_{{=ideas.Id}}" />
+                            </div>
+                        </div>
+                        {{~}}
+                    </div>
+                    <div class="riskRating__nextButtonCont" data-next>
+                        <div class="riskRating__nextButton" data-btn="Next">
+                            <span class="riskRating__nextText">{{=it.textContent.rateIdeaText}}</span>
+                            <span class="cl-icon cl-icon--pointRight riskRating__nextIcon"></span>
+                        </div>
+                    </div>
+                </div>
+                {{~}}
+                <div class="riskRating__mainWrapper" data-slider-main><span class="riskRating__noRisk">{{=it.textContent.noIdeasText}}</span></div>
+            </div>
+        </article>
+    </div>
+</div>

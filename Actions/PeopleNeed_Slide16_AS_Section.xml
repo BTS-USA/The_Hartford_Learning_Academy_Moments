@@ -1,0 +1,56 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "templateInEvent": "html/AS_Section.dot",
+  "css": "styles/as_Section.css",
+  "header": {
+    "title": "!{PeopleNeed_Slide16_Section_Title}",
+    "description": "!{PeopleNeed_Slide16_Section_Description}"
+  },
+  "columnView": true,
+  "instructions": "!{PeopleNeed_Slide16_Section_Instructions}",
+  "content": [
+    {
+      "indexText": "!{PeopleNeed_Slide16_Section_indexText1}",
+      "indexLabel": "1",
+      "highlight": true,
+      "headline": "!{PeopleNeed_Slide16_Section_ContentHeadline1}",
+      "text": "!{PeopleNeed_Slide16_Section_ContentText1}"
+    },
+    {
+      "indexText": "!{PeopleNeed_Slide16_Section_indexText2}",
+      "indexLabel": "2",
+      "highlight": true,
+      "headline": "!{PeopleNeed_Slide16_Section_ContentHeadline2}",
+      "text": "!{PeopleNeed_Slide16_Section_ContentText2}"
+    },
+    {
+      "indexText": "!{PeopleNeed_Slide16_Section_indexText3}",
+      "indexLabel": "3",
+      "highlight": true,
+      "headline": "!{PeopleNeed_Slide16_Section_ContentHeadline3}",
+      "text": "!{PeopleNeed_Slide16_Section_ContentText3}"
+    }
+  ]
+}]]></Component>
+  <Component type="NavigationComponent"><![CDATA[{
+       menuOptions: [
+       {
+          navigation: {
+            title: "!{previous}",
+            targetSection: "WhatIsNeeded_Slide15_AS_ImageOnly",
+            customClass: "previous"
+            }
+      },
+	{
+          navigation: {
+            title: "!{Next}",
+                targetSection: "Brainstorm_VUCA_Input_Tabs",
+            customClass: "next"
+        }
+      }
+    ],
+   "templateInEvent": "html/navigationComponent.dot",
+    "scope":[
+    ]
+    }]]></Component>
+</Action>

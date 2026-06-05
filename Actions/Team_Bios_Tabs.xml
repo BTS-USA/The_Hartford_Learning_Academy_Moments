@@ -1,0 +1,31 @@
+<Action>
+  <Component type="TabComponent"><![CDATA[{
+  "type": "tab",
+  "version": "2",
+  "showTabs": true,
+  "tabOptions": [
+    {
+      "title": "!{Team_Bios_InfoTab1Title}",
+      "actionXML": "Team_Bios_InfoTab1",
+      "open": true
+    },
+    {
+      "title": "!{Team_Bios_InfoTab2Title}",
+      "actionXML": "Team_Bios_InfoTab2"
+    },
+    {
+      "title": "!{Team_Bios_InfoTab3Title}",
+      "actionXML": "Team_Bios_InfoTab3"
+    },
+    {
+      "title": "!{Team_Bios_InfoTab4Title}",
+      "actionXML": "Team_Bios_InfoTab4"
+    },
+    {
+      "title": "!{Team_Bios_InfoTab5Title}",
+      "actionXML": "Team_Bios_InfoTab5"
+    }
+  ],
+  "title": "!{Team_Bios_TabsTitle}"
+}]]></Component>
+</Action>

@@ -1,0 +1,67 @@
+<Action>
+  <Component type="SingleSelectList" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_slider.dot",
+  "css": "styles/as_slider.css",
+  "header": {
+    "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Closing_Poll_Sliders_SSLBCLTitle}",
+    "description": "!{Closing_Poll_Sliders_SSLBCLDescription}"
+  },
+  "instructions": "!{Closing_Poll_Sliders_SSLInstructions}",
+  "axisTextLow": 0,
+  "axisTextHigh": 5,
+  "steps": true,
+  "stepsNumbers": true,
+  "questions": [
+    {
+      "title": "!{Closing_Poll_Sliders_Q1Title}",
+      "description": "!{Closing_Poll_Sliders_Q1Description}",
+      "binding": "1",
+      "value": "1"
+    },
+    {
+      "title": "!{Closing_Poll_Sliders_Q2Title}",
+      "description": "!{Closing_Poll_Sliders_Q2Description}",
+      "binding": "2",
+      "value": "2"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Closing_Poll_Sliders_PRIORITY_1_A",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 5
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "2": {
+      "bind": "db:Closing_Poll_Sliders_PRIORITY_2_A",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 5
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "!{Closing_Poll_Sliders_SingleSelectListSubmit}",
+      "type": "submit",
+      "message": "!{Closing_Poll_Sliders_SingleSelectListSubmitSaved}"
+    }
+  ],
+  "scope": [
+    "Closing_Poll_Sliders_PRIORITY_1_A",
+    "Closing_Poll_Sliders_PRIORITY_2_A"
+  ]
+}]]></Component>
+</Action>

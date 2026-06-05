@@ -1,0 +1,44 @@
+<Action>
+  <Component type="ImageView"><![CDATA[{
+  "css": "Styles/as_imageOnly.css",
+  "header": {
+    "title": "!{WhatIsNeeded_Slide15_ImageViewTitle}",
+    "description": "!{WhatIsNeeded_Slide15_ImageViewDescription}"
+  },
+  "images": [
+    {
+      "src": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/wiVUCA.png",
+      "caption": "!{WhatIsNeeded_Slide15_ImageViewCaption}"
+    }
+  ],
+  "slider": false,
+  "sliderSelector": "iwc-slider",
+  "options": {
+    "width": 600,
+    "height": 450
+  }
+}]]></Component>
+<Component type="NavigationComponent"><![CDATA[{
+       menuOptions: [
+       {
+          navigation: {
+            title: "!{previous}",
+            targetSection: "Moment1_Feedback_Tabs",
+            customClass: "previous"
+            }
+      },
+	          {
+          navigation: {
+            title: "!{Next}",
+                targetSection: "PeopleNeed_Slide16_AS_Section",
+            customClass: "next"
+        }
+      }
+    ],
+   "templateInEvent": "html/navigationComponent.dot",
+    "scope":[
+    ]
+    }]]>
+      
+    </Component>
+</Action>

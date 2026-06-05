@@ -1,0 +1,26 @@
+﻿<div class="participantList" data-participant-close-button>
+    <div class="participantList_container">
+        <div class="participantList-header">{{=it.content.participantlist}}</div>
+        <div class="legands-container">
+            <div class="participantname lateJoinlabel">
+                {{=it.content.latejoiners}}
+            </div>
+            <div class="participantname logoutlabel">
+                {{=it.content.logoutjoiners}}
+            </div>
+        </div>
+    </div>
+    <div class="participantList-holder">
+        {{?it.participants}} {{~it.participants :participant}}
+        <div class="participantname {{?participant.isLoggedIn == 'False'}}loggedout{{??}}loggedin{{?}} {{?participant.lateJoin == 'False'}}earlyJoin{{??}}lateJoin{{?}}"
+            data-participants>{{=participant.name}}</div>
+        {{~}} {{??}}
+        <div class="participantname noparticipants">{{=it.content.noparticipants}}</div>
+    {{?}}
+    </div>   
+</div>
+<div class="meetingparticipant-close">
+        <div class="meetingparticipant-buttons__close">
+            <div class="meetingparticipant-button__close meetingparticipant-buttons" data-meetingparticipant-close-button>{{=it.content.closeButton}}</div>
+        </div>
+    </div>

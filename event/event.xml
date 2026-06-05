@@ -1,0 +1,18 @@
+<Event>
+  <UserSelfRegistration isAnonymousOption="true" isNameOptional="true" useValidEmails="false" code="THLA" action="Welcome_AS_SplashScreen"></UserSelfRegistration>
+  <TopBar show="true">
+    <QC show="false" />
+    <Refresh show="true" />
+    <Notes show="false" />
+    <Log show="false" />
+    <Menu show="false" action="MainMenu" />
+  </TopBar>
+  <dynamicVotes disable="true" />
+  <MediaSecurity disabled="true" />
+  <Cdn enabled="False" id="20260514164312" publishedActions="False" />
+  <eventConsent key="Consent_Text">
+    <headerTitle key="Consent_Header" />
+    <acceptButton key="Consent_Accept" />
+    <declineButton key="Consent_Decline" />
+  </eventConsent>
+</Event>

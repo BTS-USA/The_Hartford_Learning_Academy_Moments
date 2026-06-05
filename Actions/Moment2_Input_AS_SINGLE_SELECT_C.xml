@@ -1,0 +1,35 @@
+<Action>
+  <Component type="Feedback" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_singleSelectFB.dot",
+  "css": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/styles/as_singleSelectFB.css",
+  "youSelectedTitle": "!{Moment2_Input_Your_Action}",
+  "feedbackTitle": "!{Moment2_Input_Feedback}",
+  "questions": [
+    {
+      "binding": "Moment2_Input_SINGLE_SELECT",
+      "feedback": {
+        "description": "!{Moment2_Input_SingleSelectRadioOption3}",
+        "feedback": "!{Moment2_Input_SINGLE_SELECT_C_FB}"
+      },
+      "content": {
+        "description": "!{Moment2_Input_SingleSelectRadioOption3}",
+        "feedback": "!{Moment2_Input_SINGLE_SELECT_C_FB}"
+      }
+    }
+  ],
+  "metrics": [
+  {
+		  "metricValue": "!{Moment2_C_Metric1_Value}",
+		  "label": "!{Top_Gauge1}"
+		},
+		{
+		  "metricValue": "!{Moment2_C_Metric2_Value}",
+		  "label": "!{Top_Gauge2}"
+		}
+  ],
+  "scoreText": "!{Score}",
+  "scope": [
+    "Moment2_Input_SINGLE_SELECT"
+  ]
+}]]></Component>
+</Action>

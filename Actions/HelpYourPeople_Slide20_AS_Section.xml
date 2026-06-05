@@ -1,0 +1,43 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "templateInEvent": "html/AS_Section.dot",
+  "css": "styles/as_Section.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{HelpYourPeople_Slide20_Section_Title}",
+    "description": "!{HelpYourPeople_Slide20_Section_Description}"
+  },
+  "columnView": true,
+  "instructions": "!{HelpYourPeople_Slide20_Section_Instructions}",
+  "content": [
+    {
+      "indexText": "!{HelpYourPeople_Slide20_Section_indexText1}",
+      "indexLabel": "1",
+      "highlight": true,
+      "headline": "!{HelpYourPeople_Slide20_Section_ContentHeadline1}",
+      "text": "!{HelpYourPeople_Slide20_Section_ContentText1}"
+    },
+    {
+      "highlight": true,
+      "headline": "!{HelpYourPeople_Slide20_Section_ContentHeadline2}",
+      "text": "!{HelpYourPeople_Slide20_Section_ContentText2}",
+      "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/icon-placeholder.svg"
+    },
+    {
+      "indexText": "!{HelpYourPeople_Slide20_Section_indexText3}",
+      "indexLabel": "3",
+      "highlight": true,
+      "headline": "!{HelpYourPeople_Slide20_Section_ContentHeadline3}",
+      "text": "!{HelpYourPeople_Slide20_Section_ContentText3}"
+    },
+    {
+      "indexText": "!{HelpYourPeople_Slide20_Section_indexText4}",
+      "indexLabel": "4",
+      "highlight": true,
+      "headline": "!{HelpYourPeople_Slide20_Section_ContentHeadline4}",
+      "text": "!{HelpYourPeople_Slide20_Section_ContentText4}",
+      "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/icon-placeholder.svg"
+    }
+  ]
+}]]></Component>
+</Action>

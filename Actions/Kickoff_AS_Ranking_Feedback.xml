@@ -1,0 +1,141 @@
+<Action layoutInEvent="twoColumn">
+  <Component type="Prioritize" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_ranking.dot",
+  "css": "styles/as_ranking.css",
+  "version": "2.0",
+  "header": {
+    "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Kickoff_PQBCTitle_User_Respone}",
+    "description": "!{Kickoff_PQBCDescription}"
+  },
+  "type": "QUESTIONS",
+  "readOnlyCondition": true,
+  "questions": [
+    {
+      "binding": "Kickoff_RANKING1",
+      "title": "!{Kickoff_PQOption1}"
+    },
+    {
+      "binding": "Kickoff_RANKING2",
+      "title": "!{Kickoff_PQOption2}"
+    },
+    {
+      "binding": "Kickoff_RANKING3",
+      "title": "!{Kickoff_PQOption3}"
+    },
+    {
+      "binding": "Kickoff_RANKING4",
+      "title": "!{Kickoff_PQOption4}"
+    },
+    {
+      "binding": "Kickoff_RANKING5",
+      "title": "!{Kickoff_PQOption5}"
+    },
+    {
+      "binding": "Kickoff_RANKING6",
+      "title": "!{Kickoff_PQOption6}"
+    },
+    {
+      "binding": "Kickoff_RANKING7",
+      "title": "!{Kickoff_PQOption7}"
+    },
+    {
+      "binding": "Kickoff_RANKING8",
+      "title": "!{Kickoff_PQOption8}"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "!{Kickoff_PQSubmit}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{Kickoff_PQSaved}"
+    },
+    {
+      "text": "!{Kickoff_PQClear}",
+      "type": "clear",
+      "clearButton": true
+    }
+  ],
+  "scope": [
+    "Kickoff_RANKING1",
+    "Kickoff_RANKING2",
+    "Kickoff_RANKING3",
+    "Kickoff_RANKING4",
+    "Kickoff_RANKING5",
+    "Kickoff_RANKING6",
+    "Kickoff_RANKING7",
+    "Kickoff_RANKING8"
+  ]
+}]]></Component>
+  <Component type="Prioritize" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_ranking.dot",
+  "css": "styles/as_ranking.css",
+  "version": "2.0",
+  "header": {
+    "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Kickoff_PQBCTitle_Correct_Respone}",
+    "description": "!{Kickoff_PQBCDescription}"
+  },
+  "type": "QUESTIONS",
+  "readOnlyCondition": true,
+  "questions": [
+    {
+      "binding": "",
+      "title": "!{Kickoff_PQOption1}"
+    },
+    {
+      "binding": "",
+      "title": "!{Kickoff_PQOption2}"
+    },
+    {
+      "binding": "",
+      "title": "!{Kickoff_PQOption3}"
+    },
+    {
+      "binding": "",
+      "title": "!{Kickoff_PQOption4}"
+    },
+    {
+      "binding": "",
+      "title": "!{Kickoff_PQOption5}"
+    },
+    {
+      "binding": "",
+      "title": "!{Kickoff_PQOption6}"
+    },
+    {
+      "binding": "",
+      "title": "!{Kickoff_PQOption8}"
+    },
+    {
+      "binding": "",
+      "title": "!{Kickoff_PQOption7}"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "!{Kickoff_PQSubmit}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{Kickoff_PQSaved}"
+    },
+    {
+      "text": "!{Kickoff_PQClear}",
+      "type": "clear",
+      "clearButton": true
+    }
+  ],
+  "scope": [
+    "Kickoff_RANKING1",
+    "Kickoff_RANKING2",
+    "Kickoff_RANKING3",
+    "Kickoff_RANKING4",
+    "Kickoff_RANKING5",
+    "Kickoff_RANKING6",
+    "Kickoff_RANKING7",
+    "Kickoff_RANKING8",
+    ""
+  ]
+}]]></Component>
+</Action>

@@ -1,0 +1,16 @@
+<Action>
+  <Include name="Top_AS_Gauges"></Include>
+  <Component type="TabComponent" customJS="true"><![CDATA[{
+  "type": "tab",
+  "version": "2",
+  "showTabs": false,
+  "tabOptions": [
+    {
+      "title": "!{Moment7_Input_AS_SingleSelect_Feedback}",
+      "actionXML": "Moment7_Input_AS_SingleSelect_Feedback",
+      "open": true
+    }
+  ],
+  "title": "!{Moment7_Feedback_TabsTitle}"
+}]]></Component>
+</Action>

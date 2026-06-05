@@ -1,0 +1,36 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "templateInEvent": "html/AS_Section.dot",
+  "css": "styles/as_Section.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{CultureIsShaped_Slide14_Section_Title}",
+    "description": "!{CultureIsShaped_Slide14_Section_Description}"
+  },
+  "columnView": false,
+  "instructions": "!{CultureIsShaped_Slide14_Section_Instructions}",
+  "content": [
+    {
+      "indexText": "!{CultureIsShaped_Slide14_Section_indexText1}",
+      "highlight": true,
+      "indexLabel": "",
+      "headline": "!{CultureIsShaped_Slide14_Section_ContentHeadline1}",
+      "text": "!{CultureIsShaped_Slide14_Section_ContentText1}"
+    },
+    {
+      "highlight": true,
+      "indexLabel": "",
+      "headline": "!{CultureIsShaped_Slide14_Section_ContentHeadline2}",
+      "text": "!{CultureIsShaped_Slide14_Section_ContentText2}",
+      "indexText": "!{CultureIsShaped_Slide14_Section_indexText2}"
+    },
+    {
+      "indexText": "!{CultureIsShaped_Slide14_Section_indexText3}",
+      "highlight": true,
+      "indexLabel": "",
+      "headline": "!{CultureIsShaped_Slide14_Section_ContentHeadline3}",
+      "text": "!{CultureIsShaped_Slide14_Section_ContentText3}"
+    }
+  ]
+}]]></Component>
+</Action>

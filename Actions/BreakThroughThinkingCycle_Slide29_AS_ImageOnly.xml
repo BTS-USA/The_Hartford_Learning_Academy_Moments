@@ -1,0 +1,22 @@
+<Action>
+  <Component type="ImageView"><![CDATA[{
+  "css": "Styles/as_imageOnly.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{BreakThroughThinkingCycle_Slide29_ImageViewTitle}",
+    "description": "!{BreakThroughThinkingCycle_Slide29_ImageViewDescription}"
+  },
+  "images": [
+    {
+      "src": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/slide29a.jpg",
+      "caption": "!{BreakThroughThinkingCycle_Slide29_ImageViewCaption}"
+    }
+  ],
+  "slider": false,
+  "sliderSelector": "iwc-slider",
+  "options": {
+    "width": 600,
+    "height": 450
+  }
+}]]></Component>
+</Action>

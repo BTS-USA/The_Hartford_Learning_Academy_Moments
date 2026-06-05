@@ -1,0 +1,21 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.ifc
+    &-container
+        padding-bottom 0 !important
+    &-textarea-container
+        overflow hidden
+    &-footer
+        float right
+        margin-top .5rem
+.inputComponentMessageLength
+    text-align center
+    position static
+    width 100%
+    .textAreaAD__messageLength-counter
+        font-weight bold
+@media screen and (max-width 600px)
+    .ifc-footer
+        margin-bottom 0 !important
+    .inputComponentMessageLength
+        width 100%

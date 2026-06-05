@@ -1,0 +1,106 @@
+<Action>
+  <Component type="SingleSelect" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_singleSelect.dot",
+  "css": "styles/as_singleSelect.css",
+  "readOnlyCondition": "Q.Group_Director == 1", 
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Moment6_Input_SingleSelectRadioTitle}",
+    "description": "!{Moment6_Input_SingleSelectRadioDescription}"
+  },
+  "instructions": "!{Moment6_Input_SingleSelectRadioInstructions}",
+  "type": "select",
+  "questions": [
+    {
+      "binding": "Moment6_Input_SINGLE_SELECT",
+      "options": [
+        {
+          "name": "!{Moment6_Input_SingleSelectRadioOption1}",
+          "title": "!{Moment6_Input_SingleSelectRadioOption1}",
+          "subDescription": "!{Moment6_Input_SingleSelectRadioDescription1}",
+          "value": "1"
+        },
+        {
+          "name": "!{Moment6_Input_SingleSelectRadioOption2}",
+          "title": "!{Moment6_Input_SingleSelectRadioOption2}",
+          "subDescription": "!{Moment6_Input_SingleSelectRadioDescription2}",
+          "value": "2"
+        },
+        {
+          "name": "!{Moment6_Input_SingleSelectRadioOption3}",
+          "title": "!{Moment6_Input_SingleSelectRadioOption3}",
+          "subDescription": "!{Moment6_Input_SingleSelectRadioDescription3}",
+          "value": "3"
+        },
+        {
+          "name": "!{Moment6_Input_SingleSelectRadioOption4}",
+          "title": "!{Moment6_Input_SingleSelectRadioOption4}",
+          "subDescription": "!{Moment6_Input_SingleSelectRadioDescription4}",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Moment6_Input_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "trackQuestion": "Team_Track",
+      "renderOptions": {
+        "id": 1,
+        "val": "1",
+        "type": "select"
+      }
+    },
+    "2": {
+      "bind": "db:Moment6_Input_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "trackQuestion": "Team_Track",
+      "renderOptions": {
+        "id": 2,
+        "val": "2",
+        "type": "select"
+      }
+    },
+    "3": {
+      "bind": "db:Moment6_Input_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "trackQuestion": "Team_Track",
+      "renderOptions": {
+        "id": 3,
+        "val": "3",
+        "type": "select"
+      }
+    },
+    "4": {
+      "bind": "db:Moment6_Input_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "trackQuestion": "Team_Track",
+      "renderOptions": {
+        "id": 4,
+        "val": "4",
+        "type": "select"
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "!{Moment6_Input_SingleSelectRadioSubmit}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{Moment6_Input_SingleSelectRadioSubmitSaved}"
+    },
+    {
+      "text": "!{Moment6_Input_SingleSelectRadioClear}",
+      "type": "clear",
+      "clearButton": true,
+      "message": "!{Moment6_Input_SingleSelectListSubmitSaved}"
+    }
+  ],
+  "scope": [
+    "Moment6_Input_SINGLE_SELECT",
+    "Group_Director",
+    "Team_Track"
+  ]
+}]]></Component>
+</Action>

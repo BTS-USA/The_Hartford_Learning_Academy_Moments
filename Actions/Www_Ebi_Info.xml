@@ -1,0 +1,26 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "templateInEvent": "html/AS_Section.dot",
+  "css": "styles/as_Section.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Www_Ebi_Title}",
+    "description": "!{Www_Ebi_Description}"
+  },
+  "columnView": true,
+  "content": [
+    {
+      "highlight": true,
+      "headline": "!{Www_Ebi_ContentHeadline1}",
+      "text": "!{Www_Ebi_ContentText1}",
+     "images": "/Wizer/Pages/events/Leading_In_A_Pandemic/images/empowerment.svg"
+    },
+    {
+      "highlight": true,
+      "headline": "!{Www_Ebi_ContentHeadline2}",
+      "text": "!{Www_Ebi_ContentText2}",
+      "images": "/Wizer/Pages/events/Leading_In_A_Pandemic/images/capability.svg"
+    }
+  ]
+}]]></Component>
+</Action>

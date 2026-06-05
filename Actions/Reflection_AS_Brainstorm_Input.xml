@@ -1,0 +1,75 @@
+<Action disableDynamicVotes="false">
+  <Component type="Input"><![CDATA[{
+  "templateInEvent": "html/as_brainstormInput.dot",
+  "css": "styles/as_brainstormInput.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Reflection_BrainStormTitle}",
+    "description": "!{Reflection_BrainStormDescription}"
+  },
+  "instructions": "!{Reflection_InputInstructions}",
+  "questions": [
+    {
+      "binding": "1"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Reflection_INPUT_1",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{Reflection_PlaceholderText}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 200,
+          "class": "inputComponentMessageLength",
+          "text": " !{Reflection_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{Reflection_InputClear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{Reflection_InputSubmit}",
+          "clearText": true,
+          "message": "!{Reflection_SavedText}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "Reflection_INPUT_1"
+  ]
+}]]></Component>
+  <Component type="TextList" customJS="true"><![CDATA[{
+  "version": "2.0",
+  "templateInEvent": "html/as_brainstormTextlist.dot",
+  "css": "styles/as_brainstormTextlist.css",
+  "showCount": {
+    "show": false,
+    "yourCount": "!{Reflection_Myentries}",
+    "totalCount": "!{Reflection_Totalentries}"
+  },
+  "deleteOwnIdea": true,
+  "trackQuestion": "Team_Track",
+  "teamNameQuestion": "Team_Name",
+  "questions": [
+    {
+      "binding": "Reflection_INPUT_1"
+    }
+  ],
+  "showAuthor": true,
+  "showFilters": false,
+  "restrictions": [
+    "allVotes"
+  ],
+  "refresh": true,
+  "maxLists": 1000,
+  "scope": [
+    "Reflection_INPUT_1",
+    "Team_Name",
+    "Team_Track"
+  ]
+}]]></Component>
+</Action>

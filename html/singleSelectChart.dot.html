@@ -1,0 +1,48 @@
+<div class="mainContentWrapper">
+    <div class="mainContent">
+        <section class="dc3 cl-component" data-component-version="{{=it.version}}">
+
+            {{? it.header}}
+            <header class="dc3-header--main cl-header--main">
+                {{? it.header.title}}
+                <h1 class="dc3-header__title--main cl-header__title--main{{? !it.header.description}} cl-margin--no{{?}}">
+                    {{=it.header.title}}
+                </h1>
+                {{?}}
+                {{? it.header.description}}
+                <p class="dc3-header__description--main cl-header__description--main">
+                    {{=it.header.description}}
+                </p>
+                {{?}}
+            </header>
+            {{?}}
+
+            <div class="dc3-container cl-container">
+                <div class="cl-xs-column-12 cl-row">
+                    <article class="">
+                        <div class="dc3-title">
+                            <p>{{=it.questions[0].title}}</p>
+                        </div>
+                        <div class="dc3-chart__container" data-dc3chartcontainer>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="cl-xs-column-12 cl-row">
+                <div class="activity-container">
+                    <p>{{=it.AverageActivityTime}}</p>
+                    <p data-averageactivitytime></p>
+                </div>
+            </div>
+            <div class="cl-xs-column-12 cl-row">
+                    <div class="activity-container">
+                        <p>{{=it.AverageDebriefTime}}</p>
+                        <p data-averageDebriefTime></p>
+                    </div>
+                </div>
+
+        </section>
+    </div>
+</div>

@@ -1,0 +1,89 @@
+<Action>
+  <Component type="GroupDirectorComponent"><![CDATA[{
+  "templateInEvent": "html/as_groupDirector.dot",
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_groupDirector.css",
+  "trackQuestion": "Facilitator",
+  "qandcVoteLimit": "1000",
+  "refreshIntervalInSeconds": "5",
+  "voteCountLabel": "Vote Count",
+  "nextButtonLabel": "Next",
+  "showClientStatus": "false",
+
+  "menuOptions": [
+
+    {
+      "title": "!{Welcome_AS_SplashScreen}",
+      "section": "Welcome_AS_SplashScreen",
+      "icon": "info"
+    },    
+{
+      "title": "!{ReortingScreen_HeatMap}",
+      "section": "ReortingScreen_HeatMap",
+      "icon": "info"
+    },
+    {
+      "title": "!{Welcome_AS_SplashScreen}",
+      "section": "Welcome_AS_SplashScreen",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment1_Input_AS_SingleSelect_Result}",
+      "section": "Moment1_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment2_Input_AS_SingleSelect_Result}",
+      "section": "Moment2_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment3_Input_AS_SingleSelect_Result}",
+      "section": "Moment3_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment4_Input_AS_SingleSelect_Result}",
+      "section": "Moment4_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment5_Input_AS_SingleSelect_Result}",
+      "section": "Moment5_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment6_Input_AS_SingleSelect_Result}",
+      "section": "Moment6_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment7_Input_AS_SingleSelect_Result}",
+      "section": "Moment7_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment8_Input_AS_SingleSelect_Result}",
+      "section": "Moment8_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment9_Input_AS_SingleSelect_Result}",
+      "section": "Moment9_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{Moment10_Input_AS_SingleSelect_Result}",
+      "section": "Moment10_Input_AS_SingleSelect_Result",
+      "icon": "info"
+    },
+    {
+      "title": "!{ReportingScreen_Moments_AS_Leaderboard}",
+      "section": "ReportingScreen_Moments_AS_Leaderboard",
+      "icon": "info"
+    }
+  ],
+  "scope": [
+    "Facilitator"
+  ]
+}]]></Component>
+</Action>

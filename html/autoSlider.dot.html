@@ -1,0 +1,40 @@
+<div class="mainContentWrapper">
+<div class="mainContent">
+	
+<!--<div id="rotateplease"><p><b>Rotate Device to Portrait</b></p></div>-->
+            {{? it.header}}
+                <header class="ic-header--main cl-header--main">
+                    {{? it.header.title}}
+                        <h1 class="ic-header__title--main cl-header__title--main{{? !it.header.description}} cl-margin--no{{?}}">
+                            {{=it.header.title}}
+                        </h1>
+                    {{?}}
+                    {{? it.header.description}}
+                        <p class="ic-header__description--main cl-header__description--main">
+                            {{=it.header.description}}
+                        </p>
+                    {{?}}
+                </header>
+            {{?}}
+			<section class="autoSliderContainer" data-autoSlider>
+                    <div class="autoSlider-icon">
+                            <div class="autoSlider-buttons__icon">
+                                <div class="autoSlider-button__icon autoSlider-buttons" data-autoSlider-icon-button>
+                            </div>
+                            </div>
+                        </div>
+                    <div class="autoSlider-close">
+                            <div class="autoSlider-buttons__close">
+                                <div class="autoSlider-button__close autoSlider-buttons" data-autoSlider-close-button>{{=it.closeButton}}</div>
+                            </div>
+                        </div>
+				<ul class="bxslider">
+                    {{~it.carousal : slider: index}}
+					  <li><div class="SliderContentHolder slider{{=index}}">{{=slider.title}}</div></li>
+                    {{~}}
+				</ul>
+			</section>
+			
+	</div>
+</div>
+		

@@ -1,0 +1,108 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.ssc
+    &-article
+        background-color transparent
+        .singleSelect
+            &LeftPanel
+                background-color $white !important
+                border-radius $radius 0 0 $radius
+                border 1px solid $color-primary-grey
+                border-right none
+                padding 1rem
+                &Label
+                    background-color transparent !important
+                    font-size 0 !important
+                    height 30px
+                    width 30px
+                    border-radius 50%
+                    border 4px solid $mediumgrey
+                    margin auto
+                    background-clip content-box
+                    padding 5px
+            &RightPanel
+                background-color $white !important
+                border 1px solid $color-primary-grey
+                border-radius 0 $radius $radius 0
+                border-left none
+                padding 1rem
+            &AccordionContainer
+                background-color $lightgrey !important
+                cursor pointer
+                pointer-events auto !important
+                padding 1rem
+        &.clicked
+            .singleSelect
+                &LeftPanel
+                    background-color $white !important
+                    &Label
+                        background-color $color-primary-pink !important
+                        border-color $color-primary-pink !important
+                &RightPanel
+                    background-color $white !important
+                    color $darkgrey
+                &AccordionContainer
+                    background-color $lightgrey !important
+    &-description
+        top -6px
+        background-color $lightgrey
+        padding 1rem
+        border-radius 0 0 $radius $radius
+/* Correct/incorrect selection styles---------------------------------------*/
+.ssc
+    &-article
+        &.correct
+            border none
+            .singleSelect
+                &LeftPanel,
+                &RightPanel,
+                &AccordionContainer
+                    background-color lighten($green, 80%) !important
+        &.clicked
+            &.correct
+                border none
+                .singleSelect
+                    &LeftPanel,
+                    &RightPanel,
+                    &AccordionContainer
+                        background-color lighten($green, 80%) !important
+                .singleSelectLeftPanelLabel
+                    background-color $green !important
+                    border-color $green !important
+            &.incorrect
+                border none
+                .singleSelect
+                    &LeftPanel,
+                    &RightPanel,
+                    &AccordionContainer
+                        background-color lighten($red, 80%) !important
+                .singleSelectLeftPanelLabel
+                    background-color $red !important
+                    border-color $red !important
+    &-feedback
+        padding 1rem
+        background $lightgrey
+        border-bottom 3px solid $color-primary-pink
+        border-radius $radius
+        &__label
+            font-weight 600
+            margin-bottom .5rem
+/* Use this when core styles aren't taken automatically ----------------------------*/
+.ssc
+    &-article
+        display table
+        width 100%
+        .singleSelect
+            &LeftPanel, &RightPanel, &AccordionContainer
+                display table-cell
+                vertical-align middle
+                float none
+    &-description
+        display none
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 600px)
+    .ssc
+        &-article, &-description, &-feedback
+            font-size .8rem
+        .singleSelectLeftPanel, .singleSelectRightPanel
+            padding .5rem

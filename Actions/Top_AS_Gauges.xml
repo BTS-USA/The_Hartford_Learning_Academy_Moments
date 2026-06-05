@@ -1,0 +1,72 @@
+<Action>
+  <Component type="Gaugedisplay" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_gaugeDisplay.dot",
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_gauges.css",
+  "gaugeTitle": "",
+  "gaugeId": "VanillaGauges",
+  "numGauges": 2,
+  "labels": [
+    {
+      "label": "!{Top_Gauge1}",
+      "binding": "Metric1"
+    },
+    {
+      "label": "!{Top_Gauge2}",
+      "binding": "Metric2"
+    },
+    {
+      "label": "!{Top_Gauge3}",
+      "binding": "Metric3"
+    }
+  ],
+  "dynamic": "true",
+  "bindings": {
+    "Metric1": {
+      "dynamic": true,
+      "bind": "db:METRIC1",
+      "trackQuestion":"Team_Track", 
+      "render": "renderer/spanBox",
+      "renderOptions": {
+        "numberFormat": {
+          "value": "0"
+        },
+        "dynamic": "true"
+      }
+    },
+    "Metric2": {
+      "dynamic": true,
+      "bind": "db:METRIC2",
+      "trackQuestion":"Team_Track", 
+      "render": "renderer/spanBox",
+      "renderOptions": {
+        "numberFormat": {
+          "value": "0"
+        },
+        "dynamic": "true"
+      }
+    },
+    "Metric3": {
+      "dynamic": true,
+      "bind": "db:METRIC3",
+      "trackQuestion":"Team_Track", 
+      "render": "renderer/spanBox",
+      "renderOptions": {
+        "numberFormat": {
+          "value": "0"
+        },
+        "dynamic": "true"
+      }
+    }
+  },
+  "disabled": "OR(Q.Facilitator == 2,
+					Q.Reporter_Track == 1)",
+  "scope": [
+    "METRIC1",
+    "METRIC2",
+    "METRIC3",
+    "Facilitator",
+    "Team_Track",
+    "Reporter_Track"
+  ]
+}]]></Component>
+</Action>

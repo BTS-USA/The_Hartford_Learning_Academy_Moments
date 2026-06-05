@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Action>
+  <Component type="Menu">
+  <![CDATA[{
+      title: "Menu Component",
+      type: "horizontal",
+      rows: 1,
+      menuOptions: [],
+      images:[
+          {
+            img: "/Wizer/Content/WizletResources/shared/media/img/temp/Logout-01.png",
+            text: "Log Out",
+            alt: "Logout"
+          }],
+      scope:[]
+    }]]>
+  </Component>
+</Action>

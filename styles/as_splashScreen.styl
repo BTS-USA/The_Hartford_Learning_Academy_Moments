@@ -1,0 +1,77 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.identifier
+    border-bottom 8px solid $color-primary-pink
+    &-background
+        background-repeat no-repeat
+    &-content
+        vertical-align top
+    &-blue-box-wrapper
+        margin-left 5rem
+        margin-top 5rem
+        width auto
+    &-page
+        &-content
+            background transparent
+            border-left 26px solid $color-primary-pink
+            border-radius 20px 0 0 20px
+            padding 0 1rem
+            max-width 40rem
+            position relative
+            &:before, &:after
+                content ''
+                display block
+                height 4.5rem
+                width 4.5rem
+                border-radius 50%
+                background-color $color-primary-pink
+                position absolute
+                bottom -1rem
+                right -4rem
+                vendor(animation, wobble 10s ease infinite)
+                vendor(transform-origin, center bottom)
+            &:after
+                height 2rem
+                width 2rem
+                bottom 3rem
+                right -5rem
+        &-text
+            padding 0
+            text-shadow 2px 2px 10px $color-primary-blue
+            &__title, &__sub-title
+                line-height normal
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 1024px)
+    .identifier
+        &-blue-box-wrapper
+            margin-left 3rem
+        &-page
+            &-content
+                max-width 22rem
+            &-text
+                &__title
+                    font-size 1.4rem
+                &__sub-title
+                    font-size 2.5rem
+@media screen and (max-width 600px)
+    .identifier
+        border-bottom-width 4px
+        &-blue-box-wrapper
+            margin-left 2rem
+            margin-top 3rem
+        &-page
+            &-content
+                max-width 16rem
+                &:before
+                    height 3rem
+                    width 3rem
+                &:after 
+                    height 1.5rem
+                    width 1.5rem
+                    bottom 2rem
+                    right -4rem
+            &-text
+                &__title
+                    font-size 1rem
+                &__sub-title
+                    font-size 1.5rem

@@ -1,0 +1,18 @@
+<Action>
+  <Component type="TabComponent"><![CDATA[{
+  "type": "tab",
+  "version": "2",
+  "showTabs": true,
+  "tabOptions": [
+    {
+      "title": "!{BusinessCaseStudy_Slide3_AS_Info}",
+      "actionXML": "BusinessCaseStudy_Slide3_AS_Info"
+    },
+    {
+      "title": "!{BusinessUpdate_Slide10}",
+      "actionXML": "BusinessUpdate_Slide10_AS_Info"
+    }
+  ],
+  "title": "!{R1_CaseStudy_TabsTitle}"
+}]]></Component>
+</Action>

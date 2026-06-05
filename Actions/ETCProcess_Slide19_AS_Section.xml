@@ -1,0 +1,36 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "templateInEvent": "html/AS_Section.dot",
+  "css": "styles/as_Section.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{ETCProcess_Slide19_Section_Title}",
+    "description": "!{ETCProcess_Slide19_Section_Description}"
+  },
+  "columnView": true,
+  "content": [
+    {
+      "indexText": "!{ETCProcess_Slide19_Section_indexText1}",
+      "indexLabel": "",
+      "highlight": true,
+      "headline": "!{ETCProcess_Slide19_Section_ContentHeadline1}",
+      "text": "!{ETCProcess_Slide19_Section_ContentText1}"
+    },
+    {
+      "highlight": true,
+      "indexText": "!{ETCProcess_Slide19_Section_indexText2}",
+      "indexLabel": "",
+      "headline": "!{ETCProcess_Slide19_Section_ContentHeadline2}",
+      "text": "!{ETCProcess_Slide19_Section_ContentText2}",
+       "headline": "!{ETCProcess_Slide19_Section_ContentHeadline2}"
+    },
+    {
+      "indexText": "!{ETCProcess_Slide19_Section_indexText3}",
+      "indexLabel": "",
+      "highlight": true,
+      "headline": "!{ETCProcess_Slide19_Section_ContentHeadline3}",
+      "text": "!{ETCProcess_Slide19_Section_ContentText3}"
+    }
+  ]
+}]]></Component>
+</Action>

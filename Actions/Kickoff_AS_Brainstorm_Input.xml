@@ -1,0 +1,76 @@
+<Action disableDynamicVotes="false">
+<Include name="Top_AS_Gauges"></Include>
+  <Component type="Input"><![CDATA[{
+  "templateInEvent": "html/as_brainstormInput.dot",
+  "css": "styles/as_brainstormInput.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Kickoff_BrainStormTitle}",
+    "description": "!{Kickoff_BrainStormDescription}"
+  },
+  "instructions": "!{Kickoff_InputInstructions}",
+  "questions": [
+    {
+      "binding": "1"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Kickoff_INPUT_1",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{Kickoff_PlaceholderText}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 160,
+          "class": "inputComponentMessageLength",
+          "text": " !{Kickoff_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{Kickoff_InputClear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{Kickoff_InputSubmit}",
+          "clearText": true,
+          "message": "!{Kickoff_SavedText}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "Kickoff_INPUT_1"
+  ]
+}]]></Component>
+  <Component type="TextList" customJS="true"><![CDATA[{
+  "version": "2.0",
+  "templateInEvent": "html/as_brainstormTextlist.dot",
+  "css": "styles/as_brainstormTextlist.css",
+  "showCount": {
+    "show": false,
+    "yourCount": "!{Kickoff_Myentries}",
+    "totalCount": "!{Kickoff_Totalentries}"
+  },
+  "deleteOwnIdea": true,
+  "teamNameQuestion": "Team_Name",
+  "trackQuestion": "Team_Track",
+  "questions": [
+    {
+      "binding": "Kickoff_INPUT_1"
+    }
+  ],
+  "showAuthor": true,
+  "showFilters": false,
+  "restrictions": [
+    "myTrackParticipantVotes"
+  ],
+  "refresh": true,
+  "maxLists": 1000,
+  "scope": [
+    "Kickoff_INPUT_1",
+    "Team_Name",
+    "Team_Track"
+  ]
+}]]></Component>
+</Action>

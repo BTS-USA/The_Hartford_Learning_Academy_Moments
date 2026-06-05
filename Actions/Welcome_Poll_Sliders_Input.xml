@@ -1,0 +1,105 @@
+<Action>
+  <Component type="SingleSelectList" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_slider.dot",
+  "css": "styles/as_slider.css",
+  "header": {
+    "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Welcome_Poll_Sliders_SSLBCLTitle}",
+    "description": "!{Welcome_Poll_Sliders_SSLBCLDescription}"
+  },
+  "instructions": "!{Welcome_Poll_Sliders_SSLInstructions}",
+  "axisTextLow": 0,
+  "axisTextHigh": 5,
+  "steps": true,
+  "stepsNumbers": true,
+  "questions": [
+    {
+      "title": "!{Welcome_Poll_Sliders_Q1Title}",
+      "description": "!{Welcome_Poll_Sliders_Q1Description}",
+      "binding": "1",
+      "value": "1"
+    },
+    {
+      "title": "!{Welcome_Poll_Sliders_Q2Title}",
+      "description": "!{Welcome_Poll_Sliders_Q2Description}",
+      "binding": "2",
+      "value": "2"
+    },
+    {
+      "title": "!{Welcome_Poll_Sliders_Q3Title}",
+      "description": "!{Welcome_Poll_Sliders_Q3Description}",
+      "binding": "3",
+      "value": "3"
+    },
+    {
+      "title": "!{Welcome_Poll_Sliders_Q4Title}",
+      "description": "!{Welcome_Poll_Sliders_Q4Description}",
+      "binding": "4",
+      "value": "4"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Welcome_Poll_Sliders_PRIORITY_1_A",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 5
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "2": {
+      "bind": "db:Welcome_Poll_Sliders_PRIORITY_2_A",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 5
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "3": {
+      "bind": "db:Welcome_Poll_Sliders_PRIORITY_3_A",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 5
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "4": {
+      "bind": "db:Welcome_Poll_Sliders_PRIORITY_4_A",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 5
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "!{Welcome_Poll_Sliders_SingleSelectListSubmit}",
+      "type": "submit",
+      "message": "!{Welcome_Poll_Sliders_SingleSelectListSubmitSaved}"
+    }
+  ],
+  "scope": [
+    "Welcome_Poll_Sliders_PRIORITY_1_A",
+    "Welcome_Poll_Sliders_PRIORITY_2_A",
+    "Welcome_Poll_Sliders_PRIORITY_3_A",
+    "Welcome_Poll_Sliders_PRIORITY_4_A"
+  ]
+}]]></Component>
+</Action>

@@ -1,0 +1,139 @@
+<Action disableDynamicVotes="false">
+  <Component type="Input"><![CDATA[{
+  "css": "styles/as_brainstormInput.css",
+  "header": {
+    "title": "!{Apply_BrainStormTitle}",
+    "description": "!{Apply_BrainStormDescription}"
+  },
+  "instructions": "!{Apply_BrainStormDescriptionA}",
+  "questions": [
+    {
+      "binding": "1"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Apply_INPUT_1",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{Apply_PlaceholderTextA}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 300,
+          "class": "inputComponentMessageLength",
+          "text": " !{Apply_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{Apply_clear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{Apply_submit}",
+          "clearText": false,
+          "message": "!{Apply_saved}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "Apply_INPUT_1"
+  ]
+}]]></Component>
+  <Component type="Input"><![CDATA[{
+  "css": "styles/as_brainstormInput.css",
+  "instructions": "!{Apply_BrainStormDescriptionB}",
+  "questions": [
+    {
+      "binding": "2"
+    }
+  ],
+  "bindings": {
+    "2": {
+      "bind": "db:Apply_INPUT_2",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{Apply_PlaceholderTextB}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 300,
+          "class": "inputComponentMessageLength",
+          "text": " !{Apply_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{Apply_clear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{Apply_submit}",
+          "clearText": false,
+          "message": "!{Apply_saved}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "Apply_INPUT_2"
+  ]
+}]]></Component>
+  <Component type="Input"><![CDATA[{
+  "css": "styles/as_brainstormInput.css",
+  "instructions": "!{Apply_BrainStormDescriptionC}",
+  "questions": [
+    {
+      "binding": "3"
+    }
+  ],
+  "bindings": {
+    "3": {
+      "bind": "db:Apply_INPUT_3",
+      "render": "events/The_Hartford_Learning_Academy_Moments/js/textAreaAD",
+      "renderOptions": {
+        "placeholder": "!{Apply_PlaceholderTextC}",
+        "class": "cl-textarea",
+        "maxCharacters": {
+          "maxValue": 500,
+          "class": "inputComponentMessageLength",
+          "text": " !{Apply_CharactersRemaining}"
+        },
+        "clearButton": {
+          "class": "inputComponentClear cl-button cl-button--clear",
+          "text": "!{Apply_clear}"
+        },
+        "submitButton": {
+          "class": "inputComponentSubmit cl-button cl-button--submit",
+          "text": "!{Apply_submit}",
+          "clearText": false,
+          "message": "!{Apply_saved}"
+        }
+      }
+    }
+  },
+  "scope": [
+    "Apply_INPUT_3"
+  ]
+}]]></Component>
+<Component type="NavigationComponent"><![CDATA[{
+       menuOptions: [
+       {
+          navigation: {
+            title: "!{previous}",
+            targetSection: "Moment2_NanoKnowHow_AS_ImageOnly",
+            customClass: "previous"
+            }
+      },
+	{
+          navigation: {
+            title: "!{Next}",
+                targetSection: "ThankYou_AS_SplashScreen",
+            customClass: "next"
+        }
+      }
+    ],
+   "templateInEvent": "html/navigationComponent.dot",
+    "scope":[
+    ]
+    }]]>
+</Component>
+</Action>

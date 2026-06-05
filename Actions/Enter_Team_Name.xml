@@ -1,0 +1,37 @@
+<Action>
+  <Component type="TeamName" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_teamName.dot",
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_teamName.css",
+  "instructions": "!{Enter_Team_Input_Instructions}",
+  "questions": [
+    {
+      "question": "Team_Name",
+      "title": "!{Enter_Team_InputTextAreaLabel}",
+      "renderOptions": {
+        "placeholder": "!{Enter_Team_Name_Placeholder}",
+        "class": "cl-textinput",
+        "pattern": "^[a-zA-Z0-9 ]+$",
+        "maxCharacters": {
+          "maxValue": 20,
+          "class": "inputComponentMessageLength",
+          "text": "!{Enter_Team_Name_Remaining_Text}"
+        }
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "class": "inputComponentSubmit cl-button cl-button--submit",
+      "text": "!{Enter_Submit}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{Enter_Saved}"
+    }
+  ],
+  "disabled": "Q.Leader== 2",
+  "scope": [
+    "Team_Name",
+    "Leader"
+  ]
+}]]></Component>
+</Action>

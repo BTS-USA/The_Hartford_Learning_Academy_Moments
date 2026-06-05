@@ -1,0 +1,40 @@
+<Action>
+  <Component type="BarChartList"><![CDATA[{
+"templateInEvent":"html/as_barChartList.dot",
+  "version": "2.0",
+  "css": "styles/as_barchartList.css",
+  "header": {
+    "title": "!{Closing_Poll_Sliders_SSLBCLTitle}",
+    "description": "!{Closing_Poll_Sliders_SSLBCLDescription}"
+  },
+  "instructions": "!{Closing_Poll_Sliders_BCLInstructions}",
+  "sections": [
+    {
+      "questions": [
+        {
+          "label": "!{Closing_Poll_Sliders_Q1Title}",
+          "description": "Q1",
+          "name": "Closing_Poll_Sliders_PRIORITY_1_A",
+          "minValue": 0,
+          "maxValue": 5
+        },
+        {
+          "label": "!{Closing_Poll_Sliders_Q2Title}",
+          "description": "Q2",
+          "name": "Closing_Poll_Sliders_PRIORITY_2_A",
+          "minValue": 0,
+          "maxValue": 5
+        }      
+      ]
+    }
+  ],
+  "display": "average",
+  "sortingEnabled": false,
+  "sortingOrder": "",
+  "animation": false,
+  "scope": [
+    "Closing_Poll_Sliders_PRIORITY_1_A",
+    "Closing_Poll_Sliders_PRIORITY_2_A"
+  ]
+}]]></Component>
+</Action>

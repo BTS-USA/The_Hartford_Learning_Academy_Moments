@@ -1,0 +1,41 @@
+<Action layout="identifier">
+  <Component type="Vanilla"><![CDATA[{
+  "eventTitle": "!{AssignBaseValue_EventTitle}",
+  "templateInEvent": "html/as_splashScreen.dot",
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_splashScreen.css",
+  "images": [
+    {
+      "src": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/identifier.jpg",
+      "alt": "backgroundImage"
+    },
+    {
+      "src": "",
+      "alt": "identifierImage"
+    },
+    {
+      "src": "",
+      "alt": "teamIcon"
+    }
+  ],
+  "session": {
+    "sessionTitle": "!{Welcome_Screen_Title}",
+    "sessionSubTitle": "!{Welcome_Screen_subTitle}"
+  },
+  "template": "identiferPage.dot"
+}]]></Component>
+  <Voting autoNext="false" doneText="">
+
+
+
+    <Score result="db:METRIC1" type="Vote" response="25"></Score>
+    <Score result="db:METRIC2" type="Vote" response="70"></Score>
+    <Score result="db:METRIC3" type="Vote" response="70"></Score>
+    <Score result="db:START_METRIC1" type="Vote" response="25"></Score>
+    <Score result="db:START_METRIC2" type="Vote" response="70"></Score>
+    <Score result="db:START_METRIC3" type="Vote" response="70"></Score>
+
+
+
+
+  </Voting>
+</Action>

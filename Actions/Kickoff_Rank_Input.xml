@@ -1,0 +1,71 @@
+<Action>
+<Include name="Top_AS_Gauges"></Include>
+  <Component type="Prioritize"><![CDATA[{
+  "version": "2.0",
+  "header": {
+    "title": "!{Kickoff_Rank_PQBCTitle}",
+    "description": "!{Kickoff_Rank_PQBCDescription}"
+  },
+  "instructions": "!{Kickoff_Rank_PQInstructions}",
+  "type": "QUESTIONS",
+  "questions": [
+    {
+      "binding": "Kickoff_Rank_RANKING1",
+      "title": "!{Kickoff_Rank_PQOption1}"
+    },
+    {
+      "binding": "Kickoff_Rank_RANKING2",
+      "title": "!{Kickoff_Rank_PQOption2}"
+    },
+    {
+      "binding": "Kickoff_Rank_RANKING3",
+      "title": "!{Kickoff_Rank_PQOption3}"
+    },
+    {
+      "binding": "Kickoff_Rank_RANKING4",
+      "title": "!{Kickoff_Rank_PQOption4}"
+    },
+    {
+      "binding": "Kickoff_Rank_RANKING5",
+      "title": "!{Kickoff_Rank_PQOption5}"
+    },
+    {
+      "binding": "Kickoff_Rank_RANKING6",
+      "title": "!{Kickoff_Rank_PQOption6}"
+    },
+    {
+      "binding": "Kickoff_Rank_RANKING7",
+      "title": "!{Kickoff_Rank_PQOption7}"
+    },
+    {
+      "binding": "Kickoff_Rank_RANKING8",
+      "title": "!{Kickoff_Rank_PQOption8}"
+    }
+  ],
+  "buttons": [
+    {
+      "navigation": {
+        "title": "!{Kickoff_Rank_PQSubmit}",
+        "history": false,
+        "message": "!{Kickoff_Rank_PQSubmitSaved}"
+      }
+    },
+    {
+      "navigation": {
+        "title": "!{Kickoff_Rank_PQClear}",
+        "history": false
+      }
+    }
+  ],
+  "scope": [
+    "Kickoff_Rank_RANKING1",
+    "Kickoff_Rank_RANKING2",
+    "Kickoff_Rank_RANKING3",
+    "Kickoff_Rank_RANKING4",
+    "Kickoff_Rank_RANKING5",
+    "Kickoff_Rank_RANKING6",
+    "Kickoff_Rank_RANKING7",
+    "Kickoff_Rank_RANKING8"
+  ]
+}]]></Component>
+</Action>

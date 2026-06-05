@@ -1,0 +1,228 @@
+<Action>
+<Include name="Top_AS_Gauges"></Include>
+  <Component type="SingleSelectList" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_slider.dot",
+  "css": "styles/as_slider.css",
+  "header": {
+    "images": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Kickoff_SingleSelectListTitle}",
+    "description": "!{Kickoff_SlidersSingleSelectListDescription}"
+  },
+  "instructions": "!{Kickoff_SlidersSingleSelectListInstructions}",
+  "axisTextLow": 0,
+  "axisTextHigh": 10,
+  "steps": true,
+  "stepsNumbers": true,
+  "min": 0,
+  "max": 10,
+  "questions": [
+    {
+      "title": "!{Kickoff_SingleSelectListQ1Title}",
+      "description": "!{Kickoff_SingleSelectListQ1Description}",
+      "binding": "Kickoff_ANSWER_1",
+      "value": "1"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ2Title}",
+      "description": "!{Kickoff_SingleSelectListQ2Description}",
+      "binding": "Kickoff_ANSWER_2",
+      "value": "2"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ3Title}",
+      "description": "!{Kickoff_SingleSelectListQ3Description}",
+      "binding": "Kickoff_ANSWER_3",
+      "value": "3"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ4Title}",
+      "description": "!{Kickoff_SingleSelectListQ4Description}",
+      "binding": "Kickoff_ANSWER_4",
+      "value": "4"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ5Title}",
+      "description": "!{Kickoff_SingleSelectListQ5Description}",
+      "binding": "Kickoff_ANSWER_5",
+      "value": "5"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ6Title}",
+      "description": "!{Kickoff_SingleSelectListQ6Description}",
+      "binding": "Kickoff_ANSWER_6",
+      "value": "6"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ7Title}",
+      "description": "!{Kickoff_SingleSelectListQ7Description}",
+      "binding": "Kickoff_ANSWER_7",
+      "value": "7"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ8Title}",
+      "description": "!{Kickoff_SingleSelectListQ8Description}",
+      "binding": "Kickoff_ANSWER_8",
+      "value": "8"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ9Title}",
+      "description": "!{Kickoff_SingleSelectListQ9Description}",
+      "binding": "Kickoff_ANSWER_9",
+      "value": "9"
+    },
+    {
+      "title": "!{Kickoff_SingleSelectListQ10Title}",
+      "description": "!{Kickoff_SingleSelectListQ10Description}",
+      "binding": "Kickoff_ANSWER_10",
+      "value": "10"
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Kickoff_ANSWER_1",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "2": {
+      "bind": "db:Kickoff_ANSWER_2",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "3": {
+      "bind": "db:Kickoff_ANSWER_3",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "4": {
+      "bind": "db:Kickoff_ANSWER_4",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "5": {
+      "bind": "db:Kickoff_ANSWER_5",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "6": {
+      "bind": "db:Kickoff_ANSWER_6",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "7": {
+      "bind": "db:Kickoff_ANSWER_7",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "8": {
+      "bind": "db:Kickoff_ANSWER_8",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "9": {
+      "bind": "db:Kickoff_ANSWER_9",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    },
+    "10": {
+      "bind": "db:Kickoff_ANSWER_10",
+      "render": "renderer/slider",
+      "renderOptions": {
+        "max": {
+          "value": 10
+        },
+        "min": {
+          "value": 0
+        }
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "!{Kickoff_SingleSelectListSubmit}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{Kickoff_SingleSelectListSubmitSaved}"
+    },
+    {
+      "text": "!{Kickoff_Clear}",
+      "type": "clear",
+      "clearButton": true
+    }
+  ],
+  "scope": [
+    "Kickoff_ANSWER_1",
+    "Kickoff_ANSWER_2",
+    "Kickoff_ANSWER_3",
+    "Kickoff_ANSWER_4",
+    "Kickoff_ANSWER_5",
+    "Kickoff_ANSWER_6",
+    "Kickoff_ANSWER_7",
+    "Kickoff_ANSWER_8",
+    "Kickoff_ANSWER_9",
+    "Kickoff_ANSWER_10"
+  ]
+}]]></Component>
+</Action>

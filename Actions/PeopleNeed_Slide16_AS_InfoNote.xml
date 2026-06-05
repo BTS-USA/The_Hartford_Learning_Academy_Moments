@@ -1,0 +1,20 @@
+<Action layout="identifier">
+  <Component type="Vanilla"><![CDATA[{
+  "templateInEvent": "html/as_infoNote.dot",
+  "css": "styles/as_infoNote.css",
+  "eventTitle": "",
+  "images": [
+    {
+      "src": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/slide16.jpg",
+      "alt": "backgroundImage"
+    }
+  ],
+  "textContent": [
+    {
+      "title": "!{PeopleNeed_Slide16_Info_Note_text}",
+      "alignment": "LeftTop",
+      "icon": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/note.svg"
+    }
+  ]
+}]]></Component>
+</Action>

@@ -1,0 +1,84 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.sic
+    &-article
+        padding 1rem
+        margin-bottom 1rem
+        width 33%
+        position relative
+        flex()
+        align-items center
+        flex-direction column
+        text-align center
+    &-indexHolder
+        border-radius 50%
+        min-width 90px
+        width 90px
+        height 90px
+        padding .5rem
+        text-align center
+        flex()
+        justify-content center
+        flex-direction column
+        background-color $white
+        border 2px solid $color-primary-grey
+        color $mediumgrey
+        &.highlight
+            border none
+            background-color $color-primary-pink
+            color $white
+        &.withImage
+            .sic-level_label, .sic-level_label-number
+                display none
+    &-textHolder
+        padding 1rem
+    &-level
+        &_label
+            font-size 14px
+            &-number
+                font-size 1.5rem
+                font-weight bold
+            &-icon
+                width 60px
+                margin auto
+    &-h3
+        color $color-primary-pink
+        font-weight bold
+        font-size 1.1rem
+    &-paragraph
+        margin-bottom 0
+        font-weight 600
+        li
+            text-align left
+    &-column-right
+        padding 1rem 0
+        flex()
+        flex-flow wrap
+        justify-content center
+        &.columnView
+            justify-content initial
+            flex-flow column
+            &:before
+                content: ''
+                height 100%
+                border-left 1px dashed $mediumgrey
+                position absolute
+                left 2.9rem
+                top 0px
+            .sic
+                &-article
+                    width auto
+                    flex-direction row
+                    text-align left
+                    padding .5rem 0
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 600px)
+    .sic
+        &-column-right
+            display block
+        &-article
+            width auto
+        &-h3
+            font-size 14px
+        &-paragraph
+            font-size 14px

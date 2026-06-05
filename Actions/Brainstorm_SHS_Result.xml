@@ -1,0 +1,35 @@
+<Action disableDynamicVotes="false">
+  <Component type="TextList" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_brainstormTextlist.dot",
+  "css": "styles/as_brainstormTextlist.css",
+  "version": "2.0",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Brainstorm_SHS_BrainStormTitle}",
+    "description": "!{Brainstorm_SHS_BrainStormDescription}"
+  },
+  "showCount": {
+    "show": false,
+    "yourCount": "!{Kickoff_Myentries}",
+    "totalCount": "!{Kickoff_Totalentries}"
+  },
+  "deleteOwnIdea": false,
+  "teamNameQuestion": "Team_Name",
+  "questions": [
+    {
+      "binding": "Brainstorm_SHS_INPUT_1_A"
+    }
+  ],
+  "showAuthor": true,
+  "showFilters": false,
+  "restrictions": [
+    "allVotes"
+  ],
+  "refresh": true,
+  "maxLists": 1000,
+  "scope": [
+    "Brainstorm_SHS_INPUT_1_A",
+    "Team_Name"
+  ]
+}]]></Component>
+</Action>

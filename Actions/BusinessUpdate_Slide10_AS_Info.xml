@@ -1,0 +1,39 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "css": "Styles/as_info.css",
+  "header": {
+    "title": "!{BusinessUpdate_Slide10_InfoTitle}",
+    "description": "!{BusinessUpdate_Slide10_InfoDescription}"
+  },
+  "images": [
+    "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/quad.png"
+  ],
+  "content": {
+    "headline": "!{BusinessUpdate_Slide10_InfoContentHeadline}",
+    "text": "!{BusinessUpdate_Slide10_InfoContentText}",
+    "list": "!{BusinessUpdate_Slide10_InfoContentList}"
+  }
+}]]></Component>
+<Component type="NavigationComponent"><![CDATA[{
+       menuOptions: [
+       {
+          navigation: {
+            title: "!{previous}",
+            targetSection: "Moment2_Feedback_Tabs",
+            customClass: "previous"
+            }
+      },
+	{
+          navigation: {
+            title: "!{Next}",
+                targetSection: "Moment2_NanoKnowHow_AS_ImageOnly",
+            customClass: "next"
+        }
+      }
+    ],
+   "templateInEvent": "html/navigationComponent.dot",
+    "scope":[
+    ]
+    }]]>
+</Component>
+</Action>

@@ -1,0 +1,99 @@
+<Action>
+  <Component type="SingleSelect" customJS="true"><![CDATA[{
+  "templateInEvent": "html/as_singleSelect.dot",
+  "css": "styles/as_singleSelect.css",
+  "readOnlyCondition": "Q.Leader == 2", 
+  "header": {
+    "title": "!{Moment3_Scenario_InfoTitle}",
+    "description": "!{Moment3_Scenario_InfoDescription}"
+  },
+  "instructions": "!{Moment3_Input_SingleSelectRadioInstructions}",
+  "type": "select",
+  "questions": [
+    {
+      "binding": "Moment3_Input_SINGLE_SELECT",
+      "options": [
+        {
+          "name": "!{Moment3_Input_SingleSelectRadioOption1}",
+          "title": "!{Moment3_Input_SingleSelectRadioOption1}",
+          "subDescription": "!{Moment3_Input_SingleSelectRadioDescription1}",
+          "value": "1"
+        },
+        {
+          "name": "!{Moment3_Input_SingleSelectRadioOption2}",
+          "title": "!{Moment3_Input_SingleSelectRadioOption2}",
+          "subDescription": "!{Moment3_Input_SingleSelectRadioDescription2}",
+          "value": "2"
+        },
+        {
+          "name": "!{Moment3_Input_SingleSelectRadioOption3}",
+          "title": "!{Moment3_Input_SingleSelectRadioOption3}",
+          "subDescription": "!{Moment3_Input_SingleSelectRadioDescription3}",
+          "value": "3"
+        },
+        {
+          "name": "!{Moment3_Input_SingleSelectRadioOption4}",
+          "title": "!{Moment3_Input_SingleSelectRadioOption4}",
+          "subDescription": "!{Moment3_Input_SingleSelectRadioDescription4}",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "bindings": {
+    "1": {
+      "bind": "db:Moment3_Input_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "trackQuestion": "Team_Track",
+      "renderOptions": {
+        "id": 1,
+        "val": "1",
+        "type": "select"
+      }
+    },
+    "2": {
+      "bind": "db:Moment3_Input_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "trackQuestion": "Team_Track",
+      "renderOptions": {
+        "id": 2,
+        "val": "2",
+        "type": "select"
+      }
+    },
+    "3": {
+      "bind": "db:Moment3_Input_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "trackQuestion": "Team_Track",
+      "renderOptions": {
+        "id": 3,
+        "val": "3",
+        "type": "select"
+      }
+    },
+    "4": {
+      "bind": "db:Moment3_Input_SINGLE_SELECT",
+      "render": "renderer/radio",
+      "trackQuestion": "Team_Track",
+      "renderOptions": {
+        "id": 4,
+        "val": "4",
+        "type": "select"
+      }
+    }
+  },
+  "buttons": [
+    {
+      "text": "!{Moment3_Input_SingleSelectRadioSubmit}",
+      "type": "submit",
+      "submitButton": true,
+      "message": "!{Moment3_Input_SingleSelectRadioSubmitSaved}"
+    }
+  ],
+  "scope": [
+    "Moment3_Input_SINGLE_SELECT",
+    "Leader",
+    "Team_Track"
+  ]
+}]]></Component>
+</Action>

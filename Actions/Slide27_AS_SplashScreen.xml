@@ -1,0 +1,26 @@
+<Action layout="identifier">
+  <Component type="Vanilla"><![CDATA[{
+  "eventTitle": "!{Slide27_Screen_EventTitle}",
+  "templateInEvent": "html/as_splashScreen.dot",
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/as_splashScreen.css",
+  "images": [
+    {
+      "src": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/slide27.jpg",
+      "alt": "backgroundImage"
+    },
+    {
+      "src": "",
+      "alt": "identifierImage"
+    },
+    {
+      "src": "",
+      "alt": "teamIcon"
+    }
+  ],
+  "session": {
+    "sessionTitle": "!{Slide27_Screen_Title}",
+    "sessionSubTitle": "!{Slide27_Screen_subTitle}"
+  },
+  "template": "identiferPage.dot"
+}]]></Component>
+</Action>

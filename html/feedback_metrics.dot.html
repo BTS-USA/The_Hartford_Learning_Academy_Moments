@@ -1,0 +1,46 @@
+<section class="fbc cl-component">
+    {{? it.header}}
+    <header class="fbc-header--main cl-header--main">
+        {{? it.header.title}}
+        <h1 class="fbc-header__title--main cl-header__title--main">{{=it.header.title}}</h1>
+        {{?}} {{? it.header.description}}
+        <p class="fbc-header__description--main cl-header__description--main">{{=it.header.description}}</p>
+        {{?}}
+    </header>
+    {{?}}
+    <div class="fbc-container cl-container">
+        {{? it.instructions}}
+        <div class="fbc-instructions cl-instructions">
+            <div class="fbc-instructions__text cl-instructions__text">{{=it.instructions}}</div>
+        </div>
+        {{?}}
+        <div class="fbc-content cl-content cl-md-column-12">
+           <div class="fbc-row cl-row">
+                
+        </div>
+        {{? it.metrics}}
+        <div class="fbc-metrics cl-metrics cl-md-column-12">
+            <div class="metric-container">
+                {{? it.scoreText}}
+                <div class="scoreContainer">{{=it.scoreText}}</div>
+                {{?}}
+                <div class="metric-content">
+                    {{~it.metrics :value: ind}}                    
+                   
+                    {{? it.scoreArray[ind]}}
+                        <div class="metricscore metric_score-{{=ind+1}}">
+                            {{=it.scoreArray[ind]}}
+                        </div>
+                    {{?}}
+                     {{? it.labelArray[ind]}}
+                    <div class="metric_label-{{=ind+1}}">
+                        {{=it.labelArray[ind]}}
+                    </div>
+                    {{?}}
+                    {{~}}
+                </div>
+            </div>
+        </div>
+        {{?}}
+    </div>
+</section>                                                                                                                                                                                                                                                                                                                                                                                                                                                          

@@ -1,0 +1,94 @@
+// import variables and mixins
+@import "shared/cl.styl"
+
+.riskRating
+  &__mainSlider
+    margin 0 auto
+    max-width 840px
+    position relative
+    overflow hidden
+  &__mainCont
+    position relative
+    height 190px
+    margin 0
+    padding 0
+  &__mainWrapper
+    float left
+    position relative
+    display block
+    text-align center
+    max-height 500px
+    @media screen and (max-width 768px)
+      padding 10px
+  &__nextIcon
+    &:before
+      font-size 12px
+  &__nextText
+    font-size 14px
+    text-transform uppercase
+    font-weight 600
+  &__nextButtonCont
+    text-align center
+    display inline-block
+  &__nextButton
+    padding 15px
+    margin-top 15px
+    border-radius 25px
+    color white
+    white-space nowrap
+    cursor pointer
+    border none
+    outline none
+    background-color $cerulean
+  &__noRisk
+    color $emerald
+  &__sliderContainer
+    height 150px
+    padding 10px
+    box-sizing border-box
+    float left
+  &__sliderWrapper
+      height 100%
+      background white
+      width 100%
+      position relative
+      border 7px solid #f2f2f2        
+      
+  &__propertyText
+      background #f2f2f2
+      text-align center
+      color #6d747e
+      padding 6px
+      font-size 18px
+      font-weight 600
+      text-transform uppercase
+  &__ideaText
+      color $emerald
+      margin 15px 0
+.slider-container
+  margin 35px 40px
+  @media screen and (max-width 768px)
+    margin 20px
+  .back-bar
+    background-color #a8adb4
+    .pointer
+      cursor pointer
+      height 25px
+      width 25px
+      border 6px solid white
+      background-color $cerulean
+      border-radius 13px
+      top -8px
+      margin-left -6px
+    .pointer-label
+      top -20px
+      font-size 9px
+.scale
+    span
+        ins
+            display none
+        &:first-child, &:last-child
+            ins
+                display block
+                margin-top 5px
+                font-size 10px

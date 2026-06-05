@@ -1,0 +1,30 @@
+﻿<div class="questionWrapper">
+    <ul class="chat" data-chat-discussion>
+        {{? it.votes && it.votes.length}}
+        {{~ it.votes:vote:index }}
+        
+        {{? vote.IsClass === true }}
+            <li class="notification-counter-latest-chat">
+        {{??}}
+            <li>
+        {{?}}
+                <div class="chat-body clearfix">
+                    <div class="header">
+                        <strong class="primary-font">{{=vote.Name}}:</strong>
+                    </div>
+                    <p>
+                        {{=vote.ResponseText || ''}}
+                    </p>
+
+                    {{? !isNaN(Date.parse(vote.Timestamp)) === false }}
+                        <span class="time_date">{{=vote.Timestamp}}</span>
+                    {{??}}
+                        <span class="time_date">{{= moment(new Date(vote.Timestamp).toISOString()).format("DD/MM/YY, HH:mm")}}</span>
+                    {{?}}
+
+                    {{~}}
+                    {{?}}
+                </div>
+            </li>
+    </ul>
+</div>

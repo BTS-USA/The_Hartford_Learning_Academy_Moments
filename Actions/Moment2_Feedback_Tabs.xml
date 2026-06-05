@@ -1,0 +1,15 @@
+<Action>
+  <Component type="TabComponent"><![CDATA[{
+  "type": "tab",
+  "version": "2",
+  "showTabs": false,
+  "tabOptions": [
+    {
+      "title": "!{Moment2_Input_AS_SingleSelect_Feedback}",
+      "actionXML": "Moment2_Input_AS_SingleSelect_Feedback",
+      "open": true
+    }
+  ],
+  "title": "!{Moment2_Feedback_TabsTitle}"
+}]]></Component>
+</Action>

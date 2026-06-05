@@ -1,0 +1,96 @@
+<Action>
+<Component type="HeatmapComponent"><![CDATA[{
+  "css": "events/The_Hartford_Learning_Academy_Moments/styles/heatmapComponent.css",
+  "heatmapType": "QUESTION",
+  "direction": "VERTICAL",
+  "showValues": true,
+  "Label": "!{Heatmap_Label}",
+  "columnLabel": "!{Heatmap_columnLabel}",
+      "templateInEvent": "html/votemap.dot",
+      css: "events/The_Hartford_Learning_Academy_Moments/styles/heatmapComponent.css",
+  "questions": [
+     {
+      "title": "!{Team_Name_Leaderboard}",
+      "binding": "Team_Name"
+    },
+    {
+      "title": "!{Moment1_HeatMap}",
+      "binding": "Moment1_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment2_HeatMap}",
+      "binding": "Moment2_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment3_HeatMap}",
+      "binding": "Moment3_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment4_HeatMap}",
+      "binding": "Moment4_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment5_HeatMap}",
+      "binding": "Moment5_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment6_HeatMap}",
+      "binding": "Moment6_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment7_HeatMap}",
+      "binding": "Moment7_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment8_HeatMap}",
+      "binding": "Moment8_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment9_HeatMap}",
+      "binding": "Moment9_Input_SINGLE_SELECT"
+    },
+    {
+      "title": "!{Moment10_HeatMap}",
+      "binding": "Moment10_Input_SINGLE_SELECT"
+    }
+  ],
+  "options": [
+    {
+      "val": "1",
+      "class": "A"
+    },
+    {
+      "val": "2",
+      "class": "B"
+    },
+    {
+      "val": "3",
+      "class": "C"
+    },
+    {
+      "val": "4",
+      "class": "D"
+    }
+  ],
+ trackQuestion: "",
+  rankQuestion: "",
+  sortByQuestion: "",
+  sortOrder: "asc",
+  showNear: 0,
+  liveUpdate: true,
+  markUpdate: true,
+  "scope": [
+    "Moment1_Input_SINGLE_SELECT",
+    "Moment2_Input_SINGLE_SELECT",
+    "Moment3_Input_SINGLE_SELECT",
+    "Moment4_Input_SINGLE_SELECT",
+    "Moment5_Input_SINGLE_SELECT",
+    "Moment6_Input_SINGLE_SELECT",
+    "Moment7_Input_SINGLE_SELECT",
+    "Moment8_Input_SINGLE_SELECT",
+    "Moment9_Input_SINGLE_SELECT",
+    "Moment10_Input_SINGLE_SELECT",
+    "Moment11_Input_SINGLE_SELECT"
+  ]
+}]]></Component>
+</Action>

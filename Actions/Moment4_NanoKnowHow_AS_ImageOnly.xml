@@ -1,0 +1,23 @@
+<Action>
+<Include name="Top_AS_Gauges"></Include>
+  <Component type="ImageView"><![CDATA[{
+  "css": "Styles/as_imageOnly.css",
+  "header": {
+    "bgimage": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/headerGraphic.svg",
+    "title": "!{Moment4_NanoKnowHow_ImageViewTitle}",
+    "description": "!{Moment4_NanoKnowHow_ImageViewDescription}"
+  },
+  "images": [
+    {
+      "src": "/Wizer/Pages/Events/The_Hartford_Learning_Academy_Moments/images/placeholder.jpg",
+      "caption": "!{Moment4_NanoKnowHow_ImageViewCaption}"
+    }
+  ],
+  "slider": false,
+  "sliderSelector": "iwc-slider",
+  "options": {
+    "width": 600,
+    "height": 450
+  }
+}]]></Component>
+</Action>

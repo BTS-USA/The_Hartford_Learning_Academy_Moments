@@ -1,0 +1,136 @@
+@import "common-rules.styl"
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+.tlc
+    &-votes
+        clear both
+    &-vote
+        width calc(100% - 8rem)
+        padding 1rem
+        border-radius $radius 0 0 $radius
+        background linear-gradient(to right, $white 0, $color-primary-grey 100%)
+        border-left 2px solid $color-secondary-blue
+        border-right 2px dashed $color-primary-grey
+        color $black
+        &__number
+            display none
+    &-author
+        width 8rem
+        flex()
+        align-items center
+        padding 1rem
+        background-color $color-primary-grey
+        border-radius 0 $radius $radius 0
+        color $black
+        text-align right
+        font-size .8rem
+    &-article
+        position relative
+        margin-bottom 2px
+        flex()
+        &.myVote
+            .tlc
+                &-vote
+                    background linear-gradient(to right, $color-secondary-blue 0%, $color-primary-blue 100%)
+                    border-left-color $color-primary-pink
+                    color $white
+                &-author
+                    background-color $color-primary-blue
+                    color $white
+            .delete
+                display none
+                position absolute
+                right -.5rem
+                top 50%
+                vendor(transform, translateY(-50%))
+                height 2rem
+                width 2rem
+                border-radius 50%
+                line-height 2rem
+                text-align center
+                background-color $color-secondary-skyblue
+                color $white
+                cursor pointer
+                &:before
+                    content '\f2ed'
+                    font-family 'fa-solid-900'
+    &-sorting
+        flex()
+        justify-content center
+        font-size .75rem
+        line-height 25px
+    &-filters
+        flex()
+        background-color transparent
+        border-radius $radius
+        color inherit
+        margin-bottom 0
+        padding 0
+    &-filter
+        margin 0 10px 0 0
+        &:last-child
+            margin-right 10px
+        .cl-radio:not(checked) + label:before
+            top 0
+        .cl-radio:not(checked) + label:after
+            top 4px
+    &-showCounts
+        flex()
+    &-showCount
+        flex()
+        margin-right 10px
+        &_value
+            font-weight bold
+            margin-right 5px
+            background-color $lightgrey
+            height 25px
+            min-width 25px
+            border-radius 1.5rem
+            color $color-secondary-skyblue
+            text-align center
+        &:last-child
+            margin-right 0
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width 768px)
+    .tlc
+        &-vote
+            width calc(100% - 6rem)
+        &-author
+            width 7rem
+@media screen and (max-width 600px)
+    .tlc
+        &-vote, &-author
+            width auto
+            border-right none
+            border-radius $radius
+        &-author
+            background-color transparent
+            width auto
+            padding .5rem 0
+        &-article
+            flex-direction column
+            margin-bottom .5rem
+            &.myVote
+                .tlc
+                    &-author
+                        background none
+                        color initial
+                        padding-right 2.5rem
+                .delete
+                    top auto
+                    vendor(transform, none)
+                    bottom 0
+                    right 0
+        &-filters
+            flex-grow 1
+        &-filter
+            margin-right 0
+            .cl-radio:not(checked) + label
+                padding 0 5px 0 25px
+            &:last-child
+                margin-right 0px
+        &-showCounts
+            flex-grow 1
+        &-showCount
+            margin-right 2px
+        &-showCount_value
+            margin-right 2px

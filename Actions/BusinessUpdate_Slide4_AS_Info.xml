@@ -1,0 +1,36 @@
+<Action>
+  <Component type="Info"><![CDATA[{
+  "css": "Styles/as_info.css",
+  "header": {
+    "title": "!{BusinessUpdate_Slide4_InfoTitle}",
+    "description": "!{BusinessUpdate_Slide4_InfoDescription}"
+  },
+  "content": {
+    "headline": "!{BusinessUpdate_Slide4_InfoContentHeadline}",
+    "text": "!{BusinessUpdate_Slide4_InfoContentText}",
+    "list": "!{BusinessUpdate_Slide4_InfoContentList}"
+  }
+}]]></Component>
+<Component type="NavigationComponent"><![CDATA[{
+       menuOptions: [
+       {
+          navigation: {
+            title: "!{previous}",
+            targetSection: "BusinessCaseStudy_Slide3_AS_Info",
+            customClass: "previous"
+            }
+      },
+	{
+          navigation: {
+            title: "!{Next}",
+                targetSection: "Moment1_Input_Tabs",
+            customClass: "next"
+        }
+      }
+    ],
+   "templateInEvent": "html/navigationComponent.dot",
+    "scope":[
+    ]
+    }]]>
+</Component>
+</Action>

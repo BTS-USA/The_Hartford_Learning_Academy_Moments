@@ -1,0 +1,46 @@
+<Action>
+  <Component type="BarChartList"><![CDATA[{
+  "version": "2.0",
+  "type": "SumChart",
+  "header": {
+    "title": "!{HowAreYouFeeling_MS_MSBCLTitleResult}",
+    "description": "!{HowAreYouFeeling_MS_MSBCLDescriptionResult}"
+  },
+  "sections": [
+    {
+      "questions": [
+        {
+          "label": "!{HowAreYouFeeling_MS_Option1Title}",
+          "description": "!{HowAreYouFeeling_MS_Q1Description}",
+          "name": "HowAreYouFeeling_MS_1_A"
+        },
+        {
+          "label": "!{HowAreYouFeeling_MS_Option2Title}",
+          "description": "!{HowAreYouFeeling_MS_Q2Description}",
+          "name": "HowAreYouFeeling_MS_2_A"
+        },
+        {
+          "label": "!{HowAreYouFeeling_MS_Option3Title}",
+          "description": "!{HowAreYouFeeling_MS_Q3Description}",
+          "name": "HowAreYouFeeling_MS_3_A"
+        },
+        {
+          "label": "!{HowAreYouFeeling_MS_Option4Title}",
+          "description": "!{HowAreYouFeeling_MS_Q4Description}",
+          "name": "HowAreYouFeeling_MS_4_A"
+        }
+      ]
+    }
+  ],
+  "display": "percent",
+  "animation": false,
+  "sortingOrder": "DESC",
+  "sortingEnabled": false,
+  "scope": [
+    "HowAreYouFeeling_MS_1_A",
+    "HowAreYouFeeling_MS_2_A",
+    "HowAreYouFeeling_MS_3_A",
+    "HowAreYouFeeling_MS_4_A"
+  ]
+}]]></Component>
+</Action>
