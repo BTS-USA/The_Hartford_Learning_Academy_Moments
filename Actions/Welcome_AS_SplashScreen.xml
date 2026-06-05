@@ -8,26 +8,19 @@
       "alt": "backgroundImage"
     }
   ],
+   "menuOptions": [
+        {
+          img:"",
+          navigation: {
+            title: "!{StartNext}",
+            targetSection: "BusinessCaseStudy_Slide3_AS_Info"
+          }
+        }
+  ],
   "session": {
     "sessionTitle": "!{Welcome_Screen_Title}",
     "sessionSubTitle": "!{Welcome_Screen_subTitle}"
   },
   "template": "identiferPage.dot"
 }]]></Component>
-<Component type="NavigationComponent"><![CDATA[{
-       menuOptions: [
-        {
-          navigation: {
-            title: "!{StartNext}",
-                targetSection: "BusinessCaseStudy_Slide3_AS_Info",
-            customClass: "next"
-        }
-      }
-    ],
-   "templateInEvent": "html/navigationComponent.dot",
-    "scope":[
-    ]
-    }]]>
-      
-    </Component>
 </Action>
