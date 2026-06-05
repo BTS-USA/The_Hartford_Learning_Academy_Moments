@@ -10,13 +10,16 @@
             display table-row
         &__th, &__td
             display table-cell
-            border 1px solid $grey
+            border 1px solid $white
             font-size inherit
+            text-align center
         &__thead
-            background $gradient-blue
+            background $color-primary-pink
             color $white
         &__td
             color $black
         &__row
+            &:nth-child(odd)
+                background-color #f2efec
             &:nth-child(even)
-                background-color $lightgrey
+                background-color #eae5df

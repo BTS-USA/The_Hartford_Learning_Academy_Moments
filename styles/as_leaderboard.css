@@ -8,6 +8,102 @@
   src: url("../fonts/fa-solid-900.eot");
   src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg");
 }
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Medium.eot");
+  src: url("../fonts/Trust2B-Medium.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Medium.ttf") format('truetype'), url("../fonts/Trust2B-Medium.svg#Trust2B-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Bold.eot");
+  src: url("../fonts/Trust2B-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Bold.ttf") format('truetype'), url("../fonts/Trust2B-Bold.svg#Trust2B-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Regular.eot");
+  src: url("../fonts/Trust2B-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Regular.ttf") format('truetype'), url("../fonts/Trust2B-Regular.svg#Trust2B-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Light.eot");
+  src: url("../fonts/Trust2B-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Light.ttf") format('truetype'), url("../fonts/Trust2B-Light.svg#Trust2B-Light") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B XLight';
+  src: url("../fonts/Trust2B-XLight.eot");
+  src: url("../fonts/Trust2B-XLight.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-XLight.ttf") format('truetype'), url("../fonts/Trust2B-XLight.svg#Trust2B-XLight") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Bold.eot");
+  src: url("../fonts/Trust2A-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Bold.ttf") format('truetype'), url("../fonts/Trust2A-Bold.svg#Trust2A-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Medium.eot");
+  src: url("../fonts/Trust2A-Medium.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Medium.ttf") format('truetype'), url("../fonts/Trust2A-Medium.svg#Trust2A-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Regular.eot");
+  src: url("../fonts/Trust2A-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Regular.ttf") format('truetype'), url("../fonts/Trust2A-Regular.svg#Trust2A-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Light.eot");
+  src: url("../fonts/Trust2A-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Light.ttf") format('truetype'), url("../fonts/Trust2A-Light.svg#Trust2A-Light") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Italic.eot");
+  src: url("../fonts/../fonts/TrustHartfordSans-Italic.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Italic.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Italic.svg#TrustHartfordSans-Italic") format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Regular.eot");
+  src: url("../fonts/TrustHartfordSans-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Regular.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Regular.svg#TrustHartfordSans-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Bold.eot");
+  src: url("../fonts/TrustHartfordSans-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Bold.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Bold.svg#TrustHartfordSans-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 body,
 p,
 li,
@@ -15,6 +111,7 @@ input,
 button {
   font-weight: normal;
   line-height: normal;
+  font-family: 'Trust Hartford Sans';
 }
 h1,
 h2,
@@ -22,6 +119,7 @@ h3 {
   font-weight: normal;
   line-height: normal;
   margin: 0;
+  font-family: 'Trust Hartford Sans';
 }
 ul,
 ol {
@@ -56,8 +154,8 @@ input,
   -moz-user-select: initial;
   -ms-user-select: initial;
   user-select: initial;
-  border: 1px solid #cfd1d0;
-  border-radius: 5px;
+  border: 1px solid #75013f;
+  border-radius: 0;
   box-shadow: inset 5px 5px 10px rgba(0,0,0,0.2);
 }
 .shield {
@@ -74,10 +172,16 @@ input,
 .readonly {
   pointer-events: none;
 }
+.readonly .cl-foote {
+  display: none;
+}
+.disabled {
+  pointer-events: none;
+}
 blockquote {
   padding: 1.5rem;
   background-color: #efefef;
-  border-radius: 5px;
+  border-radius: 0;
   position: relative;
   margin-top: 2.5rem;
 }
@@ -99,34 +203,6 @@ blockquote:after {
   bottom: -18px;
   right: 10px;
 }
-@-webkit-keyframes check {
-  0% {
-    height: 0;
-    width: 0;
-  }
-  25% {
-    height: 0;
-    width: 10px;
-  }
-  50% {
-    height: 20px;
-    width: 10px;
-  }
-}
-@-ms-keyframes check {
-  0% {
-    height: 0;
-    width: 0;
-  }
-  25% {
-    height: 0;
-    width: 10px;
-  }
-  50% {
-    height: 20px;
-    width: 10px;
-  }
-}
 @-moz-keyframes check {
   0% {
     height: 0;
@@ -134,39 +210,11 @@ blockquote:after {
   }
   25% {
     height: 0;
-    width: 10px;
+    width: 12px;
   }
   50% {
     height: 20px;
-    width: 10px;
-  }
-}
-@-o-keyframes check {
-  0% {
-    height: 0;
-    width: 0;
-  }
-  25% {
-    height: 0;
-    width: 10px;
-  }
-  50% {
-    height: 20px;
-    width: 10px;
-  }
-}
-@-moz-keyframes check {
-  0% {
-    height: 0;
-    width: 0;
-  }
-  25% {
-    height: 0;
-    width: 10px;
-  }
-  50% {
-    height: 20px;
-    width: 10px;
+    width: 12px;
   }
 }
 @-webkit-keyframes check {
@@ -176,11 +224,11 @@ blockquote:after {
   }
   25% {
     height: 0;
-    width: 10px;
+    width: 12px;
   }
   50% {
     height: 20px;
-    width: 10px;
+    width: 12px;
   }
 }
 @-o-keyframes check {
@@ -190,11 +238,11 @@ blockquote:after {
   }
   25% {
     height: 0;
-    width: 10px;
+    width: 12px;
   }
   50% {
     height: 20px;
-    width: 10px;
+    width: 12px;
   }
 }
 @keyframes check {
@@ -204,11 +252,139 @@ blockquote:after {
   }
   25% {
     height: 0;
-    width: 10px;
+    width: 12px;
   }
   50% {
     height: 20px;
-    width: 10px;
+    width: 12px;
+  }
+}
+@-moz-keyframes rotate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-o-keyframes rotate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-moz-keyframes wobble {
+  33% {
+    transform: rotate(20deg);
+  }
+  66% {
+    transform: rotate(-20deg);
+  }
+}
+@-webkit-keyframes wobble {
+  33% {
+    transform: rotate(20deg);
+  }
+  66% {
+    transform: rotate(-20deg);
+  }
+}
+@-o-keyframes wobble {
+  33% {
+    transform: rotate(20deg);
+  }
+  66% {
+    transform: rotate(-20deg);
+  }
+}
+@keyframes wobble {
+  33% {
+    transform: rotate(20deg);
+  }
+  66% {
+    transform: rotate(-20deg);
+  }
+}
+@-moz-keyframes toggler-left {
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-webkit-keyframes toggler-left {
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-o-keyframes toggler-left {
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes toggler-left {
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-moz-keyframes toggler-right {
+  0% {
+    right: 50%;
+  }
+  100% {
+    right: 0;
+  }
+}
+@-webkit-keyframes toggler-right {
+  0% {
+    right: 50%;
+  }
+  100% {
+    right: 0;
+  }
+}
+@-o-keyframes toggler-right {
+  0% {
+    right: 50%;
+  }
+  100% {
+    right: 0;
+  }
+}
+@keyframes toggler-right {
+  0% {
+    right: 50%;
+  }
+  100% {
+    right: 0;
   }
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -226,16 +402,20 @@ blockquote:after {
 .hmc-table__th,
 .hmc-table__td {
   display: table-cell;
-  border: 1px solid #dfe1df;
+  border: 1px solid #fff;
   font-size: inherit;
+  text-align: center;
 }
 .hmc-table__thead {
-  background: #75013F;
+  background: #75013f;
   color: #fff;
 }
 .hmc-table__td {
   color: #000;
 }
+.hmc-table__row:nth-child(odd) {
+  background-color: #f2efec;
+}
 .hmc-table__row:nth-child(even) {
-  background-color: #efefef;
+  background-color: #eae5df;
 }

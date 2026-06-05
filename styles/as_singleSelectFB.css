@@ -399,8 +399,10 @@ blockquote:after {
   display: none;
 }
 .fbc-article .youSelected_option {
-  color: #fe3082;
+  color: #75013f;
   margin-bottom: 1rem;
+  border-bottom: 1px solid #fe3082;
+  padding-bottom: 1rem;
 }
 .fbc-article .feedback_title {
   font-weight: 600;
@@ -418,7 +420,7 @@ blockquote:after {
   padding: 0.5rem;
   font-weight: 600;
   background-color: #eae5df;
-  color: #fff;
+  color: #75013f;
 }
 .fbc-metrics .metric-box {
   overflow: hidden;
@@ -430,11 +432,13 @@ blockquote:after {
   display: -webkit-flex;
   align-items: center;
 }
-.fbc-metrics .metric-box:nth-child(even) {
-  background-color: #efefef;
+.fbc-metrics .metric-box:nth-child(odd) {
+  border-bottom: 1px solid #eae5df;
 }
 .fbc-metrics .metricscore {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Trust Hartford Sans';
 }
 .fbc-metrics .metricscore.positiveVal {
   color: #367a3d;

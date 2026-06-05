@@ -788,6 +788,9 @@ body {
 .next.nc-button:after {
   background: url("../images/right.svg");
 }
+.tc-acc__label {
+  background-color: #fff !important;
+}
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 .iaElement-0 {
   position: fixed;
@@ -923,7 +926,7 @@ body[class*=Team_Name] #votingSlideDiv .mainWrapper {
 .bodyGiveLadersControl_Slide6_AS_ImageOnly .iwc-figure__image,
 .bodyWhatIsNeeded_Slide15_AS_ImageOnly .iwc-figure__image,
 .bodyBreakThroughThinkingCycle_Slide29_AS_ImageOnly .iwc-figure__image {
-  max-width: 70%;
+  max-width: 100%;
 }
 .bodyGiveLadersControl_Slide6_AS_ImageOnly .iwc-slider .slidesjs-container {
   height: 520px !important;
@@ -941,19 +944,15 @@ body[class*=Team_Name] #votingSlideDiv .mainWrapper {
   font-size: 2rem;
   font-weight: bold;
 }
-.bodyNPS_Tabs .bclc-question,
-.bodyReporting_Screen .bclc-question,
-.bodyNPS_AS_Slider_Result .bclc-question {
-  border-radius: 0 0 0 0;
-  border: 1px solid #75013f;
-  border-bottom: none;
+.bodyNPS_Tabs .bclc. bcc-question,
+.bodyReporting_Screen .bclc. bcc-question,
+.bodyNPS_AS_Slider_Result .bclc. bcc-question {
+  font-size: 1.1rem;
 }
-.bodyNPS_Tabs .bclc-answer,
-.bodyReporting_Screen .bclc-answer,
-.bodyNPS_AS_Slider_Result .bclc-answer {
-  border-radius: 0 0 0 0;
-  border: 1px solid #75013f;
-  border-top: none;
+.bodyNPS_Tabs .bclc. bcc-answer,
+.bodyReporting_Screen .bclc. bcc-answer,
+.bodyNPS_AS_Slider_Result .bclc. bcc-answer {
+  font-size: 1.1rem;
 }
 .bodyReporting_Screen #votingSlideDiv .mainWrapper .cl-header--main {
   display: none;

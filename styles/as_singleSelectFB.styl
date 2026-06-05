@@ -11,8 +11,10 @@
             &_title
                 display none
             &_option
-                color $color-secondary-blue
+                color $color-primary-pink
                 margin-bottom 1rem
+                border-bottom 1px solid $color-primary-blue
+                padding-bottom 1rem
         .feedback
             &_title
                 font-weight 600
@@ -21,23 +23,25 @@
         .metric
             &-container
                 border 1px solid $color-primary-pink
-                border-radius $radius
+                border-radius 0
                 overflow hidden
                 text-align center
                 .scoreHeader
                     padding .5rem
                     font-weight 600
                     background-color #eae5df
-                    color $white
+                    color $color-primary-pink
             &-box
                 overflow hidden
                 padding .5rem 0
                 flex()
                 align-items center
-                &:nth-child(even)
-                    background-color $lightgrey
+                &:nth-child(odd)
+                    border-bottom 1px solid #EAE5DF
             &score
-                font-size 2rem
+                font-size 1.5rem
+                font-weight bold
+                font-family 'Trust Hartford Sans'
                 &.positiveVal
                     color $green
                     &:before
