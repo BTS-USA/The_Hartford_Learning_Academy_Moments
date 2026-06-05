@@ -12,10 +12,6 @@
   },
 	"tabOptions" : [
     {
-      "title": "!{HowAreYouFeeling_MS_Result}",
-      "actionXML": "HowAreYouFeeling_AS_BarchartList_Result"
-    },
-    {
       "title": "!{Moment1_Input_AS_SingleSelect_Result}",
       "actionXML": "Moment1_Input_AS_SingleSelect_Result"
     },
@@ -24,50 +20,10 @@
       "title": "!{Moment2_Input_AS_SingleSelect_Result}",
       "actionXML": "Moment2_Input_AS_SingleSelect_Result"
     },
-   
-    {
-      "title": "!{Moment3_Input_AS_SingleSelect_Result}",
-      "actionXML": "Moment3_Input_AS_SingleSelect_Result"
-    },
-
-    {
-      "title": "!{Moment4_Input_AS_SingleSelect_Result}",
-      "actionXML": "Moment4_Input_AS_SingleSelect_Result"
-    },
-
-    {
-      "title": "!{Moment5_Input_AS_SingleSelect_Result}",
-      "actionXML": "Moment5_Input_AS_SingleSelect_Result"
-    },
-
-    {
-      "title": "!{Moment6_Input_AS_SingleSelect_Result}",
-      "actionXML": "Moment6_Input_AS_SingleSelect_Result"
-    },
-
-    {
-      "title": "!{Reflection_AS_Brainstorm_Result}",
-      "actionXML": "Reflection_AS_Brainstorm_Result"
-    },
-  
-   {
-      "title": "!{NPS_AS_Slider_Result}",
-      "actionXML": "NPS_AS_Slider_Result "
-    },
-    {
-      "title": "!{NPS_AS_Brainstorm_Result}",
-      "actionXML": "NPS_AS_Brainstorm_Result "
-    },
     {
       "title": "!{ReortingScreen_HeatMap}",
       "actionXML": "ReortingScreen_HeatMap"
-    },
-    
-    {
-      "title": "!{ReportingScreen_Moments_AS_Leaderboard}",
-      "actionXML": "ReportingScreen_Moments_AS_Leaderboard"
     }
-		
 	
   ],
   title:"!{TabsTitle}"
