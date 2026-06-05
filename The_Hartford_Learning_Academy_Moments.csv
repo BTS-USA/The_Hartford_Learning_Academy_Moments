@@ -2037,7 +2037,7 @@ Apply_BrainStormTitle;Now apply this to your work.<br>;;;;;;;;;;;;;;;;;;;;
 Apply_BrainStormDescriptionA;<strong>What is one change conversation your team needs to move forward?</strong><br>;;;;;;;;;;;;;;;;;;;;
 Apply_BrainStormDescription;;;;;;;;;;;;;;;;;;;;;
 Apply_BrainStormDescriptionB;<strong>What is most likely getting in the way?</strong><br>;;;;;;;;;;;;;;;;;;;;
-Apply_BrainStormDescriptionC;<strong>What is one constructive move your team can make?<br></strong><br><em>Write a high-quality question to ask (inquiry) or a point to make (advocacy) — or both.</em><br>;;;;;;;;;;;;;;;;;;;;
+Apply_BrainStormDescriptionC;<strong>What is one constructive move your team can make?<br></strong><em>Write a high-quality question to ask (inquiry) or a point to make (advocacy) — or both.</em><br>;;;;;;;;;;;;;;;;;;;;
 Apply_PlaceholderTextA;Be specific — name the change, the decision, or the stuck point...;;;;;;;;;;;;;;;;;;;;
 Apply_submit;Submit;;;;;;;;;;;;;;;;;;;;
 Apply_saved;Saved;;;;;;;;;;;;;;;;;;;;
