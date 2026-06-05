@@ -761,7 +761,7 @@ body {
   position: relative;
   font-size: 0;
   background-color: #eae5df;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem;
 }
 .previous.nc-button:after,
 .next.nc-button:after {
@@ -769,7 +769,7 @@ body {
   position: absolute;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-size: 57% !important;
+  background-size: 50% !important;
   height: 100%;
   width: 100%;
   left: 0;
@@ -898,6 +898,10 @@ body .ui-dialog.ui-widget.info-popup .cl-header--main {
 [class*=Splash] #votingSlideDiv .mainWrapper .identifier-page-meta-icon,
 [class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-page-meta-icon {
   display: none;
+}
+[class*=Splash] #votingSlideDiv .mainWrapper .identifier-page-meta__name,
+[class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-page-meta__name {
+  padding: 10px 0 0 0;
 }
 [class*=Splash] #votingSlideDiv .mainWrapper .identifier-footer,
 [class*=InfoNote] #votingSlideDiv .mainWrapper .identifier-footer {
