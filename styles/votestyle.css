@@ -462,7 +462,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   height: 55px;
-  width: 210px;
+  width: 201px;
   top: 0;
   right: auto;
   left: 1rem;
@@ -980,6 +980,9 @@ body[class*=Team_Name] #votingSlideDiv .mainWrapper {
 }
 .bodyReporting_Screen #votingSlideDiv .mainWrapper .cl-header--main {
   display: none;
+}
+.bodyBrainstorm_VUCA_Input_Tabs #votingSlideDiv .mainWrapper .ssc-row.select {
+  display: flex;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 600px) {
