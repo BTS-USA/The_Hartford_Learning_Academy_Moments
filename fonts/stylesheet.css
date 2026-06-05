@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Trust 2B';
+    src: url('Trust2B-Medium.eot');
+    src: url('Trust2B-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Trust2B-Medium.ttf') format('truetype'),
+        url('Trust2B-Medium.svg#Trust2B-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust 2B';
+    src: url('Trust2B-Bold.eot');
+    src: url('Trust2B-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Trust2B-Bold.ttf') format('truetype'),
+        url('Trust2B-Bold.svg#Trust2B-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust 2B';
+    src: url('Trust2B-Regular.eot');
+    src: url('Trust2B-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Trust2B-Regular.ttf') format('truetype'),
+        url('Trust2B-Regular.svg#Trust2B-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust 2B';
+    src: url('Trust2B-Light.eot');
+    src: url('Trust2B-Light.eot?#iefix') format('embedded-opentype'),
+        url('Trust2B-Light.ttf') format('truetype'),
+        url('Trust2B-Light.svg#Trust2B-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust 2B XLight';
+    src: url('Trust2B-XLight.eot');
+    src: url('Trust2B-XLight.eot?#iefix') format('embedded-opentype'),
+        url('Trust2B-XLight.ttf') format('truetype'),
+        url('Trust2B-XLight.svg#Trust2B-XLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust 2A';
+    src: url('Trust2A-Bold.eot');
+    src: url('Trust2A-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Trust2A-Bold.ttf') format('truetype'),
+        url('Trust2A-Bold.svg#Trust2A-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust 2A';
+    src: url('Trust2A-Medium.eot');
+    src: url('Trust2A-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Trust2A-Medium.ttf') format('truetype'),
+        url('Trust2A-Medium.svg#Trust2A-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust 2A';
+    src: url('Trust2A-Regular.eot');
+    src: url('Trust2A-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Trust2A-Regular.ttf') format('truetype'),
+        url('Trust2A-Regular.svg#Trust2A-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust 2A';
+    src: url('Trust2A-Light.eot');
+    src: url('Trust2A-Light.eot?#iefix') format('embedded-opentype'),
+        url('Trust2A-Light.ttf') format('truetype'),
+        url('Trust2A-Light.svg#Trust2A-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust Hartford Sans';
+    src: url('TrustHartfordSans-Italic.eot');
+    src: url('TrustHartfordSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('TrustHartfordSans-Italic.ttf') format('truetype'),
+        url('TrustHartfordSans-Italic.svg#TrustHartfordSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust Hartford Sans';
+    src: url('TrustHartfordSans-Regular.eot');
+    src: url('TrustHartfordSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TrustHartfordSans-Regular.ttf') format('truetype'),
+        url('TrustHartfordSans-Regular.svg#TrustHartfordSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trust Hartford Sans';
+    src: url('TrustHartfordSans-Bold.eot');
+    src: url('TrustHartfordSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TrustHartfordSans-Bold.ttf') format('truetype'),
+        url('TrustHartfordSans-Bold.svg#TrustHartfordSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
