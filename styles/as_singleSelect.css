@@ -8,6 +8,102 @@
   src: url("../fonts/fa-solid-900.eot");
   src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg");
 }
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Medium.eot");
+  src: url("../fonts/Trust2B-Medium.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Medium.ttf") format('truetype'), url("../fonts/Trust2B-Medium.svg#Trust2B-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Bold.eot");
+  src: url("../fonts/Trust2B-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Bold.ttf") format('truetype'), url("../fonts/Trust2B-Bold.svg#Trust2B-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Regular.eot");
+  src: url("../fonts/Trust2B-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Regular.ttf") format('truetype'), url("../fonts/Trust2B-Regular.svg#Trust2B-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Light.eot");
+  src: url("../fonts/Trust2B-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Light.ttf") format('truetype'), url("../fonts/Trust2B-Light.svg#Trust2B-Light") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B XLight';
+  src: url("../fonts/Trust2B-XLight.eot");
+  src: url("../fonts/Trust2B-XLight.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-XLight.ttf") format('truetype'), url("../fonts/Trust2B-XLight.svg#Trust2B-XLight") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Bold.eot");
+  src: url("../fonts/Trust2A-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Bold.ttf") format('truetype'), url("../fonts/Trust2A-Bold.svg#Trust2A-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Medium.eot");
+  src: url("../fonts/Trust2A-Medium.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Medium.ttf") format('truetype'), url("../fonts/Trust2A-Medium.svg#Trust2A-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Regular.eot");
+  src: url("../fonts/Trust2A-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Regular.ttf") format('truetype'), url("../fonts/Trust2A-Regular.svg#Trust2A-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Light.eot");
+  src: url("../fonts/Trust2A-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Light.ttf") format('truetype'), url("../fonts/Trust2A-Light.svg#Trust2A-Light") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Italic.eot");
+  src: url("../fonts/../fonts/TrustHartfordSans-Italic.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Italic.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Italic.svg#TrustHartfordSans-Italic") format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Regular.eot");
+  src: url("../fonts/TrustHartfordSans-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Regular.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Regular.svg#TrustHartfordSans-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Bold.eot");
+  src: url("../fonts/TrustHartfordSans-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Bold.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Bold.svg#TrustHartfordSans-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 body,
 p,
 li,
@@ -15,6 +111,7 @@ input,
 button {
   font-weight: normal;
   line-height: normal;
+  font-family: 'Trust Hartford Sans';
 }
 h1,
 h2,
@@ -22,6 +119,7 @@ h3 {
   font-weight: normal;
   line-height: normal;
   margin: 0;
+  font-family: 'Trust Hartford Sans';
 }
 ul,
 ol {
@@ -56,8 +154,8 @@ input,
   -moz-user-select: initial;
   -ms-user-select: initial;
   user-select: initial;
-  border: 1px solid #cfd1d0;
-  border-radius: 5px;
+  border: 1px solid #75013f;
+  border-radius: 0;
   box-shadow: inset 5px 5px 10px rgba(0,0,0,0.2);
 }
 .shield {
@@ -83,7 +181,7 @@ input,
 blockquote {
   padding: 1.5rem;
   background-color: #efefef;
-  border-radius: 5px;
+  border-radius: 0;
   position: relative;
   margin-top: 2.5rem;
 }
@@ -295,8 +393,8 @@ blockquote:after {
 }
 .ssc-article .singleSelectLeftPanel {
   background-color: #fff !important;
-  border-radius: 5px 0 0 5px;
-  border: 1px solid #cfd1d0;
+  border-radius: 0 0 0 0;
+  border: 1px solid #75013f;
   border-right: none;
   padding: 1rem;
 }
@@ -313,8 +411,8 @@ blockquote:after {
 }
 .ssc-article .singleSelectRightPanel {
   background-color: #fff !important;
-  border: 1px solid #cfd1d0;
-  border-radius: 0 5px 5px 0;
+  border: 1px solid #75013f;
+  border-radius: 0 0 0 0;
   border-left: none;
   padding: 1rem;
 }
@@ -328,8 +426,8 @@ blockquote:after {
   background-color: #fff !important;
 }
 .ssc-article.clicked .singleSelectLeftPanelLabel {
-  background-color: #75013F !important;
-  border-color: #75013F !important;
+  background-color: #fe3082 !important;
+  border-color: #fe3082 !important;
 }
 .ssc-article.clicked .singleSelectRightPanel {
   background-color: #fff !important;
@@ -342,7 +440,7 @@ blockquote:after {
   top: -6px;
   background-color: #efefef;
   padding: 1rem;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 0 0;
 }
 /* Correct/incorrect selection styles---------------------------------------*/
 .ssc-article.correct {
@@ -351,7 +449,7 @@ blockquote:after {
 .ssc-article.correct .singleSelectLeftPanel,
 .ssc-article.correct .singleSelectRightPanel,
 .ssc-article.correct .singleSelectAccordionContainer {
-  background-color: #e3f2da !important;
+  background-color: #d1ebd3 !important;
 }
 .ssc-article.clicked.correct {
   border: none;
@@ -359,11 +457,11 @@ blockquote:after {
 .ssc-article.clicked.correct .singleSelectLeftPanel,
 .ssc-article.clicked.correct .singleSelectRightPanel,
 .ssc-article.clicked.correct .singleSelectAccordionContainer {
-  background-color: #e3f2da !important;
+  background-color: #d1ebd3 !important;
 }
 .ssc-article.clicked.correct .singleSelectLeftPanelLabel {
-  background-color: #72bf44 !important;
-  border-color: #72bf44 !important;
+  background-color: #367a3d !important;
+  border-color: #367a3d !important;
 }
 .ssc-article.clicked.incorrect {
   border: none;
@@ -371,17 +469,17 @@ blockquote:after {
 .ssc-article.clicked.incorrect .singleSelectLeftPanel,
 .ssc-article.clicked.incorrect .singleSelectRightPanel,
 .ssc-article.clicked.incorrect .singleSelectAccordionContainer {
-  background-color: #fdcdd7 !important;
+  background-color: #fec9c9 !important;
 }
 .ssc-article.clicked.incorrect .singleSelectLeftPanelLabel {
-  background-color: #f00a3c !important;
-  border-color: #f00a3c !important;
+  background-color: #e30505 !important;
+  border-color: #e30505 !important;
 }
 .ssc-feedback {
   padding: 1rem;
   background: #efefef;
-  border-bottom: 3px solid #75013F;
-  border-radius: 5px;
+  border-bottom: 3px solid #75013f;
+  border-radius: 0;
 }
 .ssc-feedback__label {
   font-weight: 600;

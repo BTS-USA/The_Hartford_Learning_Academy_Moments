@@ -6,18 +6,21 @@ body
     color $darkgrey
     font-size 1.1rem
     height 100%
-    background-color $white
-    background-image url('../images/mainBG.jpg')
-    background-size cover
-    background-position center
+    background-color #f7f7f5
+    background-image url('../images/Background.png')
+    // background-size 42%
+    // background-position -15% bottom
+    background-size 71%
+    background-position -72% bottom
     background-repeat no-repeat
     background-attachment fixed
     -webkit-overflow-scrolling touch
 #wizer
     .page
         #main
-            background-color $black
+            background-color #EAE5DF
             position fixed
+            border-bottom 1px solid $black
             #offlineStatus, #menuPulseIcon, .separator, #WizerLogButton, #A4, #A3, .dBGraphics
                 display none
             .logout-btn, #A5
@@ -34,7 +37,7 @@ body
                     font-family 'fa-solid-900'
                     font-size 1.2rem
                 &:hover
-                    color $color-primary-pink
+                    color $color-primary-lue
             #A5
                 right 46px
                 &:after
@@ -44,16 +47,16 @@ body
                 left auto
                 top 0
                 line-height 55px
-                font-size 0.9rem
+                font-size 1.1rem
                 font-weight normal
                 color $color-primary-grey
             #menuEventName
-                background url('../images/client-logo.png')
+                background url('../images/logo_footer.svg')
                 background-position center
                 background-repeat no-repeat
                 background-size contain
                 height 55px
-                width 66px
+                width 210px
                 top 0
                 right auto
                 left 1rem
@@ -78,12 +81,26 @@ body
     &-header
         &--main
             border-radius $radius $radius 0 0
-            background $gradient-header
+            background $color-primary-pink
             min-height 8rem
             margin-bottom 0
             padding 1rem 0
             flex()
             align-items center
+            background url('../images/pattern1.png')
+            background-position center
+            background-repeat repeat
+            background-size contain
+            height 100%
+            width 100%
+            &:after
+                content ''
+                position absolute
+                top 0
+                left 0
+                height 100%
+                width 100%
+                background #75013fe6
         &-image
             background-position bottom right
             background-size contain
@@ -91,19 +108,25 @@ body
             text-align left
             padding 0 1rem 10px
             max-width 800px
+            position relative
+            z-index 9
+            font-family 'Trust Hartford Sans'
         &__description--main
             text-align left
             margin 0
-            padding 0 1rem 10px
+            padding 0 1rem 25px
+            position relative
+            z-index 9
+            font-size 1.1rem
     &-instructions
         background-color transparent
         padding 0
         margin-top -1.8rem
         &__text
             display inline-block
-            padding 10px 20px
+            padding 6px 20px
             border-radius 2rem
-            background-color $lightgrey
+            background-color #EAE5DF
             color $color-primary-pink
             text-transform none
             font-size 1rem
@@ -133,15 +156,15 @@ body
         transition background 1s ease
         float right
         &--submit
-            background $gradient-green
+            background $color-primary-blue
             margin-left 5px
             &:active, &:focus, &:hover
-                background linear-gradient(to right bottom, $green -50%, $turquoise 50%)
+                background $color-primary-pink
         &--clear
             display none !important
-            background $gradient-pink
+            background $color-primary-blue
             &:active, &:focus, &:hover
-                background linear-gradient(to right bottom, $color-primary-pink -50%, $red 50%)
+                background $color-primary-pink
         &--hidden
             display none
         &.disabled
@@ -199,7 +222,7 @@ body
         .tc
             &-bar, &-xs
                 border none !important
-                background-color $color-primary-grey !important
+                background-color $black !important
                 overflow hidden !important
                 padding .5rem !important
                 justify-content center !important
@@ -256,13 +279,40 @@ body
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 .nc
     &-buttons-container
-        margin 0 0 1rem 0
+        margin 0 !important
         padding 0
+        text-align center !important
     &-button
         background-color $turquoise
         border-radius $radius
+        margin 0 !important
         &:hover
             background-color $green
+
+.previous.nc-button, .next.nc-button
+    position relative
+    font-size 0
+    background-color #eae5df
+    padding 1.5rem 2rem
+    &:after
+        content ''
+        position absolute
+        background-position center !important
+        background-repeat no-repeat !important
+        background-size 57% !important
+        height 100%
+        width 100%
+        left 0
+        top 0
+.previous.nc-button
+    border-radius 50px
+    &:after
+        background url('../images/right.svg')
+        transform rotate(180deg)
+.next.nc-button
+    border-radius 50px
+    &:after
+        background url('../images/right.svg')
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 .iaElement-0
     position fixed

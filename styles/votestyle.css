@@ -111,6 +111,7 @@ input,
 button {
   font-weight: normal;
   line-height: normal;
+  font-family: 'Trust Hartford Sans';
 }
 h1,
 h2,
@@ -119,7 +120,6 @@ h3 {
   line-height: normal;
   margin: 0;
   font-family: 'Trust Hartford Sans';
-  font-weight: bold;
 }
 ul,
 ol {
@@ -155,7 +155,7 @@ input,
   -ms-user-select: initial;
   user-select: initial;
   border: 1px solid #75013f;
-  border-radius: 5px;
+  border-radius: 0;
   box-shadow: inset 5px 5px 10px rgba(0,0,0,0.2);
 }
 .shield {
@@ -181,7 +181,7 @@ input,
 blockquote {
   padding: 1.5rem;
   background-color: #efefef;
-  border-radius: 5px;
+  border-radius: 0;
   position: relative;
   margin-top: 2.5rem;
 }
@@ -395,17 +395,18 @@ body {
   color: #1e1e1e;
   font-size: 1.1rem;
   height: 100%;
-  background-color: #fff;
-  background-image: url("../images/mainBG.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: #f7f7f5;
+  background-image: url("../images/Background.png");
+  background-size: 71%;
+  background-position: -72% bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-overflow-scrolling: touch;
 }
 #wizer .page #main {
-  background-color: #000;
+  background-color: #eae5df;
   position: fixed;
+  border-bottom: 1px solid #000;
 }
 #wizer .page #main #offlineStatus,
 #wizer .page #main #menuPulseIcon,
@@ -438,7 +439,7 @@ body {
 }
 #wizer .page #main .logout-btn:hover,
 #wizer .page #main #A5:hover {
-  color: #75013f;
+  color: $color-primary-lue;
 }
 #wizer .page #main #A5 {
   right: 46px;
@@ -451,17 +452,17 @@ body {
   left: auto;
   top: 0;
   line-height: 55px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: normal;
   color: #75013f;
 }
 #wizer .page #main #menuEventName {
-  background: url("../images/client-logo.png");
+  background: url("../images/logo_footer.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 55px;
-  width: 66px;
+  width: 210px;
   top: 0;
   right: auto;
   left: 1rem;
@@ -480,15 +481,15 @@ body {
   max-width: 70rem;
   background-color: #fff;
   box-shadow: 1rem 1rem 3rem -0.5rem rgba(0,0,0,0.4);
-  border-radius: 5px;
+  border-radius: 0;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 .cl-component {
   background-color: transparent;
 }
 .cl-header--main {
-  border-radius: 5px 5px 0 0;
-  background: $gradient-header;
+  border-radius: 0 0 0 0;
+  background: #75013f;
   min-height: 8rem;
   margin-bottom: 0;
   padding: 1rem 0;
@@ -498,6 +499,21 @@ body {
   display: -ms-flexbox;
   display: -webkit-flex;
   align-items: center;
+  background: url("../images/pattern1.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+.cl-header--main:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(117,1,63,0.902);
 }
 .cl-header-image {
   background-position: bottom right;
@@ -507,11 +523,17 @@ body {
   text-align: left;
   padding: 0 1rem 10px;
   max-width: 800px;
+  position: relative;
+  z-index: 9;
+  font-family: 'Trust Hartford Sans';
 }
 .cl-header__description--main {
   text-align: left;
   margin: 0;
-  padding: 0 1rem 10px;
+  padding: 0 1rem 25px;
+  position: relative;
+  z-index: 9;
+  font-size: 1.1rem;
 }
 .cl-instructions {
   background-color: transparent;
@@ -520,9 +542,9 @@ body {
 }
 .cl-instructions__text {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 6px 20px;
   border-radius: 2rem;
-  background-color: #efefef;
+  background-color: #eae5df;
   color: #75013f;
   text-transform: none;
   font-size: 1rem;
@@ -550,7 +572,7 @@ body {
 .cl-button {
   margin: 0;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
+  border-radius: 0;
   line-height: normal;
   font-size: 1rem;
   font-weight: normal;
@@ -559,22 +581,22 @@ body {
   float: right;
 }
 .cl-button--submit {
-  background: $gradient-green;
+  background: #fe3082;
   margin-left: 5px;
 }
 .cl-button--submit:active,
 .cl-button--submit:focus,
 .cl-button--submit:hover {
-  background: linear-gradient(to right bottom, #367a3d -50%, #73a3c2 50%);
+  background: #75013f;
 }
 .cl-button--clear {
   display: none !important;
-  background: $gradient-pink;
+  background: #fe3082;
 }
 .cl-button--clear:active,
 .cl-button--clear:focus,
 .cl-button--clear:hover {
-  background: linear-gradient(to right bottom, #75013f -50%, #e30505 50%);
+  background: #75013f;
 }
 .cl-button--hidden {
   display: none;
@@ -600,7 +622,7 @@ body {
   padding: 1rem;
 }
 .cl-container .colHeaders {
-  border-radius: 5px;
+  border-radius: 0;
   text-align: center;
   margin-bottom: 2px;
   overflow: hidden;
@@ -652,7 +674,7 @@ body {
 .tc-page__page .tc-bar,
 .tc-page__page .tc-xs {
   border: none !important;
-  background-color: #75013f !important;
+  background-color: #000 !important;
   overflow: hidden !important;
   padding: 0.5rem !important;
   justify-content: center !important;
@@ -709,7 +731,7 @@ body {
   width: 22px;
   line-height: 22px;
   border-radius: 50%;
-  background-color: #75013f;
+  background-color: #fe3082;
   color: #75013f;
 }
 .progressbar-stop.Active:before {
@@ -722,15 +744,49 @@ body {
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 .nc-buttons-container {
-  margin: 0 0 1rem 0;
+  margin: 0 !important;
   padding: 0;
+  text-align: center !important;
 }
 .nc-button {
   background-color: #73a3c2;
-  border-radius: 5px;
+  border-radius: 0;
+  margin: 0 !important;
 }
 .nc-button:hover {
   background-color: #367a3d;
+}
+.previous.nc-button,
+.next.nc-button {
+  position: relative;
+  font-size: 0;
+  background-color: #eae5df;
+  padding: 1.5rem 2rem;
+}
+.previous.nc-button:after,
+.next.nc-button:after {
+  content: '';
+  position: absolute;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 57% !important;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.previous.nc-button {
+  border-radius: 50px;
+}
+.previous.nc-button:after {
+  background: url("../images/right.svg");
+  transform: rotate(180deg);
+}
+.next.nc-button {
+  border-radius: 50px;
+}
+.next.nc-button:after {
+  background: url("../images/right.svg");
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 .iaElement-0 {
@@ -739,7 +795,7 @@ body {
   top: 44px;
   padding: 1rem 1rem 0.5rem;
   background: #75013f;
-  border-radius: 5px;
+  border-radius: 0;
   color: #fff;
   z-index: 9;
 }
@@ -788,7 +844,7 @@ body .ui-dialog.ui-widget.info-popup .ui-dialog-titlebar a.ui-dialog-titlebar-cl
 }
 body .ui-dialog.ui-widget.info-popup .ui-dialog-content {
   max-width: 62.5rem;
-  border-radius: 5px;
+  border-radius: 0;
   margin: 0 auto;
   padding: 0;
   overflow: auto;
@@ -888,14 +944,14 @@ body[class*=Team_Name] #votingSlideDiv .mainWrapper {
 .bodyNPS_Tabs .bclc-question,
 .bodyReporting_Screen .bclc-question,
 .bodyNPS_AS_Slider_Result .bclc-question {
-  border-radius: 5px 5px 0 0;
+  border-radius: 0 0 0 0;
   border: 1px solid #75013f;
   border-bottom: none;
 }
 .bodyNPS_Tabs .bclc-answer,
 .bodyReporting_Screen .bclc-answer,
 .bodyNPS_AS_Slider_Result .bclc-answer {
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 0 0;
   border: 1px solid #75013f;
   border-top: none;
 }

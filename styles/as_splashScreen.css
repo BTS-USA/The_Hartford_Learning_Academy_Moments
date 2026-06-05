@@ -8,6 +8,102 @@
   src: url("../fonts/fa-solid-900.eot");
   src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg");
 }
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Medium.eot");
+  src: url("../fonts/Trust2B-Medium.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Medium.ttf") format('truetype'), url("../fonts/Trust2B-Medium.svg#Trust2B-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Bold.eot");
+  src: url("../fonts/Trust2B-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Bold.ttf") format('truetype'), url("../fonts/Trust2B-Bold.svg#Trust2B-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Regular.eot");
+  src: url("../fonts/Trust2B-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Regular.ttf") format('truetype'), url("../fonts/Trust2B-Regular.svg#Trust2B-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B';
+  src: url("../fonts/Trust2B-Light.eot");
+  src: url("../fonts/Trust2B-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-Light.ttf") format('truetype'), url("../fonts/Trust2B-Light.svg#Trust2B-Light") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2B XLight';
+  src: url("../fonts/Trust2B-XLight.eot");
+  src: url("../fonts/Trust2B-XLight.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2B-XLight.ttf") format('truetype'), url("../fonts/Trust2B-XLight.svg#Trust2B-XLight") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Bold.eot");
+  src: url("../fonts/Trust2A-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Bold.ttf") format('truetype'), url("../fonts/Trust2A-Bold.svg#Trust2A-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Medium.eot");
+  src: url("../fonts/Trust2A-Medium.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Medium.ttf") format('truetype'), url("../fonts/Trust2A-Medium.svg#Trust2A-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Regular.eot");
+  src: url("../fonts/Trust2A-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Regular.ttf") format('truetype'), url("../fonts/Trust2A-Regular.svg#Trust2A-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust 2A';
+  src: url("../fonts/Trust2A-Light.eot");
+  src: url("../fonts/Trust2A-Light.eot?#iefix") format('embedded-opentype'), url("../fonts/Trust2A-Light.ttf") format('truetype'), url("../fonts/Trust2A-Light.svg#Trust2A-Light") format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Italic.eot");
+  src: url("../fonts/../fonts/TrustHartfordSans-Italic.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Italic.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Italic.svg#TrustHartfordSans-Italic") format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Regular.eot");
+  src: url("../fonts/TrustHartfordSans-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Regular.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Regular.svg#TrustHartfordSans-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Trust Hartford Sans';
+  src: url("../fonts/TrustHartfordSans-Bold.eot");
+  src: url("../fonts/TrustHartfordSans-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/TrustHartfordSans-Bold.ttf") format('truetype'), url("../fonts/TrustHartfordSans-Bold.svg#TrustHartfordSans-Bold") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 body,
 p,
 li,
@@ -22,6 +118,7 @@ h3 {
   font-weight: normal;
   line-height: normal;
   margin: 0;
+  font-family: 'Trust Hartford Sans';
 }
 ul,
 ol {
@@ -56,7 +153,7 @@ input,
   -moz-user-select: initial;
   -ms-user-select: initial;
   user-select: initial;
-  border: 1px solid #cfd1d0;
+  border: 1px solid #75013f;
   border-radius: 5px;
   box-shadow: inset 5px 5px 10px rgba(0,0,0,0.2);
 }
@@ -290,35 +387,73 @@ blockquote:after {
   }
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
-.identifier {
-  border-bottom: 8px solid #75013F;
+.identifier-wrapper {
+  width: 90%;
+  margin: auto;
 }
 .identifier-background {
   background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: 86% center;
+  background-size: 37%;
 }
 .identifier-content {
   vertical-align: top;
 }
 .identifier-blue-box-wrapper {
   margin-left: 5rem;
-  margin-top: 5rem;
+  margin-top: 15rem;
   width: auto;
 }
 .identifier-page-content {
   background: transparent;
-  border-left: 26px solid #75013F;
   border-radius: 20px 0 0 20px;
   padding: 0 1rem;
-  max-width: 40rem;
+  max-width: 60rem;
   position: relative;
+}
+.identifier-page-content:before,
+.identifier-page-content:after {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  background-color: #fe3082;
+  position: absolute;
+  bottom: -1rem;
+  right: -4rem;
+  -webkit-animation: wobble 10s ease infinite;
+  -moz-animation: wobble 10s ease infinite;
+  -ms-animation: wobble 10s ease infinite;
+  animation: wobble 10s ease infinite;
+  -webkit-transform-origin: center bottom;
+  -moz-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+.identifier-page-content:after {
+  height: 1.5rem;
+  width: 1.5rem;
+  bottom: 5.2rem;
+  right: 1rem;
 }
 .identifier-page-text {
   padding: 0;
-  text-shadow: 2px 2px 10px #28324b;
 }
-.identifier-page-text__title,
-.identifier-page-text__sub-title {
+.identifier-page-text__title {
   line-height: normal;
+  font-size: 75px !important;
+  font-family: 'Trust 2A';
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  color: #fe3082;
+}
+.identifier-page-text__sub-title {
+  font-size: 45px !important;
+  font-family: 'Trust 2A';
+  color: #75013f;
+  padding: 1rem 0;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1024px) {

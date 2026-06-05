@@ -119,6 +119,7 @@ input,
 button {
   font-weight: normal;
   line-height: normal;
+  font-family: 'Trust Hartford Sans';
 }
 h1,
 h2,
@@ -164,7 +165,7 @@ input,
   -ms-user-select: initial;
   user-select: initial;
   border: 1px solid #75013f;
-  border-radius: 5px;
+  border-radius: 0;
   box-shadow: inset 5px 5px 10px rgba(0,0,0,0.2);
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -192,7 +193,7 @@ input,
 blockquote {
   padding: 1.5rem;
   background-color: #efefef;
-  border-radius: 5px;
+  border-radius: 0;
   position: relative;
   margin-top: 2.5rem;
 }
