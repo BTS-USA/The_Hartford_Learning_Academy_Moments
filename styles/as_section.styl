@@ -10,6 +10,15 @@
         align-items center
         flex-direction column
         text-align center
+        &:first-child
+            .highlight
+                background-color #BF4A24
+        &:nth-child(2)
+            .highlight
+                background-color #F59900
+        &:last-child
+            .highlight
+                background-color #367A3D
     &-indexHolder
         border-radius 50%
         min-width 90px
@@ -25,7 +34,6 @@
         color $mediumgrey
         &.highlight
             border none
-            background-color $color-primary-pink
             color $white
         &.withImage
             .sic-level_label, .sic-level_label-number
@@ -34,7 +42,7 @@
         padding 1rem
     &-level
         &_label
-            font-size 14px
+            font-size 16px
             &-number
                 font-size 1.5rem
                 font-weight bold
