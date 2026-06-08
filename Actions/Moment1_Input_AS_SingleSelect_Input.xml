@@ -86,7 +86,7 @@
        {
           navigation: {
             title: "!{previous}",
-            targetSection: "BusinessUpdate_Slide4_AS_Info",
+            targetSection: "BusinessCaseStudy_Slide3_AS_Info",
             customClass: "previous"
             }
       },

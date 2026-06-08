@@ -16,7 +16,7 @@
         {
           navigation: {
             title: "!{Next}",
-                targetSection: "BusinessUpdate_Slide4_AS_Info",
+                targetSection: "Moment1_Input_Tabs",
             customClass: "next"
         }
       }
